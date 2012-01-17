@@ -1,0 +1,609 @@
+# StarChart -- full sky map for visual astronomy
+# Copyright (C) 2008 - 2010 by David A. Wallace
+# This file is distributed under the same license as the StarChart package.
+# David A. Wallace  wa1gsf@comcast.net, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: StarChart 13.activity\n"
+"Report-Msgid-Bugs-To: http://wiki.laptop.org/go/StarChart/Bug_tracking\n"
+"POT-Creation-Date: 2010-04-14 11:47-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: activity/activity.info:2
+msgid "StarChart"
+msgstr ""
+
+#: constellations.py:27
+msgid "Andromeda"
+msgstr ""
+
+#: constellations.py:37
+msgid "Antlia"
+msgstr ""
+
+#: constellations.py:41
+msgid "Apus"
+msgstr ""
+
+#: constellations.py:47
+msgid "Aquarius"
+msgstr ""
+
+#: constellations.py:66
+msgid "Aquila"
+msgstr ""
+
+#: constellations.py:79
+msgid "Ara"
+msgstr ""
+
+#: constellations.py:88
+msgid "Aries"
+msgstr ""
+
+#: constellations.py:93
+msgid "Auriga"
+msgstr ""
+
+#: constellations.py:103
+msgid "Bootes"
+msgstr ""
+
+#: constellations.py:115
+msgid "Caelum"
+msgstr ""
+
+#: constellations.py:120
+msgid "Camelopardalis"
+msgstr ""
+
+#: constellations.py:127
+msgid "Cancer"
+msgstr ""
+
+#: constellations.py:134
+msgid "Canis Venatici"
+msgstr ""
+
+#: constellations.py:139
+msgid "Canis Major"
+msgstr ""
+
+#: constellations.py:151
+msgid "Canis Minor"
+msgstr ""
+
+#: constellations.py:154
+msgid "Capricornus"
+msgstr ""
+
+#: constellations.py:167
+msgid "Carina"
+msgstr ""
+
+#: constellations.py:180
+msgid "Cassiopeia"
+msgstr ""
+
+#: constellations.py:186
+msgid "Centaurus"
+msgstr ""
+
+#: constellations.py:200
+msgid "Cepheus"
+msgstr ""
+
+#: constellations.py:208
+msgid "Cetus"
+msgstr ""
+
+#: constellations.py:225
+msgid "Chamaeleon"
+msgstr ""
+
+#: constellations.py:231
+msgid "Circinus"
+msgstr ""
+
+#: constellations.py:235
+msgid "Columba"
+msgstr ""
+
+#: constellations.py:242
+msgid "Coma Berenices"
+msgstr ""
+
+#: constellations.py:246
+msgid "Corona Australis"
+msgstr ""
+
+#: constellations.py:255
+msgid "Corona Borealis"
+msgstr ""
+
+#: constellations.py:263
+msgid "Corvus"
+msgstr ""
+
+#: constellations.py:270
+msgid "Crater"
+msgstr ""
+
+#: constellations.py:280
+msgid "Crux"
+msgstr ""
+
+#: constellations.py:284
+msgid "Cygnus"
+msgstr ""
+
+#: constellations.py:291
+msgid "Delphinus"
+msgstr ""
+
+#: constellations.py:298
+msgid "Dorado"
+msgstr ""
+
+#: constellations.py:303
+msgid "Draco"
+msgstr ""
+
+#: constellations.py:325
+msgid "Equuleus"
+msgstr ""
+
+#: constellations.py:329
+msgid "Eridanus"
+msgstr ""
+
+#: constellations.py:361
+msgid "Fornax"
+msgstr ""
+
+#: constellations.py:367
+msgid "Gemini"
+msgstr ""
+
+#: constellations.py:378
+msgid "Grus"
+msgstr ""
+
+#: constellations.py:390
+msgid "Hercules"
+msgstr ""
+
+#: constellations.py:411
+msgid "Horologium"
+msgstr ""
+
+#: constellations.py:418
+msgid "Hydra"
+msgstr ""
+
+#: constellations.py:436
+msgid "Hydrus"
+msgstr ""
+
+#: constellations.py:441
+msgid "Indus"
+msgstr ""
+
+#: constellations.py:446
+msgid "Lacerta"
+msgstr ""
+
+#: constellations.py:454
+msgid "Leo"
+msgstr ""
+
+#: constellations.py:465
+msgid "Leo Minor"
+msgstr ""
+
+#: constellations.py:469
+msgid "Lepus"
+msgstr ""
+
+#: constellations.py:479
+msgid "Libra"
+msgstr ""
+
+#: constellations.py:487
+msgid "Lupus"
+msgstr ""
+
+#: constellations.py:501
+msgid "Lynx"
+msgstr ""
+
+#: constellations.py:510
+msgid "Lyra"
+msgstr ""
+
+#: constellations.py:518
+msgid "Mensa"
+msgstr ""
+
+#: constellations.py:523
+msgid "Microscopium"
+msgstr ""
+
+#: constellations.py:528
+msgid "Monoceros"
+msgstr ""
+
+#: constellations.py:534
+msgid "Musca"
+msgstr ""
+
+#: constellations.py:541
+msgid "Norma"
+msgstr ""
+
+#: constellations.py:547
+msgid "Octans"
+msgstr ""
+
+#: constellations.py:552
+msgid "Ophiuchus"
+msgstr ""
+
+#: constellations.py:565
+msgid "Orion"
+msgstr ""
+
+#: constellations.py:585
+msgid "Pavo"
+msgstr ""
+
+#: constellations.py:594
+msgid "Pegasus"
+msgstr ""
+
+#: constellations.py:610
+msgid "Perseus"
+msgstr ""
+
+#: constellations.py:628
+msgid "Phoenix"
+msgstr ""
+
+#: constellations.py:636
+msgid "Pictor"
+msgstr ""
+
+#: constellations.py:640
+msgid "Pisces"
+msgstr ""
+
+#: constellations.py:658
+msgid "Piscis Australis"
+msgstr ""
+
+#: constellations.py:666
+msgid "Puppis"
+msgstr ""
+
+#: constellations.py:678
+msgid "Pyxis"
+msgstr ""
+
+#: constellations.py:682
+msgid "Reticulum"
+msgstr ""
+
+#: constellations.py:689
+msgid "Sagitta"
+msgstr ""
+
+#: constellations.py:694
+msgid "Sagittarius"
+msgstr ""
+
+#: constellations.py:712
+msgid "Sculptor"
+msgstr ""
+
+#: constellations.py:717
+msgid "Scorpius"
+msgstr ""
+
+#: constellations.py:733
+msgid "Scutum"
+msgstr ""
+
+#: constellations.py:737
+msgid "Serpens"
+msgstr ""
+
+#: constellations.py:755
+msgid "Sextans"
+msgstr ""
+
+#: constellations.py:761
+msgid "Taurus"
+msgstr ""
+
+#: constellations.py:774
+msgid "Telescopium"
+msgstr ""
+
+#: constellations.py:778
+msgid "Triangulum"
+msgstr ""
+
+#: constellations.py:783
+msgid "Triangulum Australis"
+msgstr ""
+
+#: constellations.py:788
+msgid "Tucana"
+msgstr ""
+
+#: constellations.py:795
+msgid "Ursa Major"
+msgstr ""
+
+#: constellations.py:814
+msgid "Ursa Minor"
+msgstr ""
+
+#: constellations.py:823
+msgid "Vela"
+msgstr ""
+
+#: constellations.py:832
+msgid "Virgo"
+msgstr ""
+
+#: constellations.py:844
+msgid "Volans"
+msgstr ""
+
+#: constellations.py:852
+msgid "Vulpecula"
+msgstr ""
+
+#: StarChart.py:185
+msgid "Mercury"
+msgstr ""
+
+#: StarChart.py:186
+msgid "Venus"
+msgstr ""
+
+#: StarChart.py:187
+msgid "Earth"
+msgstr ""
+
+#: StarChart.py:188
+msgid "Mars"
+msgstr ""
+
+#: StarChart.py:189
+msgid "Jupiter"
+msgstr ""
+
+#: StarChart.py:190
+msgid "Saturn"
+msgstr ""
+
+#: StarChart.py:191
+msgid "Uranus"
+msgstr ""
+
+#: StarChart.py:193 StarChart.py:917 StarChart.py:1573
+msgid "Sun"
+msgstr ""
+
+#: StarChart.py:197 StarChart.py:920 StarChart.py:1571
+msgid "Moon"
+msgstr ""
+
+#: StarChart.py:731
+msgid "Night Vision"
+msgstr ""
+
+#: StarChart.py:732
+msgid "Invert Display"
+msgstr ""
+
+#: StarChart.py:733
+msgid "Flip L/R"
+msgstr ""
+
+#: StarChart.py:734
+msgid "Draw Constellations"
+msgstr ""
+
+#: StarChart.py:735
+msgid "Mag:"
+msgstr ""
+
+#: StarChart.py:736
+msgid "0"
+msgstr ""
+
+#: StarChart.py:737
+msgid "1"
+msgstr ""
+
+#: StarChart.py:738
+msgid "2"
+msgstr ""
+
+#: StarChart.py:739
+msgid "3"
+msgstr ""
+
+#: StarChart.py:740
+msgid "4"
+msgstr ""
+
+#: StarChart.py:741
+msgid "5"
+msgstr ""
+
+#: StarChart.py:742
+msgid "6"
+msgstr ""
+
+#: StarChart.py:744
+msgid "Longitude:"
+msgstr ""
+
+#: StarChart.py:747 StarChart.py:1678 StarChart.py:1687
+msgid "E"
+msgstr ""
+
+#: StarChart.py:748 StarChart.py:1680 StarChart.py:1685
+msgid "W"
+msgstr ""
+
+#: StarChart.py:749
+msgid "Latitude:"
+msgstr ""
+
+#: StarChart.py:752 StarChart.py:1669
+msgid "N"
+msgstr ""
+
+#: StarChart.py:753 StarChart.py:1673
+msgid "S"
+msgstr ""
+
+#: StarChart.py:754 StarChart.py:765
+msgid "Ok"
+msgstr ""
+
+#: StarChart.py:755
+msgid "Make home"
+msgstr ""
+
+#: StarChart.py:757
+msgid "Now"
+msgstr ""
+
+#: StarChart.py:758
+msgid "Specify"
+msgstr ""
+
+#: StarChart.py:759
+msgid "Time:"
+msgstr ""
+
+#: StarChart.py:762
+msgid "Offset:"
+msgstr ""
+
+#: StarChart.py:767
+msgid "Object type:"
+msgstr ""
+
+#: StarChart.py:776
+msgid "Version 2.0 (build 113) of 2010.04.14.1530 UT"
+msgstr ""
+
+#: StarChart.py:777
+msgid "See http://wiki.laptop.org/go/StarChart for help."
+msgstr ""
+
+#: StarChart.py:851
+msgid "There is no object here."
+msgstr ""
+
+#: StarChart.py:914
+msgid "deep-sky object"
+msgstr ""
+
+#: StarChart.py:916
+msgid "planet"
+msgstr ""
+
+#: StarChart.py:918 StarChart.py:921
+msgid "Object is: "
+msgstr ""
+
+#: StarChart.py:924
+msgid "star"
+msgstr ""
+
+#: StarChart.py:925
+msgid "Object is "
+msgstr ""
+
+#: StarChart.py:1334 StarChart.py:2905
+msgid "Planets"
+msgstr ""
+
+#: StarChart.py:1345 StarChart.py:2906
+msgid "Stars by Constellation"
+msgstr ""
+
+#: StarChart.py:1359 StarChart.py:2907
+msgid "Brightest Stars"
+msgstr ""
+
+#: StarChart.py:1379 StarChart.py:2908
+msgid "Deep-sky Objects"
+msgstr ""
+
+#: StarChart.py:1538
+msgid "This object is always below the horizon at your location."
+msgstr ""
+
+#: StarChart.py:1541
+msgid "This object is currently not in the field of view."
+msgstr ""
+
+#: StarChart.py:1543
+msgid "This object is currently below your horizon."
+msgstr ""
+
+#: StarChart.py:1585
+msgid "Input Error: The longitude was not understood."
+msgstr ""
+
+#: StarChart.py:1589
+msgid "Input Error: The latitude was not understood."
+msgstr ""
+
+#: StarChart.py:1593
+msgid "Input Error: The time was not understood."
+msgstr ""
+
+#: StarChart.py:1597
+msgid "Input Error: The time zone offset was not understood."
+msgstr ""
+
+#: StarChart.py:2820
+msgid "Star Chart Activity"
+msgstr ""
+
+#: StarChart.py:2938
+msgid "What"
+msgstr ""
+
+#: StarChart.py:2939
+msgid "Where"
+msgstr ""
+
+#: StarChart.py:2940
+msgid "When"
+msgstr ""
+
+#: StarChart.py:2941
+msgid "Locate"
+msgstr ""
+
+#: StarChart.py:2942
+msgid "About"
+msgstr ""

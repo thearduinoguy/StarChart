@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="55"
+   height="55"
+   id="svg2">
+  <metadata
+     id="metadata23">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs21" />
+  <g
+     id="Icon"
+     style="fill:none;stroke:#ffffff;stroke-opacity:1">
+    <circle
+       cx="27.5"
+       cy="27.5"
+       r="22.5"
+       id="circle5"
+       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
+    <line
+       x1="27.5"
+       x2="27.5"
+       y1="10"
+       y2="14"
+       id="line7"
+       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
+    <line
+       x1="27.5"
+       x2="27.5"
+       y1="41"
+       y2="45"
+       id="line9"
+       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
+    <line
+       x1="41"
+       x2="45"
+       y1="27.5"
+       y2="27.5"
+       id="line11"
+       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
+    <line
+       x1="10"
+       x2="14"
+       y1="27.5"
+       y2="27.5"
+       id="line13"
+       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
+    <line
+       x1="37.5"
+       x2="27.5"
+       y1="14"
+       y2="27.5"
+       id="line15"
+       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
+    <line
+       x1="27.5"
+       x2="38"
+       y1="27.5"
+       y2="34"
+       id="line17"
+       style="fill:none;stroke:#ffffff;stroke-opacity:1" />
+  </g>
+</svg>

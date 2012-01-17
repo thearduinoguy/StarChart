@@ -1,0 +1,63 @@
+v13
+* Support for "new" Sugar toolbars
+* Fixed initialize bug with lmag
+
+115 (v12)
+Stable 1.2 release 2010/04/21
+* Improved stars1.py catalog.
+* Changed the algorithm of the "Identify" feature so that an extended object is favored
+  over point objects that it hides in the plot.  (Example: M42 is found whereas some of
+  the stars embedded in it used to be found instead.)  Unfortunately, for large extended
+  objects an invisible point object may still be indentified if the user clicks
+  sufficiently far from the center of the extended object.
+* Added dso2.py which is a catalog of the larger, brighter Bennett objects (analagous to
+  the Messier objects but in the southern skies) and the NGC objects not otherwise
+  catalogged which have common names.
+* Added the ability to display a magnified view corresponding to what would be seen
+  through typical 7-power binoculars.  In order to show the sky as it would appear with
+  binoculars, I also added a supplemental star catalog that adds about 2500 stars which
+  are too dim to see without an instrument (stars2.py).  These stars are taken from the
+  SAO catalog.
+* Removed the radio button for magnitude 0 -- there are too few stars brighter than
+  magnitude 1 for it to be useful to distinguish the mag 1 stars from the mag 0 stars.
+* Re-arranged controls on the "What" and "Where" toolbars so that the controls still
+  fit if Spanish localization is applied.
+These additions bring the feature set up to what I have planned; the program is now
+finished (unless I get bug reports or compelling requests for additional capabilities).
+093
+Stable 1.1 release 2010/03/14
+Fixed bug #15.
+Provided Spanish translation.
+089
+Stable 1 release 2010/02/27
+Added "About" to better identify version
+Added "Identify" to tell user what object he has selecteed on the map.
+Added "Locate" to show user where the object she chose is in the sky.
+Improved input error handling and reporting (no more Alerts).
+Added constellation ID to star catalog.
+All text is internationalized (including object names in catalogs).
+054
+Beta 5 release 2008/09/24
+Fixed color scheme bug.
+Added license metadata.
+Added activity name in Spanish.
+040
+Beta 4 release 2008/07/15
+Plotting of large, bright Messier catalog objects.
+Code reorganization: StarChart.py = algorithms;
+stars1.py, dso1.py and constellations.py = catalogs.
+Optional observatory.py = set default latitude & longitude.
+Optional travel.py = override default location and XO's timezone.
+033
+Beta 3 release 2008/03/21
+Labels are now provided for the cardinal directions.
+Error checking (and reporting) for coordinates and time.
+Update of invarient chart is avoided.
+027
+Beta 2 release 2008/03/04
+Can now save and restore display preferences, position and time.
+Menu bars are now like in other Activities.
+Latitude and Longitude can be specified in float degrees as well as dms.
+Program icon no longer a place-holder.
+011
+Initial (beta 1) release.  2008/02/20
