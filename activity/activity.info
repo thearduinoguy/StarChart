@@ -1,9 +1,8 @@
 [Activity]
-name=StarChart
-service_name = org.laptop.StarChart
-class = StarChart.StarChart
-icon = StarChart
+name = StarChart
 activity_version = 13
-host_version = 1
+icon = StarChart
 show_launcher = yes
-license=GPLv2+
+license = GPLv2+
+bundle_id = org.laptop.StarChart
+exec = sugar-activity PathsActivity.PathsActivity
