@@ -5,4 +5,4 @@ icon = StarChart
 show_launcher = yes
 license = GPLv2+
 bundle_id = org.laptop.StarChart
-exec = sugar-activity PathsActivity.PathsActivity
+exec = sugar-activity StarChart.StarChart
