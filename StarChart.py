@@ -173,7 +173,7 @@ from sugar.graphics.toolbutton import ToolButton
 from sugar.graphics.palette import Palette, ToolInvoker
 from sugar.graphics.icon import Icon
 import logging
-from gettext import gettext
+from gettext import gettext as _
 
 class ToggleButtonTool(ToolButton):
 
@@ -208,21 +208,6 @@ class ToggleButtonTool(ToolButton):
         self.set_icon(self._icon_on)
       else:
         self.set_icon(self._icon_off)
-
-
-# Defensive method of gettext use: does not fail if the string is not
-# translated.
-def _(s):
-  istrsTest = {}
-  for i in range (0,4):
-    istrsTest[str(i)] = str(i)
-
-  try:
-    i = gettext(s)
-  except:
-    i = s
-  return i
-
 
 # ============================= PLANETARY CATALOG DATA =======================
 #

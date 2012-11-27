@@ -1,18 +1,5 @@
 
-from gettext import gettext
-
-# Defensive method of gettext use
-def _(s):
-  istrsTest = {}
-  for i in range (0,4):
-    istrsTest[str(i)] = str(i)
-
-  try:
-    i = gettext(s)
-  except:
-    i = s
-  return i
-
+from gettext import gettext as _
 
 # ================================= CATALOG DATA ================================
 #
