@@ -1,0 +1,762 @@
+# StarChart -- full sky map for visual astronomy
+# Copyright (C) 2008 - 2010 by David A. Wallace
+# This file is distributed under the same license as the StarChart package.
+# David A. Wallace  wa1gsf@comcast.net, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wiki.laptop.org/go/StarChart/Bug_tracking\n"
+"POT-Creation-Date: 2010-04-14 11:47-0400\n"
+"PO-Revision-Date: 2012-12-21 14:28+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: activity/activity.info:2
+msgid "StarChart"
+msgstr "StarChart"
+
+#: dso2.py:34 gci-i18n/dso2.py:48
+msgid "Large Magellanic Cloud"
+msgstr "Large Magellanic Cloud"
+
+#: dso2.py:39 gci-i18n/dso2.py:53
+msgid "47 Tucanae"
+msgstr "47 Tucanae"
+
+#: dso2.py:40 gci-i18n/dso2.py:54
+msgid "Sculptor Galaxy"
+msgstr "Sculptor Galaxy"
+
+#: dso2.py:42 gci-i18n/dso2.py:56
+msgid "Small Magellanic Cloud"
+msgstr "Small Magellanic Cloud"
+
+#: dso2.py:45 gci-i18n/dso2.py:59
+msgid "Double Cluster"
+msgstr "Double Cluster"
+
+#: dso2.py:47 gci-i18n/dso2.py:61
+msgid "California Nebula"
+msgstr "California Nebula"
+
+#: dso2.py:53 gci-i18n/dso2.py:67
+msgid "Cone Nebula"
+msgstr "Cone Nebula"
+
+#: dso2.py:55 gci-i18n/dso2.py:69
+msgid "Rosette Nebula"
+msgstr "Rosette Nebula"
+
+#: dso2.py:59 gci-i18n/dso2.py:73
+msgid "Ghost of Jupiter"
+msgstr "Ghost of Jupiter"
+
+#: dso2.py:60 gci-i18n/dso2.py:74
+msgid "Eta Carina  Nebula"
+msgstr "Eta Carina  Nebula"
+
+#: dso2.py:62 gci-i18n/dso2.py:76
+msgid "Jewel Box"
+msgstr "Jewel Box"
+
+#: dso2.py:65 gci-i18n/dso2.py:79
+msgid "Centaurus A"
+msgstr "Centaurus A"
+
+#: dso2.py:66 gci-i18n/dso2.py:80
+msgid "Omega Centauri"
+msgstr "Omega Centauri"
+
+#: dso2.py:76 gci-i18n/dso2.py:90
+msgid "Barnards Galaxy"
+msgstr "Barnard's Galaxy (NGC 6822)"
+
+#: dso2.py:77 gci-i18n/dso2.py:91
+msgid "Crescent Nebula"
+msgstr "Crescent Nebula"
+
+#: dso2.py:78 gci-i18n/dso2.py:92
+msgid "Veil Nebula"
+msgstr "Veil Nebula"
+
+#: dso2.py:79 gci-i18n/dso2.py:93
+msgid "North America Nebula"
+msgstr "North America Nebula"
+
+#: constellations.py:14 gci-i18n/constellations.py:27
+msgid "Andromeda"
+msgstr "Andromeda"
+
+#: constellations.py:24 gci-i18n/constellations.py:37
+msgid "Antlia"
+msgstr "Antlia"
+
+#: constellations.py:28 gci-i18n/constellations.py:41
+msgid "Apus"
+msgstr "Apus"
+
+#: constellations.py:34 gci-i18n/constellations.py:47
+msgid "Aquarius"
+msgstr "Aquarius"
+
+#: constellations.py:53 gci-i18n/constellations.py:66
+msgid "Aquila"
+msgstr "Aquila"
+
+#: constellations.py:66 gci-i18n/constellations.py:79
+msgid "Ara"
+msgstr "Ara"
+
+#: constellations.py:75 gci-i18n/constellations.py:88
+msgid "Aries"
+msgstr "Aries"
+
+#: constellations.py:80 gci-i18n/constellations.py:93
+msgid "Auriga"
+msgstr "Auriga"
+
+#: constellations.py:90 gci-i18n/constellations.py:103
+msgid "Bootes"
+msgstr "Boötes"
+
+#: constellations.py:102 gci-i18n/constellations.py:115
+msgid "Caelum"
+msgstr "Caelum"
+
+#: constellations.py:107 gci-i18n/constellations.py:120
+msgid "Camelopardalis"
+msgstr "Camelopardalis"
+
+#: constellations.py:114 gci-i18n/constellations.py:127
+msgid "Cancer"
+msgstr "Cancer"
+
+#: constellations.py:121 gci-i18n/constellations.py:134
+msgid "Canis Venatici"
+msgstr "Canis Venatici"
+
+#: constellations.py:126 gci-i18n/constellations.py:139
+msgid "Canis Major"
+msgstr "Canis Major"
+
+#: constellations.py:138 gci-i18n/constellations.py:151
+msgid "Canis Minor"
+msgstr "Canis Minor"
+
+#: constellations.py:141 gci-i18n/constellations.py:154
+msgid "Capricornus"
+msgstr "Capricornus"
+
+#: constellations.py:154 gci-i18n/constellations.py:167
+msgid "Carina"
+msgstr "Carina"
+
+#: constellations.py:167 gci-i18n/constellations.py:180
+msgid "Cassiopeia"
+msgstr "Cassiopeia"
+
+#: constellations.py:173 gci-i18n/constellations.py:186
+msgid "Centaurus"
+msgstr "Centaurus"
+
+#: constellations.py:187 gci-i18n/constellations.py:200
+msgid "Cepheus"
+msgstr "Cepheus"
+
+#: constellations.py:195 gci-i18n/constellations.py:208
+msgid "Cetus"
+msgstr "Cetus"
+
+#: constellations.py:212 gci-i18n/constellations.py:225
+msgid "Chamaeleon"
+msgstr "Chamaeleon"
+
+#: constellations.py:218 gci-i18n/constellations.py:231
+msgid "Circinus"
+msgstr "Circinus"
+
+#: constellations.py:222 gci-i18n/constellations.py:235
+msgid "Columba"
+msgstr "Columba"
+
+#: constellations.py:229 gci-i18n/constellations.py:242
+msgid "Coma Berenices"
+msgstr "Coma Berenices"
+
+#: constellations.py:233 gci-i18n/constellations.py:246
+msgid "Corona Australis"
+msgstr "Corona Australis"
+
+#: constellations.py:242 gci-i18n/constellations.py:255
+msgid "Corona Borealis"
+msgstr "Corona Borealis"
+
+#: constellations.py:250 gci-i18n/constellations.py:263
+msgid "Corvus"
+msgstr "Corvus"
+
+#: constellations.py:257 gci-i18n/constellations.py:270
+msgid "Crater"
+msgstr "Crater"
+
+#: constellations.py:267 gci-i18n/constellations.py:280
+msgid "Crux"
+msgstr "Crux"
+
+#: constellations.py:271 gci-i18n/constellations.py:284
+msgid "Cygnus"
+msgstr "Cygnus"
+
+#: constellations.py:278 gci-i18n/constellations.py:291
+msgid "Delphinus"
+msgstr "Delphinus"
+
+#: constellations.py:285 gci-i18n/constellations.py:298
+msgid "Dorado"
+msgstr "Dorado"
+
+#: constellations.py:290 gci-i18n/constellations.py:303
+msgid "Draco"
+msgstr "Draco"
+
+#: constellations.py:312 gci-i18n/constellations.py:325
+msgid "Equuleus"
+msgstr "Equuleus"
+
+#: constellations.py:316 gci-i18n/constellations.py:329
+msgid "Eridanus"
+msgstr "Eridanus"
+
+#: constellations.py:348 gci-i18n/constellations.py:361
+msgid "Fornax"
+msgstr "Fornax"
+
+#: constellations.py:354 gci-i18n/constellations.py:367
+msgid "Gemini"
+msgstr "Gemini"
+
+#: constellations.py:365 gci-i18n/constellations.py:378
+msgid "Grus"
+msgstr "Grus"
+
+#: constellations.py:377 gci-i18n/constellations.py:390
+msgid "Hercules"
+msgstr "Hercules"
+
+#: constellations.py:398 gci-i18n/constellations.py:411
+msgid "Horologium"
+msgstr "Horologium"
+
+#: constellations.py:405 gci-i18n/constellations.py:418
+msgid "Hydra"
+msgstr "Hydra"
+
+#: constellations.py:423 gci-i18n/constellations.py:436
+msgid "Hydrus"
+msgstr "Hydrus"
+
+#: constellations.py:428 gci-i18n/constellations.py:441
+msgid "Indus"
+msgstr "Indus"
+
+#: constellations.py:433 gci-i18n/constellations.py:446
+msgid "Lacerta"
+msgstr "Lacerta"
+
+#: constellations.py:441 gci-i18n/constellations.py:454
+msgid "Leo"
+msgstr "Leo"
+
+#: constellations.py:452 gci-i18n/constellations.py:465
+msgid "Leo Minor"
+msgstr "Leo Minor"
+
+#: constellations.py:456 gci-i18n/constellations.py:469
+msgid "Lepus"
+msgstr "Lepus"
+
+#: constellations.py:466 gci-i18n/constellations.py:479
+msgid "Libra"
+msgstr "Libra"
+
+#: constellations.py:474 gci-i18n/constellations.py:487
+msgid "Lupus"
+msgstr "Lupus"
+
+#: constellations.py:488 gci-i18n/constellations.py:501
+msgid "Lynx"
+msgstr "Lynx"
+
+#: constellations.py:497 gci-i18n/constellations.py:510
+msgid "Lyra"
+msgstr "Lyra"
+
+#: constellations.py:505 gci-i18n/constellations.py:518
+msgid "Mensa"
+msgstr "Mensa"
+
+#: constellations.py:510 gci-i18n/constellations.py:523
+msgid "Microscopium"
+msgstr "Microscopium"
+
+#: constellations.py:515 gci-i18n/constellations.py:528
+msgid "Monoceros"
+msgstr "Monoceros"
+
+#: constellations.py:521 gci-i18n/constellations.py:534
+msgid "Musca"
+msgstr "Musca"
+
+#: constellations.py:528 gci-i18n/constellations.py:541
+msgid "Norma"
+msgstr "Norma"
+
+#: constellations.py:534 gci-i18n/constellations.py:547
+msgid "Octans"
+msgstr "Octans"
+
+#: constellations.py:539 gci-i18n/constellations.py:552
+msgid "Ophiuchus"
+msgstr "Ophiuchus"
+
+#: constellations.py:552 gci-i18n/constellations.py:565
+msgid "Orion"
+msgstr "Orion"
+
+#: constellations.py:572 gci-i18n/constellations.py:585
+msgid "Pavo"
+msgstr "Pavo"
+
+#: constellations.py:581 gci-i18n/constellations.py:594
+msgid "Pegasus"
+msgstr "Pegasus"
+
+#: constellations.py:597 gci-i18n/constellations.py:610
+msgid "Perseus"
+msgstr "Perseus"
+
+#: constellations.py:615 gci-i18n/constellations.py:628
+msgid "Phoenix"
+msgstr "Phoenix"
+
+#: constellations.py:623 gci-i18n/constellations.py:636
+msgid "Pictor"
+msgstr "Pictor"
+
+#: constellations.py:627 gci-i18n/constellations.py:640
+msgid "Pisces"
+msgstr "Pisces"
+
+#: constellations.py:645 gci-i18n/constellations.py:658
+msgid "Piscis Australis"
+msgstr "Piscis Australis"
+
+#: constellations.py:653 gci-i18n/constellations.py:666
+msgid "Puppis"
+msgstr "Puppis"
+
+#: constellations.py:665 gci-i18n/constellations.py:678
+msgid "Pyxis"
+msgstr "Pyxis"
+
+#: constellations.py:669 gci-i18n/constellations.py:682
+msgid "Reticulum"
+msgstr "Reticulum"
+
+#: constellations.py:676 gci-i18n/constellations.py:689
+msgid "Sagitta"
+msgstr "Sagitta"
+
+#: constellations.py:681 gci-i18n/constellations.py:694
+msgid "Sagittarius"
+msgstr "Sagittarius"
+
+#: constellations.py:699 gci-i18n/constellations.py:712
+msgid "Sculptor"
+msgstr "Sculptor"
+
+#: constellations.py:704 gci-i18n/constellations.py:717
+msgid "Scorpius"
+msgstr "Scorpius"
+
+#: constellations.py:720 gci-i18n/constellations.py:733
+msgid "Scutum"
+msgstr "Scutum"
+
+#: constellations.py:724 gci-i18n/constellations.py:737
+msgid "Serpens"
+msgstr "Serpens"
+
+#: constellations.py:742 gci-i18n/constellations.py:755
+msgid "Sextans"
+msgstr "Sextans"
+
+#: constellations.py:748 gci-i18n/constellations.py:761
+msgid "Taurus"
+msgstr "Taurus"
+
+#: constellations.py:761 gci-i18n/constellations.py:774
+msgid "Telescopium"
+msgstr "Telescopium"
+
+#: constellations.py:765 gci-i18n/constellations.py:778
+msgid "Triangulum"
+msgstr "Triangulum"
+
+#: constellations.py:770 gci-i18n/constellations.py:783
+msgid "Triangulum Australis"
+msgstr "Triangulum Australis"
+
+#: constellations.py:775 gci-i18n/constellations.py:788
+msgid "Tucana"
+msgstr "Tucana"
+
+#: constellations.py:782 gci-i18n/constellations.py:795
+msgid "Ursa Major"
+msgstr "Ursa Major"
+
+#: constellations.py:801 gci-i18n/constellations.py:814
+msgid "Ursa Minor"
+msgstr "Ursa Minor"
+
+#: constellations.py:810 gci-i18n/constellations.py:823
+msgid "Vela"
+msgstr "Vela"
+
+#: constellations.py:819 gci-i18n/constellations.py:832
+msgid "Virgo"
+msgstr "Virgo"
+
+#: constellations.py:831 gci-i18n/constellations.py:844
+msgid "Volans"
+msgstr "Volans"
+
+#: constellations.py:839 gci-i18n/constellations.py:852
+msgid "Vulpecula"
+msgstr "Vulpecula"
+
+#: StarChart.py:227 gci-i18n/StarChart.py:242
+msgid "Mercury"
+msgstr "Mercury"
+
+#: StarChart.py:228 gci-i18n/StarChart.py:243
+msgid "Venus"
+msgstr "Venus"
+
+#: StarChart.py:229 gci-i18n/StarChart.py:244
+msgid "Earth"
+msgstr "Earth"
+
+#: StarChart.py:230 gci-i18n/StarChart.py:245
+msgid "Mars"
+msgstr "Mars"
+
+#: StarChart.py:231 gci-i18n/StarChart.py:246
+msgid "Jupiter"
+msgstr "Jupiter"
+
+#: StarChart.py:232 gci-i18n/StarChart.py:247
+msgid "Saturn"
+msgstr "Saturn"
+
+#: StarChart.py:233 gci-i18n/StarChart.py:248
+msgid "Uranus"
+msgstr "Uranus"
+
+#: StarChart.py:235 StarChart.py:991 StarChart.py:1645
+#: gci-i18n/StarChart.py:250 gci-i18n/StarChart.py:1006
+#: gci-i18n/StarChart.py:1660
+msgid "Sun"
+msgstr "Sun"
+
+#: StarChart.py:241 StarChart.py:994 StarChart.py:1643
+#: gci-i18n/StarChart.py:256 gci-i18n/StarChart.py:1009
+#: gci-i18n/StarChart.py:1658
+msgid "Moon"
+msgstr "Moon"
+
+#: StarChart.py:786 gci-i18n/StarChart.py:801
+msgid "Night Vision"
+msgstr "Night Vision"
+
+#: StarChart.py:788 gci-i18n/StarChart.py:803
+msgid "Invert Display"
+msgstr "Invert Display"
+
+#: StarChart.py:790 gci-i18n/StarChart.py:805
+msgid "Flip L/R"
+msgstr "Flip L/R"
+
+#: StarChart.py:793 gci-i18n/StarChart.py:808
+msgid "Draw Constellations"
+msgstr "Draw Constellations"
+
+#: StarChart.py:795 gci-i18n/StarChart.py:810
+msgid "Mag:"
+msgstr "Mag:"
+
+#: StarChart.py:796 gci-i18n/StarChart.py:811
+msgid "1"
+msgstr "1"
+
+#: StarChart.py:797 gci-i18n/StarChart.py:812
+msgid "2"
+msgstr "2"
+
+#: StarChart.py:798 gci-i18n/StarChart.py:813
+msgid "3"
+msgstr "3"
+
+#: StarChart.py:799 gci-i18n/StarChart.py:814
+msgid "4"
+msgstr "4"
+
+#: StarChart.py:800 gci-i18n/StarChart.py:815
+msgid "5"
+msgstr "5"
+
+#: StarChart.py:801 gci-i18n/StarChart.py:816
+msgid "6"
+msgstr "6"
+
+#: StarChart.py:805 gci-i18n/StarChart.py:820
+msgid "Longitude:"
+msgstr "Longitude:"
+
+#: StarChart.py:808 StarChart.py:1750 StarChart.py:1759
+#: gci-i18n/StarChart.py:823 gci-i18n/StarChart.py:1765
+#: gci-i18n/StarChart.py:1774
+msgid "E"
+msgstr "E"
+
+#: StarChart.py:809 StarChart.py:1752 StarChart.py:1757
+#: gci-i18n/StarChart.py:824 gci-i18n/StarChart.py:1767
+#: gci-i18n/StarChart.py:1772
+msgid "W"
+msgstr "W"
+
+#: StarChart.py:810 gci-i18n/StarChart.py:825
+msgid "Latitude:"
+msgstr "Latitude:"
+
+#: StarChart.py:813 StarChart.py:1741 gci-i18n/StarChart.py:828
+#: gci-i18n/StarChart.py:1756
+msgid "N"
+msgstr "N"
+
+#: StarChart.py:814 StarChart.py:1745 gci-i18n/StarChart.py:829
+#: gci-i18n/StarChart.py:1760
+msgid "S"
+msgstr "S"
+
+#: StarChart.py:819 StarChart.py:837 gci-i18n/StarChart.py:834
+#: gci-i18n/StarChart.py:852
+msgid "Ok"
+msgstr "Ok"
+
+#: StarChart.py:822 gci-i18n/StarChart.py:837
+msgid "Make home"
+msgstr "Make home"
+
+#: StarChart.py:825 gci-i18n/StarChart.py:840
+msgid "Now"
+msgstr "Now"
+
+#: StarChart.py:826 gci-i18n/StarChart.py:841
+msgid "Specify"
+msgstr "Specify"
+
+#: StarChart.py:827 gci-i18n/StarChart.py:842
+msgid "Time:"
+msgstr "Time:"
+
+#: StarChart.py:830 gci-i18n/StarChart.py:845
+msgid "Offset:"
+msgstr "Offset:"
+
+#: StarChart.py:840 gci-i18n/StarChart.py:855
+msgid "Object type:"
+msgstr "Object type:"
+
+#: StarChart.py:849 gci-i18n/StarChart.py:864
+msgid "Version 2.0 (build 115) of 2010.04.21.1530 UT"
+msgstr ""
+
+#: StarChart.py:851 gci-i18n/StarChart.py:866
+msgid "See http://wiki.laptop.org/go/StarChart for help."
+msgstr "See http://wiki.laptop.org/go/StarChart for help."
+
+#: StarChart.py:925 gci-i18n/StarChart.py:940
+msgid "There is no object here."
+msgstr "There is no object here."
+
+#: StarChart.py:988 gci-i18n/StarChart.py:1003
+msgid "deep-sky object"
+msgstr "deep-sky object"
+
+#: StarChart.py:990 gci-i18n/StarChart.py:1005
+msgid "planet"
+msgstr "planet"
+
+#: StarChart.py:992 StarChart.py:995 gci-i18n/StarChart.py:1007
+#: gci-i18n/StarChart.py:1010
+msgid "Object is: "
+msgstr "Object is: "
+
+#: StarChart.py:998 gci-i18n/StarChart.py:1013
+msgid "star"
+msgstr "star"
+
+#: StarChart.py:999 gci-i18n/StarChart.py:1014
+msgid "Object is "
+msgstr "Object is "
+
+#: StarChart.py:1402 StarChart.py:3096 gci-i18n/StarChart.py:1417
+#: gci-i18n/StarChart.py:3111
+msgid "Planets"
+msgstr "Planets"
+
+#: StarChart.py:1413 StarChart.py:3097 gci-i18n/StarChart.py:1428
+#: gci-i18n/StarChart.py:3112
+msgid "Stars by Constellation"
+msgstr "Stars by Constellation"
+
+#: StarChart.py:1427 StarChart.py:3098 gci-i18n/StarChart.py:1442
+#: gci-i18n/StarChart.py:3113
+msgid "Brightest Stars"
+msgstr "Brightest Stars"
+
+#: StarChart.py:1447 StarChart.py:3099 gci-i18n/StarChart.py:1462
+#: gci-i18n/StarChart.py:3114
+msgid "Deep-sky Objects"
+msgstr "Deep-sky Objects"
+
+#: StarChart.py:1610 gci-i18n/StarChart.py:1625
+msgid "This object is always below the horizon at your location."
+msgstr "This object is always below the horizon at your location."
+
+#: StarChart.py:1613 gci-i18n/StarChart.py:1628
+msgid "This object is currently not in the field of view."
+msgstr "This object is currently not in the field of view."
+
+#: StarChart.py:1615 gci-i18n/StarChart.py:1630
+msgid "This object is currently below your horizon."
+msgstr "This object is currently below your horizon."
+
+#: StarChart.py:1657 gci-i18n/StarChart.py:1672
+msgid "Input Error: The longitude was not understood."
+msgstr "Input Error: The longitude was not understood."
+
+#: StarChart.py:1661 gci-i18n/StarChart.py:1676
+msgid "Input Error: The latitude was not understood."
+msgstr "Input Error: The latitude was not understood."
+
+#: StarChart.py:1665 gci-i18n/StarChart.py:1680
+msgid "Input Error: The time was not understood."
+msgstr "Input Error: The time was not understood."
+
+#: StarChart.py:1669 gci-i18n/StarChart.py:1684
+msgid "Input Error: The time zone offset was not understood."
+msgstr "Input Error: The time zone offset was not understood."
+
+#: StarChart.py:2919 gci-i18n/StarChart.py:2934
+msgid "Star Chart Activity"
+msgstr "Star Chart Activity"
+
+#: StarChart.py:3136 gci-i18n/StarChart.py:3151
+msgid "What"
+msgstr "What"
+
+#: StarChart.py:3137 gci-i18n/StarChart.py:3152
+msgid "Where"
+msgstr "Where"
+
+#: StarChart.py:3138 gci-i18n/StarChart.py:3153
+msgid "When"
+msgstr "When"
+
+#: StarChart.py:3139 gci-i18n/StarChart.py:3154
+msgid "Locate"
+msgstr "Locate"
+
+#: StarChart.py:3140 gci-i18n/StarChart.py:3155
+msgid "About"
+msgstr "About"
+
+#: dso1.py:31 gci-i18n/dso1.py:45
+msgid "Butterfly Cluster"
+msgstr "Butterfly Cluster"
+
+#: dso1.py:32 gci-i18n/dso1.py:46
+msgid "Ptolemys Cluster"
+msgstr "Ptolemy's Cluster"
+
+#: dso1.py:33 gci-i18n/dso1.py:47
+msgid "Lagoon Nebula"
+msgstr "Lagoon Nebula"
+
+#: dso1.py:35 gci-i18n/dso1.py:49
+msgid "Wild Duck Cluster"
+msgstr "Wild Duck Cluster"
+
+#: dso1.py:37 gci-i18n/dso1.py:51
+msgid "Hercules Cluster"
+msgstr "Hercules Cluster"
+
+#: dso1.py:39 gci-i18n/dso1.py:53
+msgid "Omega Nebula"
+msgstr "Omega Nebula"
+
+#: dso1.py:41 gci-i18n/dso1.py:55
+msgid "Trifid Nebula"
+msgstr "Trifid Nebula"
+
+#: dso1.py:48 gci-i18n/dso1.py:62
+msgid "Andromeda Galaxy"
+msgstr "Andromeda Galaxy"
+
+#: dso1.py:49 gci-i18n/dso1.py:63
+msgid "Triangulum Galaxy"
+msgstr "Triangulum Galaxy"
+
+#: dso1.py:57 gci-i18n/dso1.py:71
+msgid "Orion Nebula"
+msgstr "Orion Nebula"
+
+#: dso1.py:58 gci-i18n/dso1.py:72
+msgid "de Mairans Nebula"
+msgstr "de Mairans Nebula"
+
+#: dso1.py:59 gci-i18n/dso1.py:73
+msgid "Beehive Cluster"
+msgstr "Beehive Cluster"
+
+#: dso1.py:60 gci-i18n/dso1.py:74
+msgid "Pleiades"
+msgstr "Pleiades"
+
+#: dso1.py:65 gci-i18n/dso1.py:79
+msgid "Whirlpool Galaxy"
+msgstr "Whirlpool Galaxy"
+
+#: dso1.py:70 gci-i18n/dso1.py:84
+msgid "Sunflower Galaxy"
+msgstr "Sunflower Galaxy"
+
+#: dso1.py:73 gci-i18n/dso1.py:87
+msgid "Bodes Galaxy"
+msgstr "Bodes Galaxy"
+
+#: dso1.py:74 gci-i18n/dso1.py:88
+msgid "Southern Pinwheel Galaxy"
+msgstr "Southern Pinwheel Galaxy"
+
+#: dso1.py:77 gci-i18n/dso1.py:91
+msgid "Pinwheel Galaxy"
+msgstr "Pinwheel Galaxy"
