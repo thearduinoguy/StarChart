@@ -194,7 +194,7 @@ class ToggleButtonTool(ToolButton):
       if icon_off:
         self.set_icon(icon_off)
 
-      self.connect("clicked", self._click_callback)
+      self.connect('clicked', self._click_callback)
 
     def _click_callback(self, button):
       self.set_active(not self._active)
@@ -224,21 +224,21 @@ class ToggleButtonTool(ToolButton):
 #   pname         wbar0         E            a            I0           O0
 #   L               dL
 planets = [
-  (_("Mercury"),    77.45779628, 0.20563593,  0.38709927,  7.00497902,  48.33076593, 252.25032350,   149472.67411175),
-  (_("Venus"),    131.60246718, 0.00677672,  0.72333566,  3.39467605,  76.67984255, 181.97909950,    58517.81538729),
-  (_("Earth"),    102.93768193, 0.01671123,  1.00000261, -0.00001531,   0.0,        100.46457166,    35999.37244981),
-  (_("Mars"),     -23.94362959, 0.09339410,  1.52371034,  1.84969142,  49.55953891,  -4.55343205,    19140.30268499),
-  (_("Jupiter"),   14.72847983, 0.04838624,  5.20288700,  1.30439695, 100.47390909,  34.39644051,     3034.74612775),
-  (_("Saturn"),    92.59887831, 0.05386179,  9.53667594,  2.48599187, 113.66242448,  49.95424423,     1222.49362201),
-  (_("Uranus"),   170.95427630, 0.04725744, 19.18916464,  0.77263783,  74.01692503, 313.23810451,      428.48202785),
+  (_('Mercury'),    77.45779628, 0.20563593,  0.38709927,  7.00497902,  48.33076593, 252.25032350,   149472.67411175),
+  (_('Venus'),    131.60246718, 0.00677672,  0.72333566,  3.39467605,  76.67984255, 181.97909950,    58517.81538729),
+  (_('Earth'),    102.93768193, 0.01671123,  1.00000261, -0.00001531,   0.0,        100.46457166,    35999.37244981),
+  (_('Mars'),     -23.94362959, 0.09339410,  1.52371034,  1.84969142,  49.55953891,  -4.55343205,    19140.30268499),
+  (_('Jupiter'),   14.72847983, 0.04838624,  5.20288700,  1.30439695, 100.47390909,  34.39644051,     3034.74612775),
+  (_('Saturn'),    92.59887831, 0.05386179,  9.53667594,  2.48599187, 113.66242448,  49.95424423,     1222.49362201),
+  (_('Uranus'),   170.95427630, 0.04725744, 19.18916464,  0.77263783,  74.01692503, 313.23810451,      428.48202785),
   ]
-sun = (_("Sun"),  282.93768193, 0.01671123,  1.00000261,  0.0,          0.0,        280.46457166,    35999.37244981)
+sun = (_('Sun'),  282.93768193, 0.01671123,  1.00000261,  0.0,          0.0,        280.46457166,    35999.37244981)
 
 #       name       mean lon      lon of peri     lon of Node
 #       Inclination Eccentricity  radius (km)      Parallax   Offset of Epoch
 #                  L0            P0              N0
 #       I           e             a                phi0       tau
-moon = (_("Moon"), 318.351648,   36.340410,      318.510107,      5.145396,   0.054900,     384401,          0.9507,    2447891.5)
+moon = (_('Moon'), 318.351648,   36.340410,      318.510107,      5.145396,   0.054900,     384401,          0.9507,    2447891.5)
 
 # obliquity of J2000 epoch is 23.43928 degrees -- we need this value
 # (in radians) for planetary calculations
@@ -370,7 +370,7 @@ def floattoangle(f):
   s = (mm - m) * 60.0
   s = int(s)
   return '%(degree)03dd%(minute)02dm%(second)02ds' % \
-         { 'degree' : h, 'minute' : abs(m), 'second': abs(s)}
+         {'degree': h, 'minute': abs(m), 'second': abs(s)}
 
 
 # Convert a degrees-minutes-seconds angle to fractional degrees.
@@ -389,7 +389,7 @@ def angletofloat(s):
         i = i + 1
       else:
         break
-    t = s[0:i]
+    t = s[0: i]
     d = float(t)
     i = i + 1
     if (i < len(s)):
@@ -403,8 +403,8 @@ def angletofloat(s):
           i = i + 1
         else:
           break
-      t = s[0:i]
-      d = d + float(t)/60.0    
+      t = s[0: i]
+      d = d + float(t) / 60.0    
       i = i + 1
       if (i < len(s)):
         t = s[i:]
@@ -417,8 +417,8 @@ def angletofloat(s):
             i = i + 1
           else:
             break
-        t = s[0:i]
-        d = d + float(t)/3600.0    
+        t = s[0: i]
+        d = d + float(t) / 3600.0    
     return d
   except:
     return -1.0
@@ -580,7 +580,7 @@ def parse_zone_offset(s):
       j = j + 1
     if (j == i):
       return (0, 0)
-    oh = int(s[i:j])
+    oh = int(s[i: j])
     i = j
     if (s[i] != ':'):
       return (0, 0)
@@ -600,10 +600,10 @@ def parse_timestamp(s):
   try:
     if ((s[4] != '/') or (s[7] != '/') or (s[10] != ',') or (s[13] != ':')):
       return (2000, 1, 1, 0, 0)
-    Y = int(s[0:4])
-    M = int(s[5:7])
-    D = int(s[8:10])
-    h = int(s[11:13])
+    Y = int(s[0: 4])
+    M = int(s[5: 7])
+    D = int(s[8: 10])
+    h = int(s[11: 13])
     m = int(s[14:])
     return (Y, M, D, h, m)
   except:
@@ -636,7 +636,7 @@ def get_time_and_UTC_offset(timestr, offsetstr):
 # now convert the zone offset to a timezone object
              
   tzo = oh * 60 + om
-  tz = TZ(tzo, "")
+  tz = TZ(tzo, '')
 
 # using the parsed time and timezone object, construct a datetime object that
 # represents the local time.
@@ -661,10 +661,10 @@ def set_time_and_UTC_offset():
   dt = lt - gt + to
   tt = lt
   tt = tt + to
-  lts = tt.strftime("%Y/%m/%d,%H:%M")
+  lts = tt.strftime('%Y/%m/%d,%H:%M')
   dth = dt.days * 24 + int(dt.seconds / 3600)
   dtm = (dt.seconds / 60) % 60
-  utos = "%d:%02d" % (dth, dtm)
+  utos = '%d:%02d' % (dth, dtm)
   return (lts, utos)
 
 
@@ -677,17 +677,17 @@ def syntax_check_time():
       return False
     if ((s[4] != '/') or (s[7] != '/') or (s[10] != ',') or (s[13] != ':')):
       return False
-    z = s[0:4]
+    z = s[0: 4]
     if (not z.isdigit()):
       return False
     y = int(z)
-    z = s[5:7]
+    z = s[5: 7]
     if (not z.isdigit()):
       return False
     x = int(z)
     if ((x < 1) or (x > 12)):
       return False
-    z = s[8:10]
+    z = s[8: 10]
     if (not z.isdigit()):
       return False
     d = int(z)
@@ -705,7 +705,7 @@ def syntax_check_time():
           return False
     elif (d > 30):
       return False
-    z = s[11:13]
+    z = s[11: 13]
     if (not z.isdigit()):
       return False
     h = int(z)
@@ -747,7 +747,7 @@ def syntax_check_zone():
       return False
     if ((not s[p + 2 + n].isdigit()) or (not s[p + 3 + n].isdigit())):
       return False
-    z = s[p : p + 1 + n]
+    z = s[p: p + 1 + n]
     if (int(z) > 14):
       return False
     z = s[p + 2 + n : p + n + 4]
@@ -780,38 +780,38 @@ def get_planet_index(name):
 # These controls affect the program's state-variables and must be global or we
 # can't set or retrieve their values everywhere necessary:
 #
-# controls on menubar1 (_("what")):
+# controls on menubar1 (_('what')):
 fullscreen = ToolButton('view-fullscreen')
 button1 = ToggleButtonTool(icon_off='night-off', icon_on='night-on')
-button1.set_tooltip(_("Night Vision"))
+button1.set_tooltip(_('Night Vision'))
 button2 = ToggleButtonTool(icon_off='invert-off', icon_on='invert-on')
-button2.set_tooltip(_("Invert Display"))
+button2.set_tooltip(_('Invert Display'))
 button3 = ToggleButtonTool(icon_off='left-right', icon_on='right-left')
-button3.set_tooltip(_("Flip L/R"))
+button3.set_tooltip(_('Flip L/R'))
 button4 = ToggleButtonTool(icon_off='constellations-off',
                            icon_on='constellations-on')
-button4.set_tooltip(_("Draw Constellations"))
+button4.set_tooltip(_('Draw Constellations'))
 container2 = gtk.Table(columns=6, rows=1)
-label6 = gtk.Label(_("Mag:"))
-rb7 = gtk.RadioButton(None, _("1"))
-rb8 = gtk.RadioButton(rb7, _("2"))
-rb9 = gtk.RadioButton(rb7, _("3"))
-rb10 = gtk.RadioButton(rb7, _("4"))
-rb11 = gtk.RadioButton(rb7, _("5"))
-rb12 = gtk.RadioButton(rb7, _("6"))
-# controls on menubar2 (_("where")):
+label6 = gtk.Label(_('Mag:'))
+rb7 = gtk.RadioButton(None, _('1'))
+rb8 = gtk.RadioButton(rb7, _('2'))
+rb9 = gtk.RadioButton(rb7, _('3'))
+rb10 = gtk.RadioButton(rb7, _('4'))
+rb11 = gtk.RadioButton(rb7, _('5'))
+rb12 = gtk.RadioButton(rb7, _('6'))
+# controls on menubar2 (_('where')):
 container3 = gtk.VBox()
 container4 = gtk.VBox()
-label1 = gtk.Label(_("Longitude:"))
+label1 = gtk.Label(_('Longitude:'))
 entry1 = gtk.Entry()
 entry1.set_width_chars(10)
-rb1 = gtk.RadioButton(None, _("E"))
-rb2 = gtk.RadioButton(rb1, _("W"))
-label2 = gtk.Label(_("Latitude:"))
+rb1 = gtk.RadioButton(None, _('E'))
+rb2 = gtk.RadioButton(rb1, _('W'))
+label2 = gtk.Label(_('Latitude:'))
 entry2 = gtk.Entry()
 entry2.set_width_chars(10)
-rb3 = gtk.RadioButton(None, _("N"))
-rb4 = gtk.RadioButton(rb3, _("S"))
+rb3 = gtk.RadioButton(None, _('N'))
+rb4 = gtk.RadioButton(rb3, _('S'))
 icon = Icon(icon_name='dialog-ok')
 button5 = gtk.Button()
 button5.set_image(icon)
@@ -819,15 +819,15 @@ icon.show()
 button5.set_label(_('Ok'))
 button5.show()
 button51 = ToolButton('home')
-button51.set_tooltip(_("Make home"))
+button51.set_tooltip(_('Make home'))
 button51.show()
-# controls on menubar3 (_("when")):
-rb5 = gtk.RadioButton(None, _("Now"))
-rb6 = gtk.RadioButton(rb5, _("Specify"))
-label4 = gtk.Label(_("Time:"))
+# controls on menubar3 (_('when')):
+rb5 = gtk.RadioButton(None, _('Now'))
+rb6 = gtk.RadioButton(rb5, _('Specify'))
+label4 = gtk.Label(_('Time:'))
 entry3 = gtk.Entry()
 entry3.set_width_chars(16)
-label5 = gtk.Label(_("Offset:"))
+label5 = gtk.Label(_('Offset:'))
 entry4 = gtk.Entry()
 entry4.set_width_chars(7)
 icon = Icon(icon_name='dialog-ok')
@@ -836,8 +836,8 @@ button6.set_image(icon)
 icon.show()
 button6.set_label(_('Ok'))
 button6.show()
-# controls on menubar4 (_("Locate")):
-labell1 = gtk.Label(_("Object type:"))
+# controls on menubar4 (_('Locate')):
+labell1 = gtk.Label(_('Object type:'))
 objtypecb = gtk.combo_box_new_text()
 planetscb = gtk.combo_box_new_text()
 constscb = gtk.combo_box_new_text()
@@ -845,11 +845,11 @@ starscb = gtk.combo_box_new_text()
 container0 = gtk.HBox()
 container1 = gtk.VBox()
 dsoscb = gtk.combo_box_new_text()
-# controls on last menubar (_("About")):
-labela1 = gtk.Label(_("Version 2.0 (build 115) of 2010.04.21.1530 UT"))
-labela2 = gtk.Label(" ")
-labela3 = gtk.Label(_("See http://wiki.laptop.org/go/StarChart for help."))
-labela4 = gtk.Label(" ")
+# controls on last menubar (_('About')):
+# labela1 = gtk.Label(_('Version 2.0 (build 115) of 2010.04.21.1530 UT'))
+# labela2 = gtk.Label(' ')
+labela3 = gtk.Label(_('See http://wiki.laptop.org/go/StarChart for help.'))
+labela4 = gtk.Label(' ')
 
 # -------------------------------------------------------------------------------
 
@@ -900,7 +900,7 @@ class PixelsToObjectMap():
 # over nearest, because of the way the search algorithm is coded.  (which may be a bug)
     if self.found(x, y):
 # The user got lucky and hit the target dead on.
-      (type, name) = self.data[(x,y)]
+      (type, name) = self.data[(x, y)]
       self.report(type, name)
     else:
       if (self.context.chart.magnifying):
@@ -908,21 +908,21 @@ class PixelsToObjectMap():
       else:
         w = 8
 # Search an area (2*w) pixels square for an object.
-      for i in range(1,w+1):
+      for i in range(1, w + 1):
         xm = x - i
         xx = x + i
         ym = y - i
         yx = y + i
         (xf, yf) = self.search_square(xm, xx, ym, yx)
         if (xf > xx):
-          type = ""
-          name = ""
+          type = ''
+          name = ''
         else:
           (type, name) = self.data[(xf, yf)]
-        if (type != ""):
+        if (type != ''):
           self.report(type, name)
         else:
-          self.report(_("There is no object here."), "")
+          self.report(_('There is no object here.'), '')
 
 
   def get_count(self):
@@ -934,39 +934,42 @@ class PixelsToObjectMap():
 
 
   def search_square(self, left, right, top, bottom):
-# Find all objects on the search square and return the brightest in event of
-# their being more than one.  Return the object's (x,y).
+# Find all objects on the search square and return the brightest in
+# event of their being more than one.  Return the object's (x,y).
 #
-# An extended object is always be favored over a point object if the square being searched
-# includes the coordinates of the extended object, since the extended object is drawn
-# over the point objects and therefore hides them.
+# An extended object is always be favored over a point object if the
+# square being searched includes the coordinates of the extended
+# object, since the extended object is drawn over the point objects
+# and therefore hides them.
     lfx = right + 1
     lfy = bottom + 1
     lfmag = 100
-# For the Sun, Moon and planets we will define their magnitude to be a rough
-# average: by this definition, the Sun is -27, the Moon is -6.0, Venus is -3.5,
-# Mercury is -1.5, Jupiter is -0.5, Saturn is +0.5, Mars is +1.0 and Uranus is
-# +5.5.  These values are a bit arbitrary, especially as planets can vary quite
-# a lot, but are defined this way in order to ensure we have an unambiguous
-# brightness relationship, irrespective of the planet's position in its orbit or
-# phase of illumination.
+# For the Sun, Moon and planets we will define their magnitude to be a
+# rough average: by this definition, the Sun is -27, the Moon is -6.0,
+# Venus is -3.5, Mercury is -1.5, Jupiter is -0.5, Saturn is +0.5,
+# Mars is +1.0 and Uranus is +5.5.  These values are a bit arbitrary,
+# especially as planets can vary quite a lot, but are defined this way
+# in order to ensure we have an unambiguous brightness relationship,
+# irrespective of the planet's position in its orbit or phase of
+# illumination.
     pmag = [ -1.5, -3.5, -6.0, 1.0, -0.5, 0.5, 5.5, -27.0 ]
     for x in range(left, right + 1):
       for y in range(top, bottom + 1):
         if self.found(x, y):
           (type, name) = self.data[(x, y)]
-          if (type != "star") and (type != "planet"):
+          if (type != 'star') and (type != 'planet'):
 # Extended objects are special-case.
-            if (type == "dso-messier") or (type == "dso-ngc"):
-# Simply return the coordinates at which the object was found -- we don't actually need
-# the object's catalog data.
+            if (type == 'dso-messier') or (type == 'dso-ngc'):
+# Simply return the coordinates at which the object was found -- we
+# don't actually need the object's catalog data.
               return (x, y)
-# This object is not an extended object and therefore we will care about the object's
-# brightness.  So see if this object is brighter than the last one found, if any.  If so,
-# replace the last-found object with this one; if not, ignore this object.
-          elif (type == "planet"):
+# This object is not an extended object and therefore we will care
+# about the object's brightness.  So see if this object is brighter
+# than the last one found, if any.  If so, replace the last-found
+# object with this one; if not, ignore this object.
+          elif (type == 'planet'):
             mag = pmag[get_planet_index(name)]
-          elif (type == "star"):
+          elif (type == 'star'):
 # Locate the catalog entry for the star and obtain its brightness.
             (ra, dec, mag, cid) = star_chart[name]
           else:
@@ -979,24 +982,25 @@ class PixelsToObjectMap():
 
 
   def report(self, type, name):
-# FIXME: for now, we only report the object's name and type.  Eventually, we will report more
-# and that will mean a more elaborate, multi-line "identification" object with multiple fields.
-    if (name == ""):
+# FIXME: for now, we only report the object's name and type.
+# Eventually, we will report more and that will mean a more elaborate,
+# multi-line "identification" object with multiple fields.
+    if (name == ''):
       self.context.identifyobject.set_label(type)
     else:
-      if (type == "dso-messier") or (type == "dso-ngc"):
-        type = _("deep-sky object")
-      elif (type == "planet"):
-        type = _("planet")
-        if (name == _("Sun")):
-          self.context.identifyobject.set_label(_("Object is: ") + name)
+      if (type == 'dso-messier') or (type == 'dso-ngc'):
+        type = _('deep-sky object')
+      elif (type == 'planet'):
+        type = _('planet')
+        if (name == _('Sun')):
+          self.context.identifyobject.set_label(_('Object is: ') + name)
           return
-        if (name == _("Moon")):
-          self.context.identifyobject.set_label(_("Object is: ") + name)
+        if (name == _('Moon')):
+          self.context.identifyobject.set_label(_('Object is: ') + name)
           return
-      elif (type == "star"):
-        type = _("star")
-      self.context.identifyobject.set_label(_("Object is ") + type + ": " + name)
+      elif (type == 'star'):
+        type = _('star')
+      self.context.identifyobject.set_label(_('Object is ') + type + ': ' + name)
 
 
 
@@ -1055,11 +1059,11 @@ class Location():
   def plot_cross(self):
     if (self.is_set()):
 
-#  Draw a cross using heavy green lines, centered on the object with arms which
-#  are 50 pixels long.
-#  FIXME:  As the display updates, the cross is always at x,y but the highlighted object
-#  eventually drifts westward.  The code needs to compensate for that somehow.
-#  (Or else this is a feature, since it shows how the sky moves over time.)
+#  Draw a cross using heavy green lines, centered on the object with
+#  arms which are 50 pixels long.  FIXME: As the display updates, the
+#  cross is always at x,y but the highlighted object eventually drifts
+#  westward.  The code needs to compensate for that somehow.  (Or else
+#  this is a feature, since it shows how the sky moves over time.)
 
       x = self.data[1] + 1
       y = self.data[2] + 1
@@ -1083,10 +1087,10 @@ class ChartDisplay(gtk.DrawingArea):
     self.context = context
     self.colors = {}
     self.canplot = False
-    self.pangolayout = self.create_pango_layout("")
+    self.pangolayout = self.create_pango_layout('')
     self.add_events(gtk.gdk.BUTTON_PRESS_MASK | gtk.gdk.BUTTON1_MOTION_MASK |
 	gtk.gdk.BUTTON2_MOTION_MASK)
-    self.connect("button_press_event", self.pressing)
+    self.connect('button_press_event', self.pressing)
     self.magnifying = False
     self.mag_center = [0, 0]
     if (not specifytime):
@@ -1206,25 +1210,25 @@ class ChartDisplay(gtk.DrawingArea):
 
     if (data == None):
       return False
-    elif (data == "night vision"):
+    elif (data == 'night vision'):
       nightvision = button1.get_active()
       self.plotchart()
       return False
-    elif (data == "invert display"):
+    elif (data == 'invert display'):
       invertdisplay = button2.get_active()
       self.plotchart()
       return False
-    elif (data == "flip horizontally"):
+    elif (data == 'flip horizontally'):
       fliphorizontally = button3.get_active()
       self.plotchart()
       return False
-    elif (data == "draw constellations"):
+    elif (data == 'draw constellations'):
       drawconstellations = button4.get_active()
       self.plotchart()
       return False
-    elif (data == "home location set"):
+    elif (data == 'home location set'):
       s = entry1.get_text()
-      if (s.find("m") >= 0):
+      if (s.find('m') >= 0):
         lon = angletofloat(s)
       else:
         try:
@@ -1245,7 +1249,7 @@ class ChartDisplay(gtk.DrawingArea):
         if (rb2.get_active()):
           longitude = -longitude
       s = entry2.get_text()
-      if (s.find("m") >= 0):
+      if (s.find('m') >= 0):
         lat = angletofloat(s)
       else:
         try:
@@ -1269,13 +1273,13 @@ class ChartDisplay(gtk.DrawingArea):
       dsoscb.set_active(-1)
       starscb.set_active(-1)
       planetscb.set_active(-1)
-      self.context.identifyobject.set_label("")
+      self.context.identifyobject.set_label('')
       self.context.update_config()
       self.plotchart()
       return False
-    elif (data == "location change"):
+    elif (data == 'location change'):
       s = entry1.get_text()
-      if (s.find("m") >= 0):
+      if (s.find('m') >= 0):
         lon = angletofloat(s)
       else:
         try:
@@ -1296,7 +1300,7 @@ class ChartDisplay(gtk.DrawingArea):
         if (rb2.get_active()):
           longitude = -longitude
       s = entry2.get_text()
-      if (s.find("m") >= 0):
+      if (s.find('m') >= 0):
         lat = angletofloat(s)
       else:
         try:
@@ -1320,14 +1324,14 @@ class ChartDisplay(gtk.DrawingArea):
       dsoscb.set_active(-1)
       starscb.set_active(-1)
       planetscb.set_active(-1)
-      self.context.identifyobject.set_label("")
+      self.context.identifyobject.set_label('')
       self.plotchart()
       return False
-    elif (data == "user time"):
+    elif (data == 'user time'):
       specifytime = True
       saved_specifytime = True
       return True
-    elif (data == "now time"):
+    elif (data == 'now time'):
       specifytime = False
       saved_specifytime = False
       now = datetime.utcnow()
@@ -1336,7 +1340,7 @@ class ChartDisplay(gtk.DrawingArea):
       entry4.set_text(ostr)
       self.plotchart()
       return True
-    elif (data == "time change"):
+    elif (data == 'time change'):
       specifytime = rb6.get_active()
       saved_specifytime = specifytime
       if (specifytime):
@@ -1363,43 +1367,43 @@ class ChartDisplay(gtk.DrawingArea):
       dsoscb.set_active(-1)
       starscb.set_active(-1)
       planetscb.set_active(-1)
-      self.context.identifyobject.set_label("")
+      self.context.identifyobject.set_label('')
       self.plotchart()
       return False
-    elif (data == "rb7 clicked"):
+    elif (data == 'rb7 clicked'):
       limitingmagnitude = 1.0
       saved_lmag = 1.0
       self.plotchart()
       return False
-    elif (data == "rb8 clicked"):
+    elif (data == 'rb8 clicked'):
       limitingmagnitude = 2.0
       saved_lmag = 2.0
       self.plotchart()
       return False
-    elif (data == "rb9 clicked"):
+    elif (data == 'rb9 clicked'):
       limitingmagnitude = 3.0
       saved_lmag = 3.0
       self.plotchart()
       return False
-    elif (data == "rb10 clicked"):
+    elif (data == 'rb10 clicked'):
       limitingmagnitude = 4.0
       saved_lmag = 4.0
       self.plotchart()
       return False
-    elif (data == "rb11 clicked"):
+    elif (data == 'rb11 clicked'):
       limitingmagnitude = 5.0
       saved_lmag = 5.0
       self.plotchart()
       return False
-    elif (data == "rb12 clicked"):
+    elif (data == 'rb12 clicked'):
       limitingmagnitude = 6.0
       saved_lmag = 6.0
       self.plotchart()
       return False
-    elif (data == "objtype sel"):
+    elif (data == 'objtype sel'):
 # Get selection and expose object selector control(s).
       selstr = objtypecb.get_active_text()
-      if (selstr == _("Planets")):
+      if (selstr == _('Planets')):
         for i in reversed(range(len(container0.get_children()))):
           container0.remove(container0.get_children()[i])
         container0.add(planetscb)
@@ -1409,8 +1413,8 @@ class ChartDisplay(gtk.DrawingArea):
         dsoscb.set_active(-1)
         starscb.set_active(-1)
         planetscb.set_active(-1)
-        self.context.identifyobject.set_label("")
-      elif (selstr == _("Stars by Constellation")):
+        self.context.identifyobject.set_label('')
+      elif (selstr == _('Stars by Constellation')):
         for i in reversed(range(len(container0.get_children()))):
           container0.remove(container0.get_children()[i])
         container0.add(constscb)
@@ -1423,13 +1427,14 @@ class ChartDisplay(gtk.DrawingArea):
         dsoscb.set_active(-1)
         starscb.set_active(-1)
         planetscb.set_active(-1)
-        self.context.identifyobject.set_label("")
-      elif (selstr == _("Brightest Stars")):
+        self.context.identifyobject.set_label('')
+      elif (selstr == _('Brightest Stars')):
         for i in reversed(range(len(container0.get_children()))):
           container0.remove(container0.get_children()[i])
         container0.add(starscb)
         starscb.get_model().clear()
-# Load the combobox with the names of stars whose magnitude is +1.50 or brighter
+# Load the combobox with the names of stars whose magnitude is +1.50
+# or brighter
         names = []
         for name, (ra, dec, mag, cid) in star_chart.iteritems():
           if (mag <= 1.50):
@@ -1443,8 +1448,8 @@ class ChartDisplay(gtk.DrawingArea):
         dsoscb.set_active(-1)
         starscb.set_active(-1)
         planetscb.set_active(-1)
-        self.context.identifyobject.set_label("")
-      elif (selstr == _("Deep-sky Objects")):
+        self.context.identifyobject.set_label('')
+      elif (selstr == _('Deep-sky Objects')):
         for i in reversed(range(len(container0.get_children()))):
           container0.remove(container0.get_children()[i])
         container0.add(dsoscb)
@@ -1454,23 +1459,24 @@ class ChartDisplay(gtk.DrawingArea):
         dsoscb.set_active(-1)
         starscb.set_active(-1)
         planetscb.set_active(-1)
-        self.context.identifyobject.set_label("")
+        self.context.identifyobject.set_label('')
       else:
         self.plotchart()
         self.location.clear()
         dsoscb.set_active(-1)
         starscb.set_active(-1)
         planetscb.set_active(-1)
-        self.context.identifyobject.set_label("")
+        self.context.identifyobject.set_label('')
       return False
-    elif (data == "constellation sel"):
+    elif (data == 'constellation sel'):
       csel = constscb.get_active_text()
       if (csel == None):
         pass
       else:
         const_id = abbrev_from_name[csel]
         starscb.get_model().clear()
-# Load the stars combobox with the names of all stars having this constellation ID.
+# Load the stars combobox with the names of all stars having this
+# constellation ID.
         names = []
         for name, (ra, dec, mag, cid) in star_chart.iteritems():
           if (cid == const_id):
@@ -1479,47 +1485,47 @@ class ChartDisplay(gtk.DrawingArea):
           starscb.append_text(name)
         starscb.show()
       return False
-    elif (data == "planet sel"):
+    elif (data == 'planet sel'):
       selstr = planetscb.get_active_text()
-      self.locate("planet", selstr)
+      self.locate('planet', selstr)
       return False
-    elif (data == "star sel"):
+    elif (data == 'star sel'):
       selstr = starscb.get_active_text()
-      self.locate("star", selstr)
+      self.locate('star', selstr)
       return False
-    elif (data == "dso sel"):
+    elif (data == 'dso sel'):
       selstr = dsoscb.get_active_text()
-      self.locate("dso", selstr)
+      self.locate('dso', selstr)
       return False
 
 
   def locate(self, type, name):
     if (name == None):
       return
-    if (type == "planet"):
-# Selected a planet.  Get its DEC.  If visible, highlight it; otherwise, call
-# not_located.
+    if (type == 'planet'):
+# Selected a planet.  Get its DEC.  If visible, highlight it;
+# otherwise, call not_located.
       dec = dec_from_planet[name]
-    elif (type == "star"):
-# Selected a star.  Determine which and get its DEC.  If visible, highlight it;
-# otherwise, call not_located.
+    elif (type == 'star'):
+# Selected a star.  Determine which and get its DEC.  If visible,
+# highlight it; otherwise, call not_located.
       (ra, dec, mag, cid) = star_chart[name]
-    elif (type == "dso"):
-# Selected a DSO.  Determine which and get its DEC.  If visible, highlight it;
-# otherwise, call not_located.
+    elif (type == 'dso'):
+# Selected a DSO.  Determine which and get its DEC.  If visible,
+# highlight it; otherwise, call not_located.
       for i in range(len(dso_chart)):
         (nM, strCon, ra, dec, mag, majA, minA, posA, strT, strN) = dso_chart[i]
-        if (strN == ""):
+        if (strN == ''):
           if (name == nM):
             break
-        elif (name == strN + " (" + nM + ")"):
+        elif (name == strN + ' (' + nM + ')'):
           break
       if (nM[0:1] == 'M'):
-        type = "dso-messier"
+        type = 'dso-messier'
       elif (nM[0:1] == 'N'):
-        type = "dso-ngc"
+        type = 'dso-ngc'
       else:
-        type = "dso"
+        type = 'dso'
     else:
 # Invalid object type selection.  Ignore.
       return
@@ -1527,7 +1533,7 @@ class ChartDisplay(gtk.DrawingArea):
     if ((x < 0) or (y < 0)):
       self.not_located(self.never_visible(dec))
     else:
-      self.context.identifyobject.set_label("")
+      self.context.identifyobject.set_label('')
       self.located(x, y)
 
 
@@ -1551,7 +1557,7 @@ class ChartDisplay(gtk.DrawingArea):
         self.mag_center[1] = y
 #      rb6.set_active(specifytime)
       self.adjust_toolbars()
-      self.context.identifyobject.set_label("")
+      self.context.identifyobject.set_label('')
       self.location.clear()
       dsoscb.set_active(-1)
       starscb.set_active(-1)
@@ -1562,9 +1568,10 @@ class ChartDisplay(gtk.DrawingArea):
 
 
   def adjust_toolbars(self):
-# Hide the "When" and "Where" toolbars when magnifying and show them when not.
-# Hide the magnitude radio buttons and the draw constellations button when magnifying and
-# show these controls when not.
+# Hide the "When" and "Where" toolbars when magnifying and show them
+# when not.  Hide the magnitude radio buttons and the draw
+# constellations button when magnifying and show these controls when
+# not.
 
     if (self.magnifying):
       button4.hide()
@@ -1607,12 +1614,12 @@ class ChartDisplay(gtk.DrawingArea):
     self.location.clear()
     self.plotchart()
     if (never):
-      self.context.identifyobject.set_label(_("This object is always below the horizon at your location."))
+      self.context.identifyobject.set_label(_('This object is always below the horizon at your location.'))
     else:
       if (self.magnifying):
-        self.context.identifyobject.set_label(_("This object is currently not in the field of view."))
+        self.context.identifyobject.set_label(_('This object is currently not in the field of view.'))
       else:
-        self.context.identifyobject.set_label(_("This object is currently below your horizon."))
+        self.context.identifyobject.set_label(_('This object is currently below your horizon.'))
 
     
   def located(self, x, y):
@@ -1637,16 +1644,14 @@ class ChartDisplay(gtk.DrawingArea):
       else:
         pass
 
-
   def get_symbol_name(self, i):
     if (i == 2):
-      return _("Moon")
+      return _('Moon')
     if (i == 7):
-      return _("Sun")
+      return _('Sun')
     else:
       (name, wbar, e, a, I, O, L0, dL) = planets[i]
       return name
-
 
 # ------------------------------------------------------------------------------
 #
@@ -1654,19 +1659,19 @@ class ChartDisplay(gtk.DrawingArea):
 
   def lon_error(self):
 # FIXME: gtk.gdk.Display.beep()
-    self.context.identifyobject.set_label(_("Input Error: The longitude was not understood."))
+    self.context.identifyobject.set_label(_('Input Error: The longitude was not understood.'))
 
   def lat_error(self):    
 # FIXME: gtk.gdk.Display.beep()
-    self.context.identifyobject.set_label(_("Input Error: The latitude was not understood."))
+    self.context.identifyobject.set_label(_('Input Error: The latitude was not understood.'))
 
   def time_error(self):
 # FIXME: gtk.gdk.Display.beep()
-    self.context.identifyobject.set_label(_("Input Error: The time was not understood."))
+    self.context.identifyobject.set_label(_('Input Error: The time was not understood.'))
 
   def zone_error(self):
 # FIXME: gtk.gdk.Display.beep()
-    self.context.identifyobject.set_label(_("Input Error: The time zone offset was not understood."))
+    self.context.identifyobject.set_label(_('Input Error: The time zone offset was not understood.'))
 
 
 # -------------------------------------------------------------------------------
@@ -1738,25 +1743,25 @@ class ChartDisplay(gtk.DrawingArea):
       self.gc.set_foreground(self.colors[2])
     else:
       self.gc.set_foreground(self.colors[1])
-    self.pangolayout.set_text(_("N"))
+    self.pangolayout.set_text(_('N'))
     self.window.draw_layout(self.gc,
                      self.xoffset + self.margin + self.diameter / 2 - 10,
                      self.margin - 30, self.pangolayout)
-    self.pangolayout.set_text(_("S"))
+    self.pangolayout.set_text(_('S'))
     self.window.draw_layout(self.gc,
                      self.xoffset + self.margin + self.diameter / 2 - 10,
                      2 * self.margin + self.diameter - 30, self.pangolayout)
     if (not fliphorizontally):
-      self.pangolayout.set_text(_("E"))
+      self.pangolayout.set_text(_('E'))
     else:
-      self.pangolayout.set_text(_("W"))
+      self.pangolayout.set_text(_('W'))
     self.window.draw_layout(self.gc,
                      self.xoffset + self.margin - 30,
                      self.margin + self.diameter / 2 - 10, self.pangolayout)
     if (not fliphorizontally):
-      self.pangolayout.set_text(_("W"))
+      self.pangolayout.set_text(_('W'))
     else:
-      self.pangolayout.set_text(_("E"))
+      self.pangolayout.set_text(_('E'))
     self.window.draw_layout(self.gc,
                      self.xoffset + self.margin + self.diameter + 10,
                      self.margin + self.diameter / 2 - 10, self.pangolayout)
@@ -1828,12 +1833,12 @@ class ChartDisplay(gtk.DrawingArea):
 
 # Add the star to the omap even if it was too dim to plot.
 
-        self.omap.add("star", name, px, py)
+        self.omap.add('star', name, px, py)
 
 # if the star is bright enough, add it to pmap and plot it.
 
         if (mag <= limitingmagnitude):
-          self.pmap.add(px, py, "star", name)
+          self.pmap.add(px, py, 'star', name)
           self.plot_star(px, py, starsize)
 
 
@@ -1859,26 +1864,26 @@ class ChartDisplay(gtk.DrawingArea):
 
 # Add the DSO to the maps.
 
-        if (strN == ""):
+        if (strN == ''):
           if (nM[0:1] == 'M'):
-            self.pmap.add(px, py, "dso-messier", nM)
-            self.omap.add("dso-messier", nM, px, py)
+            self.pmap.add(px, py, 'dso-messier', nM)
+            self.omap.add('dso-messier', nM, px, py)
           elif (nM[0:1] == 'N'):
-            self.pmap.add(px, py, "dso-ngc", nM)
-            self.omap.add("dso-ngc", nM, px, py)
+            self.pmap.add(px, py, 'dso-ngc', nM)
+            self.omap.add('dso-ngc', nM, px, py)
           else:
-            self.pmap.add(px, py, "dso", nM)
-            self.omap.add("dso", nM, px, py)
+            self.pmap.add(px, py, 'dso', nM)
+            self.omap.add('dso', nM, px, py)
         else:
           if (nM[0:1] == 'M'):
-            self.pmap.add(px, py, "dso-messier", strN + " (" + nM +")")
-            self.omap.add("dso-messier",  strN + " (" + nM + ")", px, py)
+            self.pmap.add(px, py, 'dso-messier', strN + ' (' + nM +')')
+            self.omap.add('dso-messier',  strN + ' (' + nM + ')', px, py)
           elif (nM[0:1] == 'N'):
-            self.pmap.add(px, py, "dso-ngc", strN + " (" + nM +")")
-            self.omap.add("dso-ngc",  strN + " (" + nM + ")", px, py)
+            self.pmap.add(px, py, 'dso-ngc', strN + ' (' + nM +')')
+            self.omap.add('dso-ngc',  strN + ' (' + nM + ')', px, py)
           else:
-            self.pmap.add(px, py, "dso", strN + " (" + nM +")")
-            self.omap.add("dso",  strN + " (" + nM + ")", px, py)
+            self.pmap.add(px, py, 'dso', strN + ' (' + nM +')')
+            self.omap.add('dso',  strN + ' (' + nM + ')', px, py)
 
 
   def plot_all_constellations(self):
@@ -2070,8 +2075,8 @@ class ChartDisplay(gtk.DrawingArea):
 
 # Add the planet to the maps
 
-        self.pmap.add(px, py, "planet", name)
-        self.omap.add("planet", name, px, py)
+        self.pmap.add(px, py, 'planet', name)
+        self.omap.add('planet', name, px, py)
 
 # Plot the sun.  This is virtually the same as for a planet, but we can simplify
 # some computations because the sun is by definition on the ecliptic.
@@ -2118,11 +2123,11 @@ class ChartDisplay(gtk.DrawingArea):
 
 # Add the sun to maps
 
-      self.pmap.add(px, py, "planet", name)
-      self.omap.add("planet", name, px, py)
+      self.pmap.add(px, py, 'planet', name)
+      self.omap.add('planet', name, px, py)
 
 # Plot the moon.  Since the moon's orbit varies radically over time, there are
-# a lot of "fudge factor" correction terms in these computations.
+# a lot of 'fudge factor' correction terms in these computations.
 
     (name, L0, P0, N0, I, e, a, phi0, tau) = moon
     D = jtime(now) - float(tau)
@@ -2186,11 +2191,12 @@ class ChartDisplay(gtk.DrawingArea):
       ra = ra - 24.0
     dec = rtod(asin(sin(dtor(betM)) * cos(eps) + cos(dtor(betM)) * \
                     sin(eps) * sin(dtor(lamM))))
-# FIXME: We aren't accounting for parallax: RA and DEC are actual, not apparent.
-#	 This could introduce as much as a degree (approx.) of error.  Not a big deal if
-#        one is not using a telescope to observe the moon, except when the
-#        moon's position relative to a planet or star (as in conjunctions and
-#        occultations) matters.
+# FIXME: We aren't accounting for parallax: RA and DEC are actual, not
+#	 apparent.  This could introduce as much as a degree (approx.)
+#	 of error.  Not a big deal if one is not using a telescope to
+#	 observe the moon, except when the moon's position relative to
+#	 a planet or star (as in conjunctions and occultations)
+#	 matters.
 
 # remember this planet's declination.  Locate needs to know.
     dec_from_planet[name] = dec
@@ -2206,8 +2212,8 @@ class ChartDisplay(gtk.DrawingArea):
 
 # Add the moon to maps
 
-      self.pmap.add(px, py, "planet", name)
-      self.omap.add("planet", name, px, py)
+      self.pmap.add(px, py, 'planet', name)
+      self.omap.add('planet', name, px, py)
     self.gc.set_foreground(self.colors[1])
     self.location.plot_cross()
     return True
@@ -2251,7 +2257,8 @@ class ChartDisplay(gtk.DrawingArea):
     if (r > self.diameter / 2.0):
       return (-9999, -9999) # object cannot possibly be seen.
 
-# Return dx,dy -- this is the coordinate of the object relative to the plot center.
+# Return dx,dy -- this is the coordinate of the object relative to the
+# plot center.
 
     return (dx, dy)
 
@@ -2262,7 +2269,7 @@ class ChartDisplay(gtk.DrawingArea):
 
     for name, (ra, dec, mag, cid) in star_chart.iteritems():
 
-# convert the ra and dec from the J2000 epoch to the plot time
+# Convert the ra and dec from the J2000 epoch to the plot time
 
       (ra1, dec1) = epochpolartonow((ra, dec), now)
       starsize = 2 + int(9.0 - mag)
@@ -2274,22 +2281,24 @@ class ChartDisplay(gtk.DrawingArea):
 
 # Add the star to the omap even if it was too dim to plot.
 
-      self.omap.add("star", name, px, py)
+      self.omap.add('star', name, px, py)
 
-# All stars are bright enough in magnified mode, so add this star to pmap and plot it.
+# All stars are bright enough in magnified mode, so add this star to
+# pmap and plot it.
 
-      self.pmap.add(px, py, "star", name)
+      self.pmap.add(px, py, 'star', name)
       self.plot_star(px, py, starsize)
 
 
   def plot_mag_DSOs(self):
  
-# plot only those DSOs that are within 3.5 degrees of the magnification coordinates.
+# Plot only those DSOs that are within 3.5 degrees of the
+# magnification coordinates.
 
     for i in range(len(dso_chart)):
       (nM, strCon, ra, dec, mag, majA, minA, posA, strT, strN) = dso_chart[i]
 
-# convert the ra and dec from the J2000 epoch to the plot time
+# Convert the ra and dec from the J2000 epoch to the plot time
 
       (ra1, dec1) = epochpolartonow((ra, dec), now)
       (px, py) = self.vector_from_fov(ra1, dec1, now)
@@ -2301,26 +2310,26 @@ class ChartDisplay(gtk.DrawingArea):
 
 # Add the DSO to the maps.
 
-      if (strN == ""):
+      if (strN == ''):
         if (nM[0:1] == 'M'):
-          self.pmap.add(px, py, "dso-messier", nM)
-          self.omap.add("dso-messier", nM, px, py)
+          self.pmap.add(px, py, 'dso-messier', nM)
+          self.omap.add('dso-messier', nM, px, py)
         elif (nM[0:1] == 'N'):
-          self.pmap.add(px, py, "dso-ngc", nM)
-          self.omap.add("dso-ngc", nM, px, py)
+          self.pmap.add(px, py, 'dso-ngc', nM)
+          self.omap.add('dso-ngc', nM, px, py)
         else:
-          self.pmap.add(px, py, "dso", nM)
-          self.omap.add("dso", nM, px, py)
+          self.pmap.add(px, py, 'dso', nM)
+          self.omap.add('dso', nM, px, py)
       else:
         if (nM[0:1] == 'M'):
-          self.pmap.add(px, py, "dso-messier", strN + " (" + nM +")")
-          self.omap.add("dso-messier",  strN + " (" + nM + ")", px, py)
+          self.pmap.add(px, py, 'dso-messier', strN + ' (' + nM +')')
+          self.omap.add('dso-messier',  strN + ' (' + nM + ')', px, py)
         elif (nM[0:1] == 'N'):
-          self.pmap.add(px, py, "dso-ngc", strN + " (" + nM +")")
-          self.omap.add("dso-ngc",  strN + " (" + nM + ")", px, py)
+          self.pmap.add(px, py, 'dso-ngc', strN + ' (' + nM +')')
+          self.omap.add('dso-ngc',  strN + ' (' + nM + ')', px, py)
         else:
-          self.pmap.add(px, py, "dso", strN + " (" + nM +")")
-          self.omap.add("dso",  strN + " (" + nM + ")", px, py)
+          self.pmap.add(px, py, 'dso', strN + ' (' + nM +')')
+          self.omap.add('dso',  strN + ' (' + nM + ')', px, py)
 
 
   def plot_mag_planets(self):
@@ -2440,13 +2449,14 @@ class ChartDisplay(gtk.DrawingArea):
       while (lam < 0.0):
         lam = lam + 360.0
 
-# all planets use the same equation for ecliptic latitude (and this atan has no quadrant ambiguity):
+# All planets use the same equation for ecliptic latitude (and this
+# atan has no quadrant ambiguity):
 
       y = rprime * tan(dtor(psi)) * sin(dtor(lam - lprime))
       x = Re * sin(dtor(lprime - Le))
       beta = rtod(atan(y/x))
 
-# convert lam and beta to RA and DEC
+# Convert lam and beta to RA and DEC
 
       y = sin(dtor(lam)) * cos(eps) - tan(dtor(beta)) * sin(eps)
       x = cos(dtor(lam))
@@ -2457,7 +2467,7 @@ class ChartDisplay(gtk.DrawingArea):
       dec1 = rtod(asin(sin(dtor(beta)) * cos(eps) + cos(dtor(beta)) * \
                       sin(eps) * sin(dtor(lam))))
 
-# remember this planet's declination.  Locate needs to know.
+# Remember this planet's declination.  Locate needs to know.
 
       dec_from_planet[name] = dec1
       (px, py) = self.vector_from_fov(ra1, dec1, now)
@@ -2469,8 +2479,8 @@ class ChartDisplay(gtk.DrawingArea):
 
 # Add the planet to the maps
 
-      self.pmap.add(px, py, "planet", name)
-      self.omap.add("planet", name, px, py)
+      self.pmap.add(px, py, 'planet', name)
+      self.omap.add('planet', name, px, py)
 
 # Plot the sun.  This is virtually the same as for a planet, but we can simplify
 # some computations because the sun is by definition on the ecliptic.
@@ -2503,20 +2513,20 @@ class ChartDisplay(gtk.DrawingArea):
     while (ra1 < 0.0):
       ra1 = ra1 + 24.0
 
-# because beta is (by definition) 0, calculating dec is far simpler:
+# Because beta is (by definition) 0, calculating dec is far simpler:
 
     dec1 = rtod(asin(sin(sin(eps) * sin(dtor(lam)))))
     (px, py) = self.vector_from_fov(ra1, dec1, now)
     if (px >= -9000) and (py >= -9000):
-# object is not outside of the FOV.
+# Object is not outside of the FOV.
       px = int(px) + self.margin - 2 + self.xoffset + self.diameter / 2
       py = int(py) + self.margin - 2 + self.yoffset + self.diameter / 2
       self.plot_planetary_symbol(7, px, py)
 
 # Add the sun to maps
 
-      self.pmap.add(px, py, "planet", name)
-      self.omap.add("planet", name, px, py)
+      self.pmap.add(px, py, 'planet', name)
+      self.omap.add('planet', name, px, py)
 
 # Plot the moon.  Since the moon's orbit varies radically over time, there are
 # a lot of "fudge factor" correction terms in these computations.
@@ -2600,8 +2610,8 @@ class ChartDisplay(gtk.DrawingArea):
 
 # Add the moon to maps
 
-      self.pmap.add(px, py, "planet", name)
-      self.omap.add("planet", name, px, py)
+      self.pmap.add(px, py, 'planet', name)
+      self.omap.add('planet', name, px, py)
     self.gc.set_foreground(self.colors[1])
     self.location.plot_cross()
     return True
@@ -2916,7 +2926,7 @@ class StarChart(activity.Activity):
     global latitude
     activity.Activity.__init__(self, handle)
     os.chdir(get_bundle_path())
-    self.set_title(_("Star Chart Activity"))
+    self.set_title(_('Star Chart Activity'))
                     
 # Iniitialize time to now and offset to our zone.
 
@@ -2929,15 +2939,16 @@ class StarChart(activity.Activity):
     else:
       zoneoffset = zoneoffset + mm
 
-# If the file StarChart.cfg exists in the Activity's data directory, get the
-# longitude and latitude settings stored there.  This will override coordinates
-# which might have been obtained from another source (e.g.: observatory.py, which
-# is now deprecated).  (Since this file may not exist, the code is a bit turgid.)
+# If the file StarChart.cfg exists in the Activity's data directory,
+# get the longitude and latitude settings stored there.  This will
+# override coordinates which might have been obtained from another
+# source (e.g.: observatory.py, which is now deprecated).  (Since this
+# file may not exist, the code is a bit turgid.)
 
     self.datafile = os.path.join(activity.get_activity_root(),\
-                                 "data", "StarChart.cfg")
+                                 'data', 'StarChart.cfg')
     try:
-      f = open(self.datafile, "r")
+      f = open(self.datafile, 'r')
     except:
       pass
     else:
@@ -2951,8 +2962,8 @@ class StarChart(activity.Activity):
         pass
       f.close()
       
-# Build the translation from constellation name to constellation ID (needed in
-# the "Locate" feature).
+# Build the translation from constellation name to constellation ID
+# (needed in the "Locate" feature).
 
     for id in sorted(figures.keys()):
       (name, lines) = figures[id]
@@ -3092,11 +3103,11 @@ class StarChart(activity.Activity):
     separator.set_expand(False)
     self._toolbar_add(self.when_toolbar, separator)
     self._toolbar_add(self.when_toolbar, button6)
-#    objtypecb.append_text(_("Constellations"))
-    objtypecb.append_text(_("Planets"))
-    objtypecb.append_text(_("Stars by Constellation"))
-    objtypecb.append_text(_("Brightest Stars"))
-    objtypecb.append_text(_("Deep-sky Objects"))
+#    objtypecb.append_text(_('Constellations'))
+    objtypecb.append_text(_('Planets'))
+    objtypecb.append_text(_('Stars by Constellation'))
+    objtypecb.append_text(_('Brightest Stars'))
+    objtypecb.append_text(_('Deep-sky Objects'))
     self._toolbar_add(self.locate_toolbar, labell1)
     self._toolbar_add(self.locate_toolbar, objtypecb)
     (name, wbar, e, a, I, O, L0, dL) = sun
@@ -3117,27 +3128,27 @@ class StarChart(activity.Activity):
       constscb.append_text(name)
     for i in range(len(dso_chart)):
       (nM, strCon, ra, dec, mag, majA, minA, posA, strT, strN) = dso_chart[i]
-      if (strN == ""):
+      if (strN == ''):
         dsoscb.append_text(nM)
       else:
-        dsoscb.append_text(strN + " (" + nM +")")
+        dsoscb.append_text(strN + ' (' + nM +')')
     container0.add(constscb)
     self._toolbar_add(self.locate_toolbar, container0)
-    container1.add(labela1)
-    labela1.show()
-    container1.add(labela2)
-    labela2.show()
+    # container1.add(labela1)
+    # labela1.show()
+    # container1.add(labela2)
+    # labela2.show()
     container1.add(labela3)
     labela3.show()
     container1.add(labela4)
     labela4.show()
     self._toolbar_add(self.about_toolbar, container1)
     if not _have_toolbox:
-      toolbox.add_toolbar(_("What"), self.what_toolbar)
-      toolbox.add_toolbar(_("Where"), self.where_toolbar)
-      toolbox.add_toolbar(_("When"), self.when_toolbar)
-      toolbox.add_toolbar(_("Locate"), self.locate_toolbar)
-      toolbox.add_toolbar(_("About"), self.about_toolbar)
+      toolbox.add_toolbar(_('What'), self.what_toolbar)
+      toolbox.add_toolbar(_('Where'), self.where_toolbar)
+      toolbox.add_toolbar(_('When'), self.when_toolbar)
+      toolbox.add_toolbar(_('Locate'), self.locate_toolbar)
+      toolbox.add_toolbar(_('About'), self.about_toolbar)
 
 # Create the GUI objects.
 
@@ -3147,10 +3158,10 @@ class StarChart(activity.Activity):
     self.chart = ChartDisplay(self)
     eb = gtk.EventBox()
     vbox = gtk.VBox(False)
-    self.identifyobject = gtk.Label("")
+    self.identifyobject = gtk.Label('')
     vbox.pack_start(self.identifyobject, expand=False)
     vbox.pack_start(self.chart)
-    eb.modify_bg(gtk.STATE_NORMAL, gtk.gdk.color_parse("gray"))
+    eb.modify_bg(gtk.STATE_NORMAL, gtk.gdk.color_parse('gray'))
 
 # Stack the GUI objects.
 
@@ -3158,28 +3169,28 @@ class StarChart(activity.Activity):
 
 # Connect the control widget events.
 
-    fullscreen.connect("clicked", self._fullscreen_callback)
-    button1.connect("clicked", self.chart.callback, "night vision")
-    button2.connect("clicked", self.chart.callback, "invert display")
-    button3.connect("clicked", self.chart.callback, "flip horizontally")
-    button4.connect("clicked", self.chart.callback, "draw constellations")
-    rb7.connect("clicked", self.chart.callback, "rb7 clicked")
-    rb8.connect("clicked", self.chart.callback, "rb8 clicked")
-    rb9.connect("clicked", self.chart.callback, "rb9 clicked")
-    rb10.connect("clicked", self.chart.callback, "rb10 clicked")
-    rb11.connect("clicked", self.chart.callback, "rb11 clicked")
-    rb12.connect("clicked", self.chart.callback, "rb12 clicked")
-    button5.connect("clicked", self.chart.callback, "location change")
-    button51.connect("clicked", self.chart.callback, "home location set")
-    button6.connect("clicked", self.chart.callback, "time change")
-    rb6.connect("clicked", self.chart.callback, "user time")
-    rb5.connect("clicked", self.chart.callback, "now time")
-    self.chart.connect("expose_event", self.chart.area_expose_cb)
-    objtypecb.connect("changed", self.chart.callback, "objtype sel")
-    constscb.connect("changed", self.chart.callback, "constellation sel")
-    starscb.connect("changed", self.chart.callback, "star sel")
-    planetscb.connect("changed", self.chart.callback, "planet sel")
-    dsoscb.connect("changed", self.chart.callback, "dso sel")
+    fullscreen.connect('clicked', self._fullscreen_callback)
+    button1.connect('clicked', self.chart.callback, 'night vision')
+    button2.connect('clicked', self.chart.callback, 'invert display')
+    button3.connect('clicked', self.chart.callback, 'flip horizontally')
+    button4.connect('clicked', self.chart.callback, 'draw constellations')
+    rb7.connect('clicked', self.chart.callback, 'rb7 clicked')
+    rb8.connect('clicked', self.chart.callback, 'rb8 clicked')
+    rb9.connect('clicked', self.chart.callback, 'rb9 clicked')
+    rb10.connect('clicked', self.chart.callback, 'rb10 clicked')
+    rb11.connect('clicked', self.chart.callback, 'rb11 clicked')
+    rb12.connect('clicked', self.chart.callback, 'rb12 clicked')
+    button5.connect('clicked', self.chart.callback, 'location change')
+    button51.connect('clicked', self.chart.callback, 'home location set')
+    button6.connect('clicked', self.chart.callback, 'time change')
+    rb6.connect('clicked', self.chart.callback, 'user time')
+    rb5.connect('clicked', self.chart.callback, 'now time')
+    self.chart.connect('expose_event', self.chart.area_expose_cb)
+    objtypecb.connect('changed', self.chart.callback, 'objtype sel')
+    constscb.connect('changed', self.chart.callback, 'constellation sel')
+    starscb.connect('changed', self.chart.callback, 'star sel')
+    planetscb.connect('changed', self.chart.callback, 'planet sel')
+    dsoscb.connect('changed', self.chart.callback, 'dso sel')
 
 # Set the canvas
 
@@ -3230,7 +3241,7 @@ class StarChart(activity.Activity):
     global zoneoffset
     global now
 
-    f = open(filename, "r")
+    f = open(filename, 'r')
     nightvision = bool(int(self.metadata.get('Night_Vision', '0')))
     invertdisplay = bool(int(self.metadata.get('Invert', '0')))
     fliphorizontally = bool(int(self.metadata.get('Flip', '0')))
@@ -3241,7 +3252,7 @@ class StarChart(activity.Activity):
     specifytime = bool(int(self.metadata.get('Specify_Time', '0')))
     saved_specifytime = specifytime
     if (specifytime):
-      ts = self.metadata.get('Time', now.strftime("%Y/%m/%d,%H:%M"))
+      ts = self.metadata.get('Time', now.strftime('%Y/%m/%d,%H:%M'))
       zs = self.metadata.get('Zone_Offset', str(zoneoffset))
       entry3.set_text(ts)
       entry4.set_text(zs)
@@ -3257,7 +3268,7 @@ class StarChart(activity.Activity):
 
     
   def write_file(self, filename):
-    f = open(filename, "w")
+    f = open(filename, 'w')
     self.metadata['Night_Vision'] = str(int(nightvision))
     self.metadata['Invert'] = str(int(invertdisplay))
     self.metadata['Flip'] = str(int(fliphorizontally))
@@ -3279,14 +3290,15 @@ class StarChart(activity.Activity):
 # Modify the values for latitude and longitude.
     data = []
 
-# TODO: In future releases, StarChart.cfg may contain settings for other context variables.
+# TODO: In future releases, StarChart.cfg may contain settings for
+# other context variables.
 
     self.datafile = os.path.join(activity.get_activity_root(),\
-                                 "data", "StarChart.cfg")
+                                 'data', 'StarChart.cfg')
     try:
-      f = open(self.datafile, "r")
+      f = open(self.datafile, 'r')
     except:
-      f = open(self.datafile, "w")
+      f = open(self.datafile, 'w')
       pass
     else:
       try:
@@ -3300,7 +3312,7 @@ class StarChart(activity.Activity):
       except:
         pass
       f.close()
-      f = open(self.datafile, "w")
+      f = open(self.datafile, 'w')
       for i in range(len(data)):
         f.write(data[i])
     f.write('Latitude=' + str(latitude) + '\n')

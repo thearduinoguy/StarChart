@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # NGC Catalog subset
 # FIXME: Need to convert this into a dictionary such that we can more efficiently obtain
 #        the astronomical data (including common name) when looking up the catalog
@@ -73,7 +74,7 @@ data = [                                                  \
   ('NGC6723',       'Sgr',       18.993333,     -36.633333,    7.30,      11.000000,    11.000000,    0.0, 'GCl', ''),  \
   ('NGC6744',       'Pav',       19.163333,     -63.849999,    9.00,      20.000000,    12.900000,    0.0, 'Gal', ''),  \
   ('NGC6752',       'Pav',       19.181666,     -59.983333,    5.40,      20.400000,    20.400000,    0.0, 'GCl', ''),  \
-  ('NGC6822',       'Sgr',       19.748333,     -14.800000,    9.00,      15.500000,    13.500000,    0.0, 'Gal', _('Barnards Galaxy')),  \
+  ('NGC6822',       'Sgr',       19.748333,     -14.800000,    9.00,      15.500000,    13.500000,    0.0, 'Gal', _("Barnard's Galaxy")),  \
   ('NGC6888',       'Cyg',       20.200000,      38.350000,    7.40,      18.000000,    12.000000,    0.0, 'DfN', _('Crescent Nebula')),  \
   ('NGC6960',       'Cyg',       20.761666,      30.716666,    7.00,     180.000000,   180.000000,    0.0, 'DfN', _('Veil Nebula')),  \
   ('NGC7000',       'Cyg',       20.979999,      44.333333,    4.00,     120.000000,   100.000000,    0.0, 'DfN', _('North America Nebula')),  \
