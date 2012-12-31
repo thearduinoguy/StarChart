@@ -7,10 +7,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-22 10:00-0500\n"
-"PO-Revision-Date: 2012-12-23 14:14+0200\n"
+"PO-Revision-Date: 2012-12-31 23:00+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: en_US\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,11 +21,11 @@ msgstr ""
 #. TRANS: "summary" option from activity.info file
 #. TRANS: "description" option from activity.info file
 msgid "StarChart"
-msgstr "StarChart"
+msgstr "Mapa de estrellas"
 
 #: StarChart.py:227
 msgid "Mercury"
-msgstr "Mercury"
+msgstr "Mercurio"
 
 #: StarChart.py:228
 msgid "Venus"
@@ -33,51 +33,52 @@ msgstr "Venus"
 
 #: StarChart.py:229
 msgid "Earth"
-msgstr "Earth"
+msgstr "Tierra"
 
 #: StarChart.py:230
 msgid "Mars"
-msgstr "Mars"
+msgstr "Marte"
 
 #: StarChart.py:231
 msgid "Jupiter"
-msgstr "Jupiter"
+msgstr "Júpiter"
 
 #: StarChart.py:232
 msgid "Saturn"
-msgstr "Saturn"
+msgstr "Saturno"
 
 #: StarChart.py:233
 msgid "Uranus"
-msgstr "Uranus"
+msgstr "Urano"
 
 #: StarChart.py:235 StarChart.py:995 StarChart.py:1651
 msgid "Sun"
-msgstr "Sun"
+msgstr "Sol"
 
 #: StarChart.py:241 StarChart.py:998 StarChart.py:1649
 msgid "Moon"
-msgstr "Moon"
+msgstr "Luna"
 
 #: StarChart.py:786
 msgid "Night Vision"
-msgstr "Night Vision"
+msgstr "Visión Nocturna"
 
 #: StarChart.py:788
 msgid "Invert Display"
-msgstr "Invert Display"
+msgstr "Invertir Pantalla"
 
 #: StarChart.py:790
 msgid "Flip L/R"
-msgstr "Flip L/R"
+msgstr "Voltear D/I"
 
 #: StarChart.py:793
 msgid "Draw Constellations"
-msgstr "Draw Constellations"
+msgstr "Dibujar Constelaciones"
 
+# la forma corta puede no entenderse y hay espacio suficiente
 #: StarChart.py:795
 msgid "Mag:"
-msgstr "Mag:"
+msgstr "Magnitud:"
 
 #: StarChart.py:796
 msgid "1"
@@ -105,7 +106,7 @@ msgstr "6"
 
 #: StarChart.py:805
 msgid "Longitude:"
-msgstr "Longitude:"
+msgstr "Longitud:"
 
 #: StarChart.py:808 StarChart.py:1755 StarChart.py:1764
 msgid "E"
@@ -113,11 +114,11 @@ msgstr "E"
 
 #: StarChart.py:809 StarChart.py:1757 StarChart.py:1762
 msgid "W"
-msgstr "W"
+msgstr "O"
 
 #: StarChart.py:810
 msgid "Latitude:"
-msgstr "Latitude:"
+msgstr "Latitud:"
 
 #: StarChart.py:813 StarChart.py:1746
 msgid "N"
@@ -133,19 +134,19 @@ msgstr "Ok"
 
 #: StarChart.py:822
 msgid "Make home"
-msgstr "Make home"
+msgstr "Hacer casa"
 
 #: StarChart.py:825
 msgid "Now"
-msgstr "Now"
+msgstr "Ahora"
 
 #: StarChart.py:826
 msgid "Specify"
-msgstr "Specify"
+msgstr "Especificar"
 
 #: StarChart.py:827
 msgid "Time:"
-msgstr "Time:"
+msgstr "Hora:"
 
 #: StarChart.py:830
 msgid "Offset:"
@@ -153,107 +154,107 @@ msgstr "Offset:"
 
 #: StarChart.py:840
 msgid "Object type:"
-msgstr "Object type:"
+msgstr "Tipo de objeto:"
 
 #: StarChart.py:851
 msgid "See http://wiki.laptop.org/go/StarChart for help."
-msgstr "See http://wiki.laptop.org/go/StarChart for help."
+msgstr "Ver http://wiki.laptop.org/go/StarChart para ayuda."
 
 #: StarChart.py:925
 msgid "There is no object here."
-msgstr "There is no object here."
+msgstr "No hay un objeto allí."
 
 #: StarChart.py:992
 msgid "deep-sky object"
-msgstr "deep-sky object"
+msgstr "objeto del cielo profundo"
 
 #: StarChart.py:994
 msgid "planet"
-msgstr "planet"
+msgstr "planeta"
 
 #: StarChart.py:996 StarChart.py:999
 msgid "Object is: "
-msgstr "Object is: "
+msgstr "El objeto es: "
 
 #: StarChart.py:1002
 msgid "star"
-msgstr "star"
+msgstr "estrella"
 
 #: StarChart.py:1003
 msgid "Object is "
-msgstr "Object is "
+msgstr "El objeto es "
 
 #: StarChart.py:1406 StarChart.py:3107
 msgid "Planets"
-msgstr "Planets"
+msgstr "Planetas"
 
 #: StarChart.py:1417 StarChart.py:3108
 msgid "Stars by Constellation"
-msgstr "Stars by Constellation"
+msgstr "Estrellas por Constelación"
 
 #: StarChart.py:1431 StarChart.py:3109
 msgid "Brightest Stars"
-msgstr "Brightest Stars"
+msgstr "Estrellas mas Brillantes"
 
 #: StarChart.py:1452 StarChart.py:3110
 msgid "Deep-sky Objects"
-msgstr "Deep-sky Objects"
+msgstr "Objetos del cielo profundo"
 
 #: StarChart.py:1617
 msgid "This object is always below the horizon at your location."
-msgstr "This object is always below the horizon at your location."
+msgstr "Este objeto está siempre por debajo del horizonte en tu ubicación."
 
 #: StarChart.py:1620
 msgid "This object is currently not in the field of view."
-msgstr "This object is currently not in the field of view."
+msgstr "Este objeto no está actualmente en el campo de visión."
 
 #: StarChart.py:1622
 msgid "This object is currently below your horizon."
-msgstr "This object is currently below your horizon."
+msgstr "Este objeto se encuentra por debajo de tu horizonte."
 
 #: StarChart.py:1662
 msgid "Input Error: The longitude was not understood."
-msgstr "Input Error: The longitude was not understood."
+msgstr "Error de entrada: La longitud no se entendía."
 
 #: StarChart.py:1666
 msgid "Input Error: The latitude was not understood."
-msgstr "Input Error: The latitude was not understood."
+msgstr "Error de entrada: La libertad no se entendía."
 
 #: StarChart.py:1670
 msgid "Input Error: The time was not understood."
-msgstr "Input Error: The time was not understood."
+msgstr "Error de entrada: El tiempo no se entendía."
 
 #: StarChart.py:1674
 msgid "Input Error: The time zone offset was not understood."
-msgstr "Input Error: The time zone offset was not understood."
+msgstr "Error de entrada: El ajuste de la zona horaria no se entendía."
 
 #: StarChart.py:2929
 msgid "Star Chart Activity"
-msgstr "Star Chart Activity"
+msgstr "Actividad Mapa de Estrellas"
 
 #: StarChart.py:3147
 msgid "What"
-msgstr "What"
+msgstr "Qué"
 
 #: StarChart.py:3148
 msgid "Where"
-msgstr "Where"
+msgstr "Dónde"
 
 #: StarChart.py:3149
 msgid "When"
-msgstr "When"
+msgstr "Cuando"
 
 #: StarChart.py:3150
 msgid "Locate"
-msgstr "Locate"
+msgstr "Localizar"
 
 #: StarChart.py:3151
 msgid "About"
-msgstr "About"
+msgstr "Acerca"
 
 #: constellations.py:14
 msgid "Andromeda"
-msgstr "Andromeda"
+msgstr "Andrómeda"
 
 #: constellations.py:24
 msgid "Antlia"
@@ -265,11 +266,11 @@ msgstr "Apus"
 
 #: constellations.py:34
 msgid "Aquarius"
-msgstr "Aquarius"
+msgstr "Acuario"
 
 #: constellations.py:53
 msgid "Aquila"
-msgstr "Aquila"
+msgstr "Águila"
 
 #: constellations.py:66
 msgid "Ara"
@@ -285,7 +286,7 @@ msgstr "Auriga"
 
 #: constellations.py:90
 msgid "Boötes"
-msgstr "Boötes"
+msgstr "Boyero"
 
 #: constellations.py:102
 msgid "Caelum"
@@ -297,7 +298,7 @@ msgstr "Camelopardalis"
 
 #: constellations.py:114
 msgid "Cancer"
-msgstr "Cancer"
+msgstr "Cáncer"
 
 #: constellations.py:121
 msgid "Canis Venatici"
@@ -305,15 +306,15 @@ msgstr "Canis Venatici"
 
 #: constellations.py:126
 msgid "Canis Major"
-msgstr "Canis Major"
+msgstr "Can Mayor"
 
 #: constellations.py:138
 msgid "Canis Minor"
-msgstr "Canis Minor"
+msgstr "Can Menor"
 
 #: constellations.py:141
 msgid "Capricornus"
-msgstr "Capricornus"
+msgstr "Capricornio"
 
 #: constellations.py:154
 msgid "Carina"
@@ -321,15 +322,15 @@ msgstr "Carina"
 
 #: constellations.py:167
 msgid "Cassiopeia"
-msgstr "Cassiopeia"
+msgstr "Cassiopea"
 
 #: constellations.py:173
 msgid "Centaurus"
-msgstr "Centaurus"
+msgstr "Centauro"
 
 #: constellations.py:187
 msgid "Cepheus"
-msgstr "Cepheus"
+msgstr "Cefeo"
 
 #: constellations.py:195
 msgid "Cetus"
@@ -373,7 +374,7 @@ msgstr "Crux"
 
 #: constellations.py:271
 msgid "Cygnus"
-msgstr "Cygnus"
+msgstr "Cisne"
 
 #: constellations.py:278
 msgid "Delphinus"
@@ -401,7 +402,7 @@ msgstr "Fornax"
 
 #: constellations.py:354
 msgid "Gemini"
-msgstr "Gemini"
+msgstr "Géminis"
 
 #: constellations.py:365
 msgid "Grus"
@@ -409,7 +410,7 @@ msgstr "Grus"
 
 #: constellations.py:377
 msgid "Hercules"
-msgstr "Hercules"
+msgstr "Hércules"
 
 #: constellations.py:398
 msgid "Horologium"
@@ -417,7 +418,7 @@ msgstr "Horologium"
 
 #: constellations.py:405
 msgid "Hydra"
-msgstr "Hydra"
+msgstr "Hidra"
 
 #: constellations.py:423
 msgid "Hydrus"
@@ -437,7 +438,7 @@ msgstr "Leo"
 
 #: constellations.py:452
 msgid "Leo Minor"
-msgstr "Leo Minor"
+msgstr "Leo Menor"
 
 #: constellations.py:456
 msgid "Lepus"
@@ -453,11 +454,11 @@ msgstr "Lupus"
 
 #: constellations.py:488
 msgid "Lynx"
-msgstr "Lynx"
+msgstr "Lince"
 
 #: constellations.py:497
 msgid "Lyra"
-msgstr "Lyra"
+msgstr "Lira"
 
 #: constellations.py:505
 msgid "Mensa"
@@ -489,7 +490,7 @@ msgstr "Ophiuchus"
 
 #: constellations.py:552
 msgid "Orion"
-msgstr "Orion"
+msgstr "Orión"
 
 #: constellations.py:572
 msgid "Pavo"
@@ -497,15 +498,15 @@ msgstr "Pavo"
 
 #: constellations.py:581
 msgid "Pegasus"
-msgstr "Pegasus"
+msgstr "Pegaso"
 
 #: constellations.py:597
 msgid "Perseus"
-msgstr "Perseus"
+msgstr "Perseo"
 
 #: constellations.py:615
 msgid "Phoenix"
-msgstr "Phoenix"
+msgstr "Fénix"
 
 #: constellations.py:623
 msgid "Pictor"
@@ -513,7 +514,7 @@ msgstr "Pictor"
 
 #: constellations.py:627
 msgid "Pisces"
-msgstr "Pisces"
+msgstr "Piscis"
 
 #: constellations.py:645
 msgid "Piscis Australis"
@@ -529,7 +530,7 @@ msgstr "Pyxis"
 
 #: constellations.py:669
 msgid "Reticulum"
-msgstr "Reticulum"
+msgstr "Retículo"
 
 #: constellations.py:676
 msgid "Sagitta"
@@ -537,31 +538,31 @@ msgstr "Sagitta"
 
 #: constellations.py:681
 msgid "Sagittarius"
-msgstr "Sagittarius"
+msgstr "Sagitario"
 
 #: constellations.py:699
 msgid "Sculptor"
-msgstr "Sculptor"
+msgstr "Escultor"
 
 #: constellations.py:704
 msgid "Scorpius"
-msgstr "Scorpius"
+msgstr "Escorpio"
 
 #: constellations.py:720
 msgid "Scutum"
-msgstr "Scutum"
+msgstr "Escudo"
 
 #: constellations.py:724
 msgid "Serpens"
-msgstr "Serpens"
+msgstr "Serpiente"
 
 #: constellations.py:742
 msgid "Sextans"
-msgstr "Sextans"
+msgstr "Sextante"
 
 #: constellations.py:748
 msgid "Taurus"
-msgstr "Taurus"
+msgstr "Tauro"
 
 #: constellations.py:761
 msgid "Telescopium"
@@ -569,23 +570,23 @@ msgstr "Telescopium"
 
 #: constellations.py:765
 msgid "Triangulum"
-msgstr "Triangulum"
+msgstr "Triángulo"
 
 #: constellations.py:770
 msgid "Triangulum Australis"
-msgstr "Triangulum Australis"
+msgstr "Triángulo Australis"
 
 #: constellations.py:775
 msgid "Tucana"
-msgstr "Tucana"
+msgstr "Tucán"
 
 #: constellations.py:782
 msgid "Ursa Major"
-msgstr "Ursa Major"
+msgstr "Osa Mayor"
 
 #: constellations.py:801
 msgid "Ursa Minor"
-msgstr "Ursa Minor"
+msgstr "Osa Menor"
 
 #: constellations.py:810
 msgid "Vela"
@@ -601,83 +602,83 @@ msgstr "Volans"
 
 #: constellations.py:839
 msgid "Vulpecula"
-msgstr "Vulpecula"
+msgstr "Vulpécula"
 
 #: dso1.py:32
 msgid "Butterfly Cluster"
-msgstr "Butterfly Cluster"
+msgstr "Grupo de la Mariposa"
 
 #: dso1.py:33
 msgid "Ptolemy's Cluster"
-msgstr "Ptolemy's Cluster"
+msgstr "Grupo de Ptolomeo"
 
 #: dso1.py:34
 msgid "Lagoon Nebula"
-msgstr "Lagoon Nebula"
+msgstr "Nebulosa de la Laguna"
 
 #: dso1.py:36
 msgid "Wild Duck Cluster"
-msgstr "Wild Duck Cluster"
+msgstr "Cúmulo del Pato Salvaje"
 
 #: dso1.py:38
 msgid "Hercules Cluster"
-msgstr "Hercules Cluster"
+msgstr "Grupo de Hércules"
 
 #: dso1.py:40
 msgid "Omega Nebula"
-msgstr "Omega Nebula"
+msgstr "Nebulosa de Omega"
 
 #: dso1.py:42
 msgid "Trifid Nebula"
-msgstr "Trifid Nebula"
+msgstr "Nebulosa Trífida"
 
 #: dso1.py:49
 msgid "Andromeda Galaxy"
-msgstr "Andromeda Galaxy"
+msgstr "Galaxia de Andrómeda"
 
 #: dso1.py:50
 msgid "Triangulum Galaxy"
-msgstr "Triangulum Galaxy"
+msgstr "Galaxia del Triángulo"
 
 #: dso1.py:58
 msgid "Orion Nebula"
-msgstr "Orion Nebula"
+msgstr "Nebulosa de Orión"
 
 #: dso1.py:59
 msgid "de Mairans Nebula"
-msgstr "de Mairans Nebula"
+msgstr "Nebulosa de Mairans"
 
 #: dso1.py:60
 msgid "Beehive Cluster"
-msgstr "Beehive Cluster"
+msgstr "Grupo de la Colmena"
 
 #: dso1.py:61
 msgid "Pleiades"
-msgstr "Pleiades"
+msgstr "Pléyades"
 
 #: dso1.py:66
 msgid "Whirlpool Galaxy"
-msgstr "Whirlpool Galaxy"
+msgstr "Galaxia del Jacuzzi"
 
 #: dso1.py:71
 msgid "Sunflower Galaxy"
-msgstr "Sunflower Galaxy"
+msgstr "Galaxia del Girasol"
 
 #: dso1.py:74
 msgid "Bodes Galaxy"
-msgstr "Bodes Galaxy"
+msgstr "Galaxia de Bodes"
 
 #: dso1.py:75
 msgid "Southern Pinwheel Galaxy"
-msgstr "Southern Pinwheel Galaxy"
+msgstr "Galaxia del Molinete del Sur"
 
 #: dso1.py:78
 msgid "Pinwheel Galaxy"
-msgstr "Pinwheel Galaxy"
+msgstr "Galaxia del Molinete"
 
 #: dso2.py:35
 msgid "Large Magellanic Cloud"
-msgstr "Large Magellanic Cloud"
+msgstr "Gran nube de Magallanes"
 
 #: dso2.py:40
 msgid "47 Tucanae"
@@ -685,43 +686,43 @@ msgstr "47 Tucanae"
 
 #: dso2.py:41
 msgid "Sculptor Galaxy"
-msgstr "Sculptor Galaxy"
+msgstr "Galaxia Sculptor"
 
 #: dso2.py:43
 msgid "Small Magellanic Cloud"
-msgstr "Small Magellanic Cloud"
+msgstr "Pequeña nube de Magallanes"
 
 #: dso2.py:46
 msgid "Double Cluster"
-msgstr "Double Cluster"
+msgstr "Doble Cúmulo"
 
 #: dso2.py:48
 msgid "California Nebula"
-msgstr "California Nebula"
+msgstr "Nebulosa de California"
 
 #: dso2.py:54
 msgid "Cone Nebula"
-msgstr "Cone Nebula"
+msgstr "Nebulosa del Cono"
 
 #: dso2.py:56
 msgid "Rosette Nebula"
-msgstr "Rosette Nebula"
+msgstr "Nebulosa de Roseta"
 
 #: dso2.py:60
 msgid "Ghost of Jupiter"
-msgstr "Ghost of Jupiter"
+msgstr "Fantasma de Júpiter"
 
 #: dso2.py:61
 msgid "Eta Carina  Nebula"
-msgstr "Eta Carina  Nebula"
+msgstr "Nebulosa Eta Carina"
 
 #: dso2.py:63
 msgid "Jewel Box"
-msgstr "Jewel Box"
+msgstr "Caja de Joyas"
 
 #: dso2.py:66
 msgid "Centaurus A"
-msgstr "Centaurus A"
+msgstr "A Centauro"
 
 #: dso2.py:67
 msgid "Omega Centauri"
@@ -729,16 +730,19 @@ msgstr "Omega Centauri"
 
 #: dso2.py:77
 msgid "Barnard's Galaxy"
-msgstr "Barnard's Galaxy"
+msgstr "Galaxia de Barnard"
 
 #: dso2.py:78
 msgid "Crescent Nebula"
-msgstr "Crescent Nebula"
+msgstr "Nebulosa Crescent"
 
 #: dso2.py:79
 msgid "Veil Nebula"
-msgstr "Veil Nebula"
+msgstr "Nebulosa del Velo"
 
 #: dso2.py:80
 msgid "North America Nebula"
-msgstr "North America Nebula"
+msgstr "Nebulosa de América del Norte"
+
+#~ msgid "Version 2.0 (build 115) of 2010.04.21.1530 UT"
+#~ msgstr "Version 2.0 (build 115) de 2010.04.21.1530 UT"
