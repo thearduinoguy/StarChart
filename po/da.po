@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-01-01 00:33-0500\n"
-"PO-Revision-Date: 2013-02-09 01:36+0200\n"
+"PO-Revision-Date: 2013-02-15 06:14+0200\n"
 "Last-Translator: Aputsiaq Niels <aj@isit.gl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
@@ -349,396 +349,396 @@ msgstr "Duen (Columba)"
 
 #: constellations.py:229
 msgid "Coma Berenices"
-msgstr ""
+msgstr "Berenikes Lokker (Coma Berenices)"
 
 #: constellations.py:233
 msgid "Corona Australis"
-msgstr ""
+msgstr "Sydlige Krone (Corona Australis)"
 
 #: constellations.py:242
 msgid "Corona Borealis"
-msgstr ""
+msgstr "Nordlige Krone (Corona Borealis)"
 
 #: constellations.py:250
 msgid "Corvus"
-msgstr ""
+msgstr "Ravnen (Corvus)"
 
 #: constellations.py:257
 msgid "Crater"
-msgstr ""
+msgstr "Bægeret (Crater)"
 
 #: constellations.py:267
 msgid "Crux"
-msgstr ""
+msgstr "Sydkorset (Crux)"
 
 #: constellations.py:271
 msgid "Cygnus"
-msgstr ""
+msgstr "Svanen (Cygnus)"
 
 #: constellations.py:278
 msgid "Delphinus"
-msgstr ""
+msgstr "Delfinen (Delphinus)"
 
 #: constellations.py:285
 msgid "Dorado"
-msgstr ""
+msgstr "Guldfisken (Dorado)"
 
 #: constellations.py:290
 msgid "Draco"
-msgstr ""
+msgstr "Dragen (Draco)"
 
 #: constellations.py:312
 msgid "Equuleus"
-msgstr ""
+msgstr "Føllet (Equuleus)"
 
 #: constellations.py:316
 msgid "Eridanus"
-msgstr ""
+msgstr "Floden (Eridanus)"
 
 #: constellations.py:348
 msgid "Fornax"
-msgstr ""
+msgstr "Kemiske Ovn el. Ovnen (Fornax)"
 
 #: constellations.py:354
 msgid "Gemini"
-msgstr ""
+msgstr "Tvillingerne (Gemini) "
 
 #: constellations.py:365
 msgid "Grus"
-msgstr ""
+msgstr "Tranen (Grus)"
 
 #: constellations.py:377
 msgid "Hercules"
-msgstr ""
+msgstr "Herkules (Hercules)"
 
 #: constellations.py:398
 msgid "Horologium"
-msgstr ""
+msgstr "Uret (Horologium)"
 
 #: constellations.py:405
 msgid "Hydra"
-msgstr ""
+msgstr "Søslangen (Hydra)"
 
 #: constellations.py:423
 msgid "Hydrus"
-msgstr ""
+msgstr "Lille Søslange (Hydrus)"
 
 #: constellations.py:428
 msgid "Indus"
-msgstr ""
+msgstr "Indianeren (Indus)"
 
 #: constellations.py:433
 msgid "Lacerta"
-msgstr ""
+msgstr "Firbenet (Lacerta)"
 
 #: constellations.py:441
 msgid "Leo"
-msgstr ""
+msgstr "Løven (Leo)"
 
 #: constellations.py:452
 msgid "Leo Minor"
-msgstr ""
+msgstr "Lille Løve (Leo Minor)"
 
 #: constellations.py:456
 msgid "Lepus"
-msgstr ""
+msgstr "Haren (Lepus)"
 
 #: constellations.py:466
 msgid "Libra"
-msgstr ""
+msgstr "Vægten (Libra)"
 
 #: constellations.py:474
 msgid "Lupus"
-msgstr ""
+msgstr "Ulven (Lupus)"
 
 #: constellations.py:488
 msgid "Lynx"
-msgstr ""
+msgstr "Lossen (Lynx)"
 
 #: constellations.py:497
 msgid "Lyra"
-msgstr ""
+msgstr "Lyren (Lyra)"
 
 #: constellations.py:505
 msgid "Mensa"
-msgstr ""
+msgstr "Taffelbjerget (Mensa)"
 
 #: constellations.py:510
 msgid "Microscopium"
-msgstr ""
+msgstr "Mikroskopet (Microscopium)"
 
 #: constellations.py:515
 msgid "Monoceros"
-msgstr ""
+msgstr "Enhjørningen (Monoceros)"
 
 #: constellations.py:521
 msgid "Musca"
-msgstr ""
+msgstr "Fluen (Musca)"
 
 #: constellations.py:528
 msgid "Norma"
-msgstr ""
+msgstr "Vinkelmåleren (Norma)"
 
 #: constellations.py:534
 msgid "Octans"
-msgstr ""
+msgstr "Oktanten (Octans)"
 
 #: constellations.py:539
 msgid "Ophiuchus"
-msgstr ""
+msgstr "Slangeholderen (Ophiuchus)"
 
 #: constellations.py:552
 msgid "Orion"
-msgstr ""
+msgstr "Orion"
 
 #: constellations.py:572
 msgid "Pavo"
-msgstr ""
+msgstr "Påfuglen (Pavo)"
 
 #: constellations.py:581
 msgid "Pegasus"
-msgstr ""
+msgstr "Pegasus"
 
 #: constellations.py:597
 msgid "Perseus"
-msgstr ""
+msgstr "Perseus"
 
 #: constellations.py:615
 msgid "Phoenix"
-msgstr ""
+msgstr "Føniks (Phoenix)"
 
 #: constellations.py:623
 msgid "Pictor"
-msgstr ""
+msgstr "Staffeliet (Pictor)"
 
 #: constellations.py:627
 msgid "Pisces"
-msgstr ""
+msgstr "Fiskene (Pisces)"
 
 #: constellations.py:645
 msgid "Piscis Australis"
-msgstr ""
+msgstr "Sydlige Fisk (Piscis Australis)"
 
 #: constellations.py:653
 msgid "Puppis"
-msgstr ""
+msgstr "Agterstavnen (Puppis)"
 
 #: constellations.py:665
 msgid "Pyxis"
-msgstr ""
+msgstr "Kompasset (Pyxis)"
 
 #: constellations.py:669
 msgid "Reticulum"
-msgstr ""
+msgstr "Nettet (Reticulum)"
 
 #: constellations.py:676
 msgid "Sagitta"
-msgstr ""
+msgstr "Pilen (Sagitta)"
 
 #: constellations.py:681
 msgid "Sagittarius"
-msgstr ""
+msgstr "Skytten (Sagittarius)"
 
 #: constellations.py:699
 msgid "Sculptor"
-msgstr ""
+msgstr "Billedhuggerværkstedet el. Billedhuggeren (Sculptor)"
 
 #: constellations.py:704
 msgid "Scorpius"
-msgstr ""
+msgstr "Skorpionen (Scorpius)"
 
 #: constellations.py:720
 msgid "Scutum"
-msgstr ""
+msgstr "Skjoldet (Scutum)"
 
 #: constellations.py:724
 msgid "Serpens"
-msgstr ""
+msgstr "Slangen (Serpens)"
 
 #: constellations.py:742
 msgid "Sextans"
-msgstr ""
+msgstr "Sekstanten (Sextans)"
 
 #: constellations.py:748
 msgid "Taurus"
-msgstr ""
+msgstr "Tyren (Taurus)"
 
 #: constellations.py:761
 msgid "Telescopium"
-msgstr ""
+msgstr "Kikkerten eller Teleskopet (Telescopium)"
 
 #: constellations.py:765
 msgid "Triangulum"
-msgstr ""
+msgstr "Trekanten el. Trianglen (Triangulum)"
 
 #: constellations.py:770
 msgid "Triangulum Australis"
-msgstr ""
+msgstr "Sydlige Trekant (Triangulum Australe)"
 
 #: constellations.py:775
 msgid "Tucana"
-msgstr ""
+msgstr "Peberfuglen el. Tukanen (Tucana)"
 
 #: constellations.py:782
 msgid "Ursa Major"
-msgstr ""
+msgstr "Store Bjørn (Ursa Major)"
 
 #: constellations.py:801
 msgid "Ursa Minor"
-msgstr ""
+msgstr "Lille Bjørn (Ursa Minor)"
 
 #: constellations.py:810
 msgid "Vela"
-msgstr ""
+msgstr "Sejlet (Vela)"
 
 #: constellations.py:819
 msgid "Virgo"
-msgstr ""
+msgstr "Jomfruen (Virgo)"
 
 #: constellations.py:831
 msgid "Volans"
-msgstr ""
+msgstr "Flyvefisken (Volans)"
 
 #: constellations.py:839
 msgid "Vulpecula"
-msgstr ""
+msgstr "Ræven (Vulpecula)"
 
 #: dso1.py:32
 msgid "Butterfly Cluster"
-msgstr ""
+msgstr "Butterfly-stjernehoben (Messierobjekt 6)"
 
 #: dso1.py:33
 msgid "Ptolemy's Cluster"
-msgstr ""
+msgstr "Ptolemaios' stjernehob (Messierobjekt 7)"
 
 #: dso1.py:34
 msgid "Lagoon Nebula"
-msgstr ""
+msgstr "Lagunetågen (Lagoon Nebula)"
 
 #: dso1.py:36
 msgid "Wild Duck Cluster"
-msgstr ""
+msgstr "Wild Duck Cluster (Messierobjekt 11)"
 
 #: dso1.py:38
 msgid "Hercules Cluster"
-msgstr ""
+msgstr "Herkuleshoben (Messierobjekt 13)"
 
 #: dso1.py:40
 msgid "Omega Nebula"
-msgstr ""
+msgstr "Omegatågen (Messierobjekt 17)"
 
 #: dso1.py:42
 msgid "Trifid Nebula"
-msgstr ""
+msgstr "Trifidtågen (Messierobjekt 20)"
 
 #: dso1.py:49
 msgid "Andromeda Galaxy"
-msgstr ""
+msgstr "Andromedagalaksen"
 
 #: dso1.py:50
 msgid "Triangulum Galaxy"
-msgstr ""
+msgstr "Triangulum-galaksen"
 
 #: dso1.py:58
 msgid "Orion Nebula"
-msgstr ""
+msgstr "Oriontågen"
 
 #: dso1.py:59
 msgid "de Mairans Nebula"
-msgstr ""
+msgstr "De Mairans tåge i Orion"
 
 #: dso1.py:60
 msgid "Beehive Cluster"
-msgstr ""
+msgstr "Bikube-hoben"
 
 #: dso1.py:61
 msgid "Pleiades"
-msgstr ""
+msgstr "Syvstjernen"
 
 #: dso1.py:66
 msgid "Whirlpool Galaxy"
-msgstr ""
+msgstr "Hvirvelgalaksen"
 
 #: dso1.py:71
 msgid "Sunflower Galaxy"
-msgstr ""
+msgstr "Solblomstgalaksen"
 
 #: dso1.py:74
 msgid "Bodes Galaxy"
-msgstr ""
+msgstr "Bodes galakse"
 
 #: dso1.py:75
 msgid "Southern Pinwheel Galaxy"
-msgstr ""
+msgstr "Southern Pinwheel Galaxy (Messierobjekt 83)"
 
 #: dso1.py:78
 msgid "Pinwheel Galaxy"
-msgstr ""
+msgstr "Pinwheel Galaxy (Messierobjekt 101)"
 
 #: dso2.py:35
 msgid "Large Magellanic Cloud"
-msgstr ""
+msgstr "Den Store Magellanske Sky"
 
 #: dso2.py:40
 msgid "47 Tucanae"
-msgstr ""
+msgstr "47 Tucanae (NGC 104)"
 
 #: dso2.py:41
 msgid "Sculptor Galaxy"
-msgstr ""
+msgstr "Billedhuggergalaksen (NGC 253)"
 
 #: dso2.py:43
 msgid "Small Magellanic Cloud"
-msgstr ""
+msgstr "Den Lille Magellanske Sky"
 
 #: dso2.py:46
 msgid "Double Cluster"
-msgstr ""
+msgstr "Dobbelthoben (Caldwell 14)"
 
 #: dso2.py:48
 msgid "California Nebula"
-msgstr ""
+msgstr "Stjernetågen California Nebula (NGC 1499)"
 
 #: dso2.py:54
 msgid "Cone Nebula"
-msgstr ""
+msgstr "Stjernetågen Cone Nebula"
 
 #: dso2.py:56
 msgid "Rosette Nebula"
-msgstr ""
+msgstr "Sternetågen Rosette Nebula (Caldwell 49)"
 
 #: dso2.py:60
 msgid "Ghost of Jupiter"
-msgstr ""
+msgstr "Jupiters genfærd (NGC 3242)"
 
 #: dso2.py:61
 msgid "Eta Carina Nebula"
-msgstr ""
+msgstr "Eta Carinae-tågen (NGC 3372)"
 
 #: dso2.py:63
 msgid "Jewel Box"
-msgstr ""
+msgstr "Smykkeskrinet (NGC 4755)"
 
 #: dso2.py:66
 msgid "Centaurus A"
-msgstr ""
+msgstr "Centaurus A (NGC 5128)"
 
 #: dso2.py:67
 msgid "Omega Centauri"
-msgstr ""
+msgstr "Omega Centauri"
 
 #: dso2.py:77
 msgid "Barnard's Galaxy"
-msgstr ""
+msgstr "Barnards galakse (NGC 6822)"
 
 #: dso2.py:78
 msgid "Crescent Nebula"
-msgstr ""
+msgstr "Crescent-tågen (NGC 6888)"
 
 #: dso2.py:79
 msgid "Veil Nebula"
-msgstr ""
+msgstr "Stjernetågen Veil Nebula"
 
 #: dso2.py:80
 msgid "North America Nebula"
-msgstr ""
+msgstr "Nordamerikatågen (NGC 7000)"
