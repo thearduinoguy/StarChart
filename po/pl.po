@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-22 10:00-0500\n"
-"PO-Revision-Date: 2012-12-25 04:47+0200\n"
+"POT-Creation-Date: 2013-01-01 00:33-0500\n"
+"PO-Revision-Date: 2013-01-02 21:14+0200\n"
 "Last-Translator: Kamila <kamilafilipowska@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -62,19 +62,19 @@ msgstr "Księżyc"
 
 #: StarChart.py:786
 msgid "Night Vision"
-msgstr ""
+msgstr "Noktowizor"
 
 #: StarChart.py:788
 msgid "Invert Display"
-msgstr ""
+msgstr "Pokaż negatyw"
 
 #: StarChart.py:790
 msgid "Flip L/R"
-msgstr ""
+msgstr "Obróć L/P"
 
 #: StarChart.py:793
 msgid "Draw Constellations"
-msgstr ""
+msgstr "Narysuj konstelacje"
 
 #: StarChart.py:795
 msgid "Mag:"
@@ -82,55 +82,55 @@ msgstr ""
 
 #: StarChart.py:796
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: StarChart.py:797
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: StarChart.py:798
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: StarChart.py:799
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: StarChart.py:800
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: StarChart.py:801
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: StarChart.py:805
 msgid "Longitude:"
-msgstr ""
+msgstr "Długość geograficzna:"
 
 #: StarChart.py:808 StarChart.py:1755 StarChart.py:1764
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #: StarChart.py:809 StarChart.py:1757 StarChart.py:1762
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #: StarChart.py:810
 msgid "Latitude:"
-msgstr ""
+msgstr "Szerokość geograficzna:"
 
 #: StarChart.py:813 StarChart.py:1746
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: StarChart.py:814 StarChart.py:1750
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #: StarChart.py:819 StarChart.py:837
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: StarChart.py:822
 msgid "Make home"
@@ -138,7 +138,7 @@ msgstr ""
 
 #: StarChart.py:825
 msgid "Now"
-msgstr ""
+msgstr "Teraz"
 
 #: StarChart.py:826
 msgid "Specify"
@@ -146,7 +146,7 @@ msgstr ""
 
 #: StarChart.py:827
 msgid "Time:"
-msgstr ""
+msgstr "Czas:"
 
 #: StarChart.py:830
 msgid "Offset:"
@@ -170,23 +170,23 @@ msgstr ""
 
 #: StarChart.py:994
 msgid "planet"
-msgstr ""
+msgstr "planeta"
 
 #: StarChart.py:996 StarChart.py:999
 msgid "Object is: "
-msgstr ""
+msgstr "Obiekt to:"
 
 #: StarChart.py:1002
 msgid "star"
-msgstr ""
+msgstr "gwiazda"
 
 #: StarChart.py:1003
 msgid "Object is "
-msgstr ""
+msgstr "Obiekt jest "
 
 #: StarChart.py:1406 StarChart.py:3107
 msgid "Planets"
-msgstr ""
+msgstr "Planety"
 
 #: StarChart.py:1417 StarChart.py:3108
 msgid "Stars by Constellation"
@@ -194,7 +194,7 @@ msgstr ""
 
 #: StarChart.py:1431 StarChart.py:3109
 msgid "Brightest Stars"
-msgstr ""
+msgstr "Najjaśniejsze gwiazdy"
 
 #: StarChart.py:1452 StarChart.py:3110
 msgid "Deep-sky Objects"
@@ -202,31 +202,32 @@ msgstr ""
 
 #: StarChart.py:1617
 msgid "This object is always below the horizon at your location."
-msgstr ""
+msgstr "Przy twojej lokacji ten obiekt będzie zawsze za horyzontem."
 
 #: StarChart.py:1620
 msgid "This object is currently not in the field of view."
-msgstr ""
+msgstr "Ten obiekt jest poza polem widzenia."
 
 #: StarChart.py:1622
 msgid "This object is currently below your horizon."
-msgstr ""
+msgstr "Ten obiekt jest za horyzontem."
 
 #: StarChart.py:1662
 msgid "Input Error: The longitude was not understood."
-msgstr ""
+msgstr "Błąd wprowadzania: Nie rozpoznano długości geograficznej."
 
 #: StarChart.py:1666
 msgid "Input Error: The latitude was not understood."
-msgstr ""
+msgstr "Błąd wprowadzania: Nie rozpoznano szerokości geograficznej."
 
 #: StarChart.py:1670
 msgid "Input Error: The time was not understood."
-msgstr ""
+msgstr "Błąd wprowadzania: Nie rozpoznano czasu."
 
 #: StarChart.py:1674
+#, fuzzy
 msgid "Input Error: The time zone offset was not understood."
-msgstr ""
+msgstr "Błąd wprowadzania: Nie rozpoznano czasu."
 
 #: StarChart.py:2929
 msgid "Star Chart Activity"
@@ -234,15 +235,15 @@ msgstr ""
 
 #: StarChart.py:3147
 msgid "What"
-msgstr ""
+msgstr "Co"
 
 #: StarChart.py:3148
 msgid "Where"
-msgstr ""
+msgstr "Gdzie"
 
 #: StarChart.py:3149
 msgid "When"
-msgstr ""
+msgstr "Kiedy"
 
 #: StarChart.py:3150
 msgid "Locate"
@@ -250,491 +251,491 @@ msgstr ""
 
 #: StarChart.py:3151
 msgid "About"
-msgstr ""
+msgstr "O"
 
 #: constellations.py:14
 msgid "Andromeda"
-msgstr ""
+msgstr "Gwiazdozbiór Andromedy"
 
 #: constellations.py:24
 msgid "Antlia"
-msgstr ""
+msgstr "Gwiazdozbiór Pompy"
 
 #: constellations.py:28
 msgid "Apus"
-msgstr ""
+msgstr "Gwiazdozbiór Ptaka Rajskiego"
 
 #: constellations.py:34
 msgid "Aquarius"
-msgstr ""
+msgstr "Gwiazdozbiór Wodnika"
 
 #: constellations.py:53
 msgid "Aquila"
-msgstr ""
+msgstr "Gwiazdozbiór Orła"
 
 #: constellations.py:66
 msgid "Ara"
-msgstr ""
+msgstr "Gwiazdozbiór Ołtarza"
 
 #: constellations.py:75
 msgid "Aries"
-msgstr ""
+msgstr "Gwiazdozbiór Barana"
 
 #: constellations.py:80
 msgid "Auriga"
-msgstr ""
+msgstr "Gwiazdozbiór Woźnicy"
 
 #: constellations.py:90
 msgid "Boötes"
-msgstr ""
+msgstr "Gwiazdozbiór Wolarza"
 
 #: constellations.py:102
 msgid "Caelum"
-msgstr ""
+msgstr "Gwiazdozbiór Rylca"
 
 #: constellations.py:107
 msgid "Camelopardalis"
-msgstr ""
+msgstr "Gwiazdozbiór Żyrafy"
 
 #: constellations.py:114
 msgid "Cancer"
-msgstr ""
+msgstr "Gwiazdozbiór Raka"
 
 #: constellations.py:121
 msgid "Canis Venatici"
-msgstr ""
+msgstr "Gwiazdozbiór Psów Gończych"
 
 #: constellations.py:126
 msgid "Canis Major"
-msgstr ""
+msgstr "Wielki Pies"
 
 #: constellations.py:138
 msgid "Canis Minor"
-msgstr ""
+msgstr "Mały Pies"
 
 #: constellations.py:141
 msgid "Capricornus"
-msgstr ""
+msgstr "Gwiazdozbiór Koziorożca"
 
 #: constellations.py:154
 msgid "Carina"
-msgstr ""
+msgstr "Gwiazdozbiór Kila"
 
 #: constellations.py:167
 msgid "Cassiopeia"
-msgstr ""
+msgstr "Gwiazdozbiór Kasjopei"
 
 #: constellations.py:173
 msgid "Centaurus"
-msgstr ""
+msgstr "Gwiazdozbiór Centaura"
 
 #: constellations.py:187
 msgid "Cepheus"
-msgstr ""
+msgstr "Gwiazdozbiór Cefeusza"
 
 #: constellations.py:195
 msgid "Cetus"
-msgstr ""
+msgstr "Gwiazdozbiór Wieloryba"
 
 #: constellations.py:212
 msgid "Chamaeleon"
-msgstr ""
+msgstr "Gwiazdozbiór Kameleona"
 
 #: constellations.py:218
 msgid "Circinus"
-msgstr ""
+msgstr "Gwiazdozbiór Cyrkla"
 
 #: constellations.py:222
 msgid "Columba"
-msgstr ""
+msgstr "Gwiazdozbiór Gołębia"
 
 #: constellations.py:229
 msgid "Coma Berenices"
-msgstr ""
+msgstr "Warkocz Bereniki"
 
 #: constellations.py:233
 msgid "Corona Australis"
-msgstr ""
+msgstr "Korona Południowa"
 
 #: constellations.py:242
 msgid "Corona Borealis"
-msgstr ""
+msgstr "Korona Północna"
 
 #: constellations.py:250
 msgid "Corvus"
-msgstr ""
+msgstr "Gwiazdozbiór Kruka"
 
 #: constellations.py:257
 msgid "Crater"
-msgstr ""
+msgstr "Gwiazdozbiór Pucharu"
 
 #: constellations.py:267
 msgid "Crux"
-msgstr ""
+msgstr "Gwiazdozbiór Krzyża Południa"
 
 #: constellations.py:271
 msgid "Cygnus"
-msgstr ""
+msgstr "Gwiazdozbiór Łabędzia"
 
 #: constellations.py:278
 msgid "Delphinus"
-msgstr ""
+msgstr "Gwiazdozbiór Delfina"
 
 #: constellations.py:285
 msgid "Dorado"
-msgstr ""
+msgstr "Gwiazdozbiór Złotej Ryby"
 
 #: constellations.py:290
 msgid "Draco"
-msgstr ""
+msgstr "Gwiazdozbiór Smoka"
 
 #: constellations.py:312
 msgid "Equuleus"
-msgstr ""
+msgstr "Gwiazdozbiór Źrebięcia"
 
 #: constellations.py:316
 msgid "Eridanus"
-msgstr ""
+msgstr "Gwiazdozbiór Erydanu"
 
 #: constellations.py:348
 msgid "Fornax"
-msgstr ""
+msgstr "Gwiazdozbiór Pieca"
 
 #: constellations.py:354
 msgid "Gemini"
-msgstr ""
+msgstr "Gwiazdozbiór Bliźniąt"
 
 #: constellations.py:365
 msgid "Grus"
-msgstr ""
+msgstr "Gwiazdozbiór Żurawia"
 
 #: constellations.py:377
 msgid "Hercules"
-msgstr ""
+msgstr "Gwiazdozbiór Herkulesa"
 
 #: constellations.py:398
 msgid "Horologium"
-msgstr ""
+msgstr "Gwiazdozbiór Zegara"
 
 #: constellations.py:405
 msgid "Hydra"
-msgstr ""
+msgstr "Gwiazdozbiór Hydry"
 
 #: constellations.py:423
 msgid "Hydrus"
-msgstr ""
+msgstr "Wąż Wodny"
 
 #: constellations.py:428
 msgid "Indus"
-msgstr ""
+msgstr "Gwiazdozbiór Indianina"
 
 #: constellations.py:433
 msgid "Lacerta"
-msgstr ""
+msgstr "Gwiazdozbiór Jaszczurki"
 
 #: constellations.py:441
 msgid "Leo"
-msgstr ""
+msgstr "Gwiazdozbiór Lwa"
 
 #: constellations.py:452
 msgid "Leo Minor"
-msgstr ""
+msgstr "Mały Lew"
 
 #: constellations.py:456
 msgid "Lepus"
-msgstr ""
+msgstr "Gwiazdozbiór Zająca"
 
 #: constellations.py:466
 msgid "Libra"
-msgstr ""
+msgstr "Gwiazdozbiór Wagi"
 
 #: constellations.py:474
 msgid "Lupus"
-msgstr ""
+msgstr "Gwiazdozbiór Wilka"
 
 #: constellations.py:488
 msgid "Lynx"
-msgstr ""
+msgstr "Gwiazdozbiór Rysia"
 
 #: constellations.py:497
 msgid "Lyra"
-msgstr ""
+msgstr "Gwiazdozbiór Lutni"
 
 #: constellations.py:505
 msgid "Mensa"
-msgstr ""
+msgstr "Gwiazdozbiór Góry Stołowej"
 
 #: constellations.py:510
 msgid "Microscopium"
-msgstr ""
+msgstr "Gwiazdozbiór Mikroskopu"
 
 #: constellations.py:515
 msgid "Monoceros"
-msgstr ""
+msgstr "Gwiazdozbiór Jednorożca"
 
 #: constellations.py:521
 msgid "Musca"
-msgstr ""
+msgstr "Gwiazdozbiór Muchy"
 
 #: constellations.py:528
 msgid "Norma"
-msgstr ""
+msgstr "Gwiazdozbiór Węgielnicy"
 
 #: constellations.py:534
 msgid "Octans"
-msgstr ""
+msgstr "Gwiazdozbiór Oktanta"
 
 #: constellations.py:539
 msgid "Ophiuchus"
-msgstr ""
+msgstr "Gwiazdozbiór Wężownika"
 
 #: constellations.py:552
 msgid "Orion"
-msgstr ""
+msgstr "Gwiazdozbiór Oriona"
 
 #: constellations.py:572
 msgid "Pavo"
-msgstr ""
+msgstr "Gwiazdozbiór Pawia"
 
 #: constellations.py:581
 msgid "Pegasus"
-msgstr ""
+msgstr "Gwiazdozbiór Pegaza"
 
 #: constellations.py:597
 msgid "Perseus"
-msgstr ""
+msgstr "Gwiazdozbiór Perseusza"
 
 #: constellations.py:615
 msgid "Phoenix"
-msgstr ""
+msgstr "Gwiazdozbiór Feniksa"
 
 #: constellations.py:623
 msgid "Pictor"
-msgstr ""
+msgstr "Gwiazdozbiór Malarza"
 
 #: constellations.py:627
 msgid "Pisces"
-msgstr ""
+msgstr "Gwiazdozbiór Ryb"
 
 #: constellations.py:645
 msgid "Piscis Australis"
-msgstr ""
+msgstr "Ryba Południowa"
 
 #: constellations.py:653
 msgid "Puppis"
-msgstr ""
+msgstr "Gwiazdozbiór Rufy"
 
 #: constellations.py:665
 msgid "Pyxis"
-msgstr ""
+msgstr "Gwiazdozbiór Kompasu"
 
 #: constellations.py:669
 msgid "Reticulum"
-msgstr ""
+msgstr "Gwiazdozbiór Sieci"
 
 #: constellations.py:676
 msgid "Sagitta"
-msgstr ""
+msgstr "Gwiazdozbiór Strzały"
 
 #: constellations.py:681
 msgid "Sagittarius"
-msgstr ""
+msgstr "Gwiazdozbiór Strzelca"
 
 #: constellations.py:699
 msgid "Sculptor"
-msgstr ""
+msgstr "Gwiazdozbiór Rzeźbiarza"
 
 #: constellations.py:704
 msgid "Scorpius"
-msgstr ""
+msgstr "Gwiazdozbiór Skorpiona"
 
 #: constellations.py:720
 msgid "Scutum"
-msgstr ""
+msgstr "Tarcza Sobieskiego"
 
 #: constellations.py:724
 msgid "Serpens"
-msgstr ""
+msgstr "Gwiazdozbiór Węża"
 
 #: constellations.py:742
 msgid "Sextans"
-msgstr ""
+msgstr "Gwiazdozbiór Sekstantu"
 
 #: constellations.py:748
 msgid "Taurus"
-msgstr ""
+msgstr "Gwiazdozbiór Byka"
 
 #: constellations.py:761
 msgid "Telescopium"
-msgstr ""
+msgstr "Gwiazdozbiór Lunety"
 
 #: constellations.py:765
 msgid "Triangulum"
-msgstr ""
+msgstr "Gwiazdozbiór Trójkąta"
 
 #: constellations.py:770
 msgid "Triangulum Australis"
-msgstr ""
+msgstr "Trójkąt Południowy"
 
 #: constellations.py:775
 msgid "Tucana"
-msgstr ""
+msgstr "Gwiazdozbiór Tukana"
 
 #: constellations.py:782
 msgid "Ursa Major"
-msgstr ""
+msgstr "Wielka Niedźwiedzica"
 
 #: constellations.py:801
 msgid "Ursa Minor"
-msgstr ""
+msgstr "Mała Niedźwiedzica"
 
 #: constellations.py:810
 msgid "Vela"
-msgstr ""
+msgstr "Gwiazdozbiór Żagla"
 
 #: constellations.py:819
 msgid "Virgo"
-msgstr ""
+msgstr "Gwiazdozbiór Panny"
 
 #: constellations.py:831
 msgid "Volans"
-msgstr ""
+msgstr "Ryba Latająca"
 
 #: constellations.py:839
 msgid "Vulpecula"
-msgstr ""
+msgstr "Gwiazdozbiór Liska"
 
 #: dso1.py:32
 msgid "Butterfly Cluster"
-msgstr ""
+msgstr "Gromada Motyl"
 
 #: dso1.py:33
 msgid "Ptolemy's Cluster"
-msgstr ""
+msgstr "Gromada Ptolemeusza"
 
 #: dso1.py:34
 msgid "Lagoon Nebula"
-msgstr ""
+msgstr "Mgławica Laguna"
 
 #: dso1.py:36
 msgid "Wild Duck Cluster"
-msgstr ""
+msgstr "Gromada Dzika Kaczka"
 
 #: dso1.py:38
 msgid "Hercules Cluster"
-msgstr ""
+msgstr "Gromada w Herkulesie"
 
 #: dso1.py:40
 msgid "Omega Nebula"
-msgstr ""
+msgstr "Mgławica Omega"
 
 #: dso1.py:42
 msgid "Trifid Nebula"
-msgstr ""
+msgstr "Mgławica Trójlistna Koniczyna"
 
 #: dso1.py:49
 msgid "Andromeda Galaxy"
-msgstr ""
+msgstr "Galaktyka Andromedy"
 
 #: dso1.py:50
 msgid "Triangulum Galaxy"
-msgstr ""
+msgstr "Galaktyka Trójkąta"
 
 #: dso1.py:58
 msgid "Orion Nebula"
-msgstr ""
+msgstr "Mgławica Oriona"
 
 #: dso1.py:59
 msgid "de Mairans Nebula"
-msgstr ""
+msgstr "Mgławica de Mairana"
 
 #: dso1.py:60
 msgid "Beehive Cluster"
-msgstr ""
+msgstr "Gromada Żłóbek"
 
 #: dso1.py:61
 msgid "Pleiades"
-msgstr ""
+msgstr "Plejady"
 
 #: dso1.py:66
 msgid "Whirlpool Galaxy"
-msgstr ""
+msgstr "Galaktyka Wir"
 
 #: dso1.py:71
 msgid "Sunflower Galaxy"
-msgstr ""
+msgstr "Galaktyka Słonecznik"
 
 #: dso1.py:74
 msgid "Bodes Galaxy"
-msgstr ""
+msgstr "Galaktyka Bodego"
 
 #: dso1.py:75
 msgid "Southern Pinwheel Galaxy"
-msgstr ""
+msgstr "Galaktyka Południowy Wiatraczek"
 
 #: dso1.py:78
 msgid "Pinwheel Galaxy"
-msgstr ""
+msgstr "Galaktyka Wiatraczek"
 
 #: dso2.py:35
 msgid "Large Magellanic Cloud"
-msgstr ""
+msgstr "Wielki Obłok Magellana"
 
 #: dso2.py:40
 msgid "47 Tucanae"
-msgstr ""
+msgstr "47 Tucanae"
 
 #: dso2.py:41
 msgid "Sculptor Galaxy"
-msgstr ""
+msgstr "Galaktyka Rzeźbiarza"
 
 #: dso2.py:43
 msgid "Small Magellanic Cloud"
-msgstr ""
+msgstr "Mały Obłok Magellana"
 
 #: dso2.py:46
 msgid "Double Cluster"
-msgstr ""
+msgstr "Podwójna gromada Perseusza"
 
 #: dso2.py:48
 msgid "California Nebula"
-msgstr ""
+msgstr "Mgławica Kalifornia"
 
 #: dso2.py:54
 msgid "Cone Nebula"
-msgstr ""
+msgstr "Mgławica Stożek"
 
 #: dso2.py:56
 msgid "Rosette Nebula"
-msgstr ""
+msgstr "Mgławica Rozeta"
 
 #: dso2.py:60
 msgid "Ghost of Jupiter"
-msgstr ""
+msgstr "Duch Jowisza"
 
 #: dso2.py:61
-msgid "Eta Carina  Nebula"
-msgstr ""
+msgid "Eta Carina Nebula"
+msgstr "Mgławica Carina"
 
 #: dso2.py:63
 msgid "Jewel Box"
-msgstr ""
+msgstr "Gromada Crucis"
 
 #: dso2.py:66
 msgid "Centaurus A"
-msgstr ""
+msgstr "Centaurus A"
 
 #: dso2.py:67
 msgid "Omega Centauri"
-msgstr ""
+msgstr "Omega Centauri "
 
 #: dso2.py:77
 msgid "Barnard's Galaxy"
-msgstr ""
+msgstr "Galaktyka Barnarda"
 
 #: dso2.py:78
 msgid "Crescent Nebula"
-msgstr ""
+msgstr "Mgławica Półksiężyc"
 
 #: dso2.py:79
 msgid "Veil Nebula"
@@ -742,4 +743,4 @@ msgstr ""
 
 #: dso2.py:80
 msgid "North America Nebula"
-msgstr ""
+msgstr "Mgławica Ameryka Północna"
