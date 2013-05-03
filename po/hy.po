@@ -1,0 +1,758 @@
+# StarChart -- full sky map for visual astronomy
+# Copyright (C) 2008 - 2010 by David A. Wallace
+# This file is distributed under the same license as the StarChart package.
+# David A. Wallace  wa1gsf@comcast.net, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-01 00:33-0500\n"
+"PO-Revision-Date: 2013-04-29 17:38+0200\n"
+"Last-Translator: anushnur <anush.mkrtchyan@ca1492.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#. TRANS: "name" option from activity.info file
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid "StarChart"
+msgstr "Աստղային Քարտեզ"
+
+#: StarChart.py:227
+msgid "Mercury"
+msgstr "Մերկուրի"
+
+#: StarChart.py:228
+msgid "Venus"
+msgstr "Վեներա"
+
+#: StarChart.py:229
+msgid "Earth"
+msgstr "Երկիր"
+
+#: StarChart.py:230
+msgid "Mars"
+msgstr "Մարս"
+
+#: StarChart.py:231
+msgid "Jupiter"
+msgstr "Յուպիտեր"
+
+#: StarChart.py:232
+msgid "Saturn"
+msgstr "Սատուրն"
+
+#: StarChart.py:233
+msgid "Uranus"
+msgstr "Ուրան"
+
+#: StarChart.py:235 StarChart.py:995 StarChart.py:1651
+msgid "Sun"
+msgstr "Արև"
+
+#: StarChart.py:241 StarChart.py:998 StarChart.py:1649
+msgid "Moon"
+msgstr "Լուսին"
+
+#: StarChart.py:786
+msgid "Night Vision"
+msgstr "Գիշերային Տեսիլք"
+
+#: StarChart.py:788
+msgid "Invert Display"
+msgstr "Շրջել Ցուցադրումը"
+
+# Ա/Ձ - Աջ, Ձախ
+#: StarChart.py:790
+msgid "Flip L/R"
+msgstr "Պտտեցնել Ա/Ձ"
+
+#: StarChart.py:793
+msgid "Draw Constellations"
+msgstr "Նկարել Համաստեղություններ"
+
+#: StarChart.py:795
+msgid "Mag:"
+msgstr "Մեծություն`"
+
+#: StarChart.py:796
+msgid "1"
+msgstr "1"
+
+#: StarChart.py:797
+msgid "2"
+msgstr "2"
+
+#: StarChart.py:798
+msgid "3"
+msgstr "3"
+
+#: StarChart.py:799
+msgid "4"
+msgstr "4"
+
+#: StarChart.py:800
+msgid "5"
+msgstr "5"
+
+#: StarChart.py:801
+msgid "6"
+msgstr "6"
+
+#: StarChart.py:805
+msgid "Longitude:"
+msgstr "Երկարություն`"
+
+# Արևելք
+#: StarChart.py:808 StarChart.py:1755 StarChart.py:1764
+msgid "E"
+msgstr "Ա"
+
+# Արևմուտք
+#: StarChart.py:809 StarChart.py:1757 StarChart.py:1762
+msgid "W"
+msgstr "Ա"
+
+#: StarChart.py:810
+msgid "Latitude:"
+msgstr "Լայնություն`"
+
+# Հյուսիս
+#: StarChart.py:813 StarChart.py:1746
+msgid "N"
+msgstr "Հ"
+
+# Հարավ
+#: StarChart.py:814 StarChart.py:1750
+msgid "S"
+msgstr "Հ"
+
+#: StarChart.py:819 StarChart.py:837
+msgid "Ok"
+msgstr "Լավ"
+
+#: StarChart.py:822
+msgid "Make home"
+msgstr "Պատրաստել տուն"
+
+#: StarChart.py:825
+msgid "Now"
+msgstr "Այժմ"
+
+#: StarChart.py:826
+msgid "Specify"
+msgstr "Հատկորոշել"
+
+#: StarChart.py:827
+msgid "Time:"
+msgstr "Ժամանակ`"
+
+#: StarChart.py:830
+msgid "Offset:"
+msgstr ""
+
+#: StarChart.py:840
+msgid "Object type:"
+msgstr "Մարմնի տեսակը`"
+
+#: StarChart.py:851
+msgid "See http://wiki.laptop.org/go/StarChart for help."
+msgstr "Օգնության համար տես` http://wiki.laptop.org/go/StarChart"
+
+#: StarChart.py:925
+msgid "There is no object here."
+msgstr "Այստեղ ոչ մի մարմին չկա:"
+
+#: StarChart.py:992
+msgid "deep-sky object"
+msgstr "Խորը-երկնային մարմիններ"
+
+#: StarChart.py:994
+msgid "planet"
+msgstr "մոլորակ"
+
+#: StarChart.py:996 StarChart.py:999
+msgid "Object is: "
+msgstr "Մարմինը դա`"
+
+#: StarChart.py:1002
+msgid "star"
+msgstr "աստղ"
+
+#: StarChart.py:1003
+msgid "Object is "
+msgstr "Մարմինը դա`"
+
+#: StarChart.py:1406 StarChart.py:3107
+msgid "Planets"
+msgstr "Մոլորակներ"
+
+#: StarChart.py:1417 StarChart.py:3108
+msgid "Stars by Constellation"
+msgstr "Աստղերն ըստ Համաստեղությունների"
+
+#: StarChart.py:1431 StarChart.py:3109
+msgid "Brightest Stars"
+msgstr "Ամենապայծառ աստղերը"
+
+#: StarChart.py:1452 StarChart.py:3110
+msgid "Deep-sky Objects"
+msgstr "Խորը-երկնային Մարմիններ"
+
+#: StarChart.py:1617
+msgid "This object is always below the horizon at your location."
+msgstr "Այս մարմինը միշտ հորիզոնի ներքևում է, քո վայրում"
+
+#: StarChart.py:1620
+msgid "This object is currently not in the field of view."
+msgstr "Այս մարմինը ներկայումս տեսադաշտում չէ:"
+
+#: StarChart.py:1622
+msgid "This object is currently below your horizon."
+msgstr "Այս մարմինը ներկայումս քո հորիզոնի ներքևում է:"
+
+#: StarChart.py:1662
+msgid "Input Error: The longitude was not understood."
+msgstr "Ներածման վրիպում. Երկարությունը անհասկանալի էր:"
+
+#: StarChart.py:1666
+msgid "Input Error: The latitude was not understood."
+msgstr "Ներածման վրիպում. Լայնությունը անհասկանալի էր:"
+
+#: StarChart.py:1670
+msgid "Input Error: The time was not understood."
+msgstr "Ներածման վրիպում. Ժամանակը անհասկանալի էր:"
+
+#: StarChart.py:1674
+msgid "Input Error: The time zone offset was not understood."
+msgstr ""
+
+#: StarChart.py:2929
+msgid "Star Chart Activity"
+msgstr "Աստղային Քարտեզ Գործունեություն"
+
+#: StarChart.py:3147
+msgid "What"
+msgstr "Ինչ"
+
+#: StarChart.py:3148
+msgid "Where"
+msgstr "Որտեղ"
+
+#: StarChart.py:3149
+msgid "When"
+msgstr "Երբ"
+
+#: StarChart.py:3150
+msgid "Locate"
+msgstr "Տեղորոշել"
+
+#: StarChart.py:3151
+msgid "About"
+msgstr "Մասին"
+
+#: constellations.py:14
+msgid "Andromeda"
+msgstr "Անդրոմեդ"
+
+# Համաստեղություն է
+#: constellations.py:24
+msgid "Antlia"
+msgstr "Պոմպ "
+
+# նվաղ համաստեղություն է հարավային եչկնքում
+#: constellations.py:28
+msgid "Apus"
+msgstr "Դրախտային թռչուն"
+
+#: constellations.py:34
+msgid "Aquarius"
+msgstr "Ջրհոս"
+
+# Համաստեղություն
+#: constellations.py:53
+msgid "Aquila"
+msgstr "Արծիվ"
+
+#: constellations.py:66
+msgid "Ara"
+msgstr "Արա"
+
+#: constellations.py:75
+msgid "Aries"
+msgstr "Խոյ"
+
+# Համաստեղություն
+#: constellations.py:80
+msgid "Auriga"
+msgstr "Կառավար"
+
+# Համաստեղություն
+#: constellations.py:90
+msgid "Boötes"
+msgstr "Եզնարած"
+
+# Համաստեղություն
+#: constellations.py:102
+msgid "Caelum"
+msgstr "Դանակ "
+
+# համաստեղություն
+#: constellations.py:107
+msgid "Camelopardalis"
+msgstr "Ընձուղտ"
+
+# Համաստեղություն
+#: constellations.py:114
+msgid "Cancer"
+msgstr "Խեցգետին"
+
+# համաստեղություն 
+#: constellations.py:121
+msgid "Canis Venatici"
+msgstr "Որսկան Շներ "
+
+#: constellations.py:126
+msgid "Canis Major"
+msgstr "Մեծ Շուն"
+
+#: constellations.py:138
+msgid "Canis Minor"
+msgstr "Փոքր Շուն"
+
+#: constellations.py:141
+msgid "Capricornus"
+msgstr "Այծեղջյուր"
+
+#: constellations.py:154
+msgid "Carina"
+msgstr "Ողնուց"
+
+#: constellations.py:167
+msgid "Cassiopeia"
+msgstr "Կասիոպեա"
+
+#: constellations.py:173
+msgid "Centaurus"
+msgstr "Կենտավրոս"
+
+#: constellations.py:187
+msgid "Cepheus"
+msgstr "Ցեֆեոս"
+
+#: constellations.py:195
+msgid "Cetus"
+msgstr "Կետ"
+
+#: constellations.py:212
+msgid "Chamaeleon"
+msgstr "Քամելիոն"
+
+#: constellations.py:218
+msgid "Circinus"
+msgstr "Կարկին"
+
+#: constellations.py:222
+msgid "Columba"
+msgstr "Աղավնի"
+
+#: constellations.py:229
+msgid "Coma Berenices"
+msgstr "Բերենիկեի Գես"
+
+#: constellations.py:233
+msgid "Corona Australis"
+msgstr "Հարավային Թագ"
+
+#: constellations.py:242
+msgid "Corona Borealis"
+msgstr "Հյուսիսային Թագ"
+
+#: constellations.py:250
+msgid "Corvus"
+msgstr "Ագռավ"
+
+#: constellations.py:257
+msgid "Crater"
+msgstr "Խառնարան"
+
+#: constellations.py:267
+msgid "Crux"
+msgstr "Հարավային Խաչ"
+
+#: constellations.py:271
+msgid "Cygnus"
+msgstr "Կարապ"
+
+#: constellations.py:278
+msgid "Delphinus"
+msgstr "Դելֆին"
+
+#: constellations.py:285
+msgid "Dorado"
+msgstr "Ոսկե Ձկնիկ"
+
+#: constellations.py:290
+msgid "Draco"
+msgstr "Վիշապ"
+
+#: constellations.py:312
+msgid "Equuleus"
+msgstr "Փոքր Ձի"
+
+#: constellations.py:316
+msgid "Eridanus"
+msgstr "Էրիդանոս"
+
+#: constellations.py:348
+msgid "Fornax"
+msgstr "Վառարան"
+
+#: constellations.py:354
+msgid "Gemini"
+msgstr "Երկվորյակներ"
+
+#: constellations.py:365
+msgid "Grus"
+msgstr "Կռունկ"
+
+#: constellations.py:377
+msgid "Hercules"
+msgstr "Հերկուլես"
+
+#: constellations.py:398
+msgid "Horologium"
+msgstr "Ժամացույց"
+
+#: constellations.py:405
+msgid "Hydra"
+msgstr "Հիդրա"
+
+#: constellations.py:423
+msgid "Hydrus"
+msgstr "Հարավային Հիդրա"
+
+#: constellations.py:428
+msgid "Indus"
+msgstr "Հնդիկ"
+
+#: constellations.py:433
+msgid "Lacerta"
+msgstr "Մողես"
+
+#: constellations.py:441
+msgid "Leo"
+msgstr "Առյուծ"
+
+#: constellations.py:452
+msgid "Leo Minor"
+msgstr "Փոքր Առյուծ"
+
+#: constellations.py:456
+msgid "Lepus"
+msgstr "Նապաստակ"
+
+#: constellations.py:466
+msgid "Libra"
+msgstr "Կշեռք"
+
+#: constellations.py:474
+msgid "Lupus"
+msgstr "Գայլ"
+
+#: constellations.py:488
+msgid "Lynx"
+msgstr "Լուսան"
+
+#: constellations.py:497
+msgid "Lyra"
+msgstr "Քնար"
+
+#: constellations.py:505
+msgid "Mensa"
+msgstr "Սեղանասար"
+
+#: constellations.py:510
+msgid "Microscopium"
+msgstr "Մանրադիտակ"
+
+#: constellations.py:515
+msgid "Monoceros"
+msgstr "Միեղջյուր"
+
+#: constellations.py:521
+msgid "Musca"
+msgstr "Ճանճ"
+
+#: constellations.py:528
+msgid "Norma"
+msgstr "Անկյունաքանոն"
+
+#: constellations.py:534
+msgid "Octans"
+msgstr "Օկտանտ"
+
+#: constellations.py:539
+msgid "Ophiuchus"
+msgstr "Օձակիր"
+
+#: constellations.py:552
+msgid "Orion"
+msgstr "Օրիոն"
+
+#: constellations.py:572
+msgid "Pavo"
+msgstr "Սիրամարգ"
+
+#: constellations.py:581
+msgid "Pegasus"
+msgstr "Պեգաս"
+
+#: constellations.py:597
+msgid "Perseus"
+msgstr "Պերսևս"
+
+#: constellations.py:615
+msgid "Phoenix"
+msgstr "Փյունիկ"
+
+#: constellations.py:623
+msgid "Pictor"
+msgstr "Կենդանագիր"
+
+#: constellations.py:627
+msgid "Pisces"
+msgstr "Ձկներ"
+
+#: constellations.py:645
+msgid "Piscis Australis"
+msgstr "Հարավային Ձկներ"
+
+#: constellations.py:653
+msgid "Puppis"
+msgstr "Նավախել"
+
+#: constellations.py:665
+msgid "Pyxis"
+msgstr "Կողմնացույց"
+
+#: constellations.py:669
+msgid "Reticulum"
+msgstr "Ցանց"
+
+#: constellations.py:676
+msgid "Sagitta"
+msgstr "Նետ"
+
+#: constellations.py:681
+msgid "Sagittarius"
+msgstr "Աղեղնավոր"
+
+#: constellations.py:699
+msgid "Sculptor"
+msgstr "Քանդակագործ"
+
+#: constellations.py:704
+msgid "Scorpius"
+msgstr "Կարիճ"
+
+#: constellations.py:720
+msgid "Scutum"
+msgstr "Վահան"
+
+#: constellations.py:724
+msgid "Serpens"
+msgstr "Օձ"
+
+#: constellations.py:742
+msgid "Sextans"
+msgstr "Սեքստան"
+
+#: constellations.py:748
+msgid "Taurus"
+msgstr "Ցուլ"
+
+#: constellations.py:761
+msgid "Telescopium"
+msgstr "Աստղադիտակ"
+
+#: constellations.py:765
+msgid "Triangulum"
+msgstr "Եռանկյունի"
+
+#: constellations.py:770
+msgid "Triangulum Australis"
+msgstr "Հարավային Եռանկյունի"
+
+#: constellations.py:775
+msgid "Tucana"
+msgstr "Տուկան"
+
+#: constellations.py:782
+msgid "Ursa Major"
+msgstr "Մեծ Արջ"
+
+#: constellations.py:801
+msgid "Ursa Minor"
+msgstr "Փոքր Արջ"
+
+#: constellations.py:810
+msgid "Vela"
+msgstr "Առագաստներ"
+
+#: constellations.py:819
+msgid "Virgo"
+msgstr "Կույս"
+
+#: constellations.py:831
+msgid "Volans"
+msgstr "Թռչող Ձուկ"
+
+#: constellations.py:839
+msgid "Vulpecula"
+msgstr "Աղվեսիկ"
+
+#: dso1.py:32
+msgid "Butterfly Cluster"
+msgstr "Թիթեռների Բույլ"
+
+#: dso1.py:33
+msgid "Ptolemy's Cluster"
+msgstr "Պտղոմեոսի Բույլ"
+
+#: dso1.py:34
+msgid "Lagoon Nebula"
+msgstr ""
+
+#: dso1.py:36
+msgid "Wild Duck Cluster"
+msgstr "Վայրի Բադ Բույլ"
+
+#: dso1.py:38
+msgid "Hercules Cluster"
+msgstr "Հերկուլես Բույլ"
+
+#: dso1.py:40
+msgid "Omega Nebula"
+msgstr ""
+
+#: dso1.py:42
+msgid "Trifid Nebula"
+msgstr ""
+
+#: dso1.py:49
+msgid "Andromeda Galaxy"
+msgstr "Անդրոմեդ Գալակտիկա"
+
+#: dso1.py:50
+msgid "Triangulum Galaxy"
+msgstr "Եռանկյուն Գալակտիկա"
+
+#: dso1.py:58
+msgid "Orion Nebula"
+msgstr ""
+
+#: dso1.py:59
+msgid "de Mairans Nebula"
+msgstr ""
+
+#: dso1.py:60
+msgid "Beehive Cluster"
+msgstr "Փեթակ Բույլ"
+
+#: dso1.py:61
+msgid "Pleiades"
+msgstr "Բազումք "
+
+#: dso1.py:66
+msgid "Whirlpool Galaxy"
+msgstr "Հորձանք Գալակտիկա"
+
+#: dso1.py:71
+msgid "Sunflower Galaxy"
+msgstr "Արևածաղիկ Գալակտիկա"
+
+#: dso1.py:74
+msgid "Bodes Galaxy"
+msgstr ""
+
+#: dso1.py:75
+msgid "Southern Pinwheel Galaxy"
+msgstr "Հարավային Պտուտան Գալակտիկա"
+
+#: dso1.py:78
+msgid "Pinwheel Galaxy"
+msgstr "Պտուտան Գալակտիկա"
+
+#: dso2.py:35
+msgid "Large Magellanic Cloud"
+msgstr "Մեծ Մագելանի Ամպեր"
+
+#: dso2.py:40
+msgid "47 Tucanae"
+msgstr "47 Տուկան"
+
+#: dso2.py:41
+msgid "Sculptor Galaxy"
+msgstr "Քանդակագործ Գալակտիկա"
+
+#: dso2.py:43
+msgid "Small Magellanic Cloud"
+msgstr "Փոքր Մագելանի Ամպեր"
+
+#: dso2.py:46
+msgid "Double Cluster"
+msgstr ""
+
+#: dso2.py:48
+msgid "California Nebula"
+msgstr ""
+
+#: dso2.py:54
+msgid "Cone Nebula"
+msgstr ""
+
+#: dso2.py:56
+msgid "Rosette Nebula"
+msgstr ""
+
+#: dso2.py:60
+msgid "Ghost of Jupiter"
+msgstr ""
+
+#: dso2.py:61
+msgid "Eta Carina Nebula"
+msgstr ""
+
+#: dso2.py:63
+msgid "Jewel Box"
+msgstr ""
+
+#: dso2.py:66
+msgid "Centaurus A"
+msgstr " Կենտավրոս Ա"
+
+#: dso2.py:67
+msgid "Omega Centauri"
+msgstr ""
+
+#: dso2.py:77
+msgid "Barnard's Galaxy"
+msgstr ""
+
+#: dso2.py:78
+msgid "Crescent Nebula"
+msgstr ""
+
+#: dso2.py:79
+msgid "Veil Nebula"
+msgstr ""
+
+#: dso2.py:80
+msgid "North America Nebula"
+msgstr ""
