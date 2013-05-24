@@ -1,8 +1,9 @@
 [Activity]
 name = StarChart
-activity_version = 13
+activity_version = 14
 icon = StarChart
 show_launcher = yes
 license = GPLv2+
 bundle_id = org.laptop.StarChart
 exec = sugar-activity StarChart.StarChart
+summary = explore the cosmos
