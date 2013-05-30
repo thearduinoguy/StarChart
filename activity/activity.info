@@ -1,6 +1,6 @@
 [Activity]
 name = StarChart
-activity_version = 14
+activity_version = 15
 icon = StarChart
 show_launcher = yes
 license = GPLv2+
