@@ -1,0 +1,747 @@
+# StarChart -- full sky map for visual astronomy
+# Copyright (C) 2008 - 2010 by David A. Wallace
+# This file is distributed under the same license as the StarChart package.
+# David A. Wallace  wa1gsf@comcast.net, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-25 00:32-0400\n"
+"PO-Revision-Date: 2013-06-23 00:54+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ayc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#. TRANS: "name" option from activity.info file
+msgid "StarChart"
+msgstr "Wara waranaka rixipa"
+
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid "explore the cosmos"
+msgstr "cosmos wakichatana thaqaña"
+
+#: StarChart.py:227
+msgid "Mercury"
+msgstr "Mercurio pacha"
+
+#: StarChart.py:228
+msgid "Venus"
+msgstr "Venus pacha"
+
+#: StarChart.py:229
+msgid "Earth"
+msgstr "Tierra pacha"
+
+#: StarChart.py:230
+msgid "Mars"
+msgstr "Marte pacha"
+
+#: StarChart.py:231
+msgid "Jupiter"
+msgstr "Júpiter pacha"
+
+#: StarChart.py:232
+msgid "Saturn"
+msgstr "Saturno pacha"
+
+#: StarChart.py:233
+msgid "Uranus"
+msgstr "Urano pacha"
+
+#: StarChart.py:235 StarChart.py:995 StarChart.py:1651
+msgid "Sun"
+msgstr "Inti Tata"
+
+#: StarChart.py:241 StarChart.py:998 StarChart.py:1649
+msgid "Moon"
+msgstr "Phaxsi"
+
+#: StarChart.py:786
+msgid "Night Vision"
+msgstr "Aruma laxa uñjäwi"
+
+#: StarChart.py:788
+msgid "Invert Display"
+msgstr "Uñjaña kutjtayäwi"
+
+#: StarChart.py:790
+msgid "Flip L/R"
+msgstr "D/I kutjtayaña"
+
+#: StarChart.py:793
+msgid "Draw Constellations"
+msgstr "Constelaciones pachanaka saräwi rixiña"
+
+#: StarChart.py:795
+msgid "Mag:"
+msgstr "Magnitud chani:"
+
+#: StarChart.py:796
+msgid "1"
+msgstr "1 chani"
+
+#: StarChart.py:797
+msgid "2"
+msgstr "2 chani"
+
+#: StarChart.py:798
+msgid "3"
+msgstr "3 chani"
+
+#: StarChart.py:799
+msgid "4"
+msgstr "4 chani"
+
+#: StarChart.py:800
+msgid "5"
+msgstr "5 chani"
+
+#: StarChart.py:801
+msgid "6"
+msgstr "6 chani"
+
+#: StarChart.py:805
+msgid "Longitude:"
+msgstr "Longitud chani:"
+
+#: StarChart.py:808 StarChart.py:1755 StarChart.py:1764
+msgid "E"
+msgstr "E chimpu"
+
+#: StarChart.py:809 StarChart.py:1757 StarChart.py:1762
+msgid "W"
+msgstr "O chimpu"
+
+#: StarChart.py:810
+msgid "Latitude:"
+msgstr "Latitud chani:"
+
+#: StarChart.py:813 StarChart.py:1746
+msgid "N"
+msgstr "N chimpu"
+
+#: StarChart.py:814 StarChart.py:1750
+msgid "S"
+msgstr "S chimpu"
+
+#: StarChart.py:819 StarChart.py:837
+msgid "Ok"
+msgstr "Walikiwa"
+
+#: StarChart.py:822
+msgid "Make home"
+msgstr "Utachaña"
+
+#: StarChart.py:825
+msgid "Now"
+msgstr "Jichha"
+
+#: StarChart.py:826
+msgid "Specify"
+msgstr "Qhananchaña"
+
+#: StarChart.py:827
+msgid "Time:"
+msgstr "Pacha:"
+
+#: StarChart.py:830
+msgid "Offset:"
+msgstr "Offset wakichata:"
+
+#: StarChart.py:840
+msgid "Object type:"
+msgstr "Apanaqaña kasta:"
+
+#: StarChart.py:851
+msgid "See http://wiki.laptop.org/go/StarChart for help."
+msgstr "Yanapañataki uñjaña http://wiki.laptop.org/go/StarChart."
+
+#: StarChart.py:925
+msgid "There is no object here."
+msgstr "Khayana janiwa apanaqaña utjiti."
+
+#: StarChart.py:992
+msgid "deep-sky object"
+msgstr "Alaxa pachana apanaqañapa"
+
+#: StarChart.py:994
+msgid "planet"
+msgstr "pacha"
+
+#: StarChart.py:996 StarChart.py:999
+msgid "Object is: "
+msgstr "apanaqañaxa akawa: "
+
+#: StarChart.py:1002
+msgid "star"
+msgstr "wara wara"
+
+#: StarChart.py:1003
+msgid "Object is "
+msgstr "uka apanaqañaxa akawa: "
+
+#: StarChart.py:1406 StarChart.py:3107
+msgid "Planets"
+msgstr "Pachanaka"
+
+#: StarChart.py:1417 StarChart.py:3108
+msgid "Stars by Constellation"
+msgstr "Pacha saräwinaka wara waranaka"
+
+#: StarChart.py:1431 StarChart.py:3109
+msgid "Brightest Stars"
+msgstr "Wali lliphi wara waranaka"
+
+#: StarChart.py:1452 StarChart.py:3110
+msgid "Deep-sky Objects"
+msgstr "Alaxa pachana apanaqañanakapa"
+
+#: StarChart.py:1617
+msgid "This object is always below the horizon at your location."
+msgstr "Aka apanaqañaxa jumana uñtäwima manqhankiwa."
+
+#: StarChart.py:1620
+msgid "This object is currently not in the field of view."
+msgstr "Aka apanaqañaxa jichhaxa janiwa uñjäwi chiqankiti."
+
+#: StarChart.py:1622
+msgid "This object is currently below your horizon."
+msgstr "Aka apanaqañaxa jumana uñtäwima manqhankiwa."
+
+#: StarChart.py:1662
+msgid "Input Error: The longitude was not understood."
+msgstr "Mantañana pantjatawa: Longitud chanipa janiwa qhanati."
+
+#: StarChart.py:1666
+msgid "Input Error: The latitude was not understood."
+msgstr "Mantañana pantjatawa: Libertad chanipa janiwa qhanati."
+
+#: StarChart.py:1670
+msgid "Input Error: The time was not understood."
+msgstr "Mantañana pantjatawa: Pacha chanipa janiwa qhanati."
+
+#: StarChart.py:1674
+msgid "Input Error: The time zone offset was not understood."
+msgstr "Mantañana pantjatawa: Pacha chani chiqachäwi janiwa qhanati."
+
+#: StarChart.py:2929
+msgid "Star Chart Activity"
+msgstr "Warawaranakana rixipa luräwi"
+
+#: StarChart.py:3147
+msgid "What"
+msgstr "Kuna?"
+
+#: StarChart.py:3148
+msgid "Where"
+msgstr "Kawki?"
+
+#: StarChart.py:3149
+msgid "When"
+msgstr "Kunapacha?"
+
+#: StarChart.py:3150
+msgid "Locate"
+msgstr "Katjaña"
+
+#: StarChart.py:3151
+msgid "About"
+msgstr "Uka tuqi"
+
+#: constellations.py:14
+msgid "Andromeda"
+msgstr "Andrómeda wakichata"
+
+#: constellations.py:24
+msgid "Antlia"
+msgstr "Antlia wakichata"
+
+#: constellations.py:28
+msgid "Apus"
+msgstr "Apus wakichata"
+
+#: constellations.py:34
+msgid "Aquarius"
+msgstr "Acuario wakichata"
+
+#: constellations.py:53
+msgid "Aquila"
+msgstr "Quli Paka"
+
+#: constellations.py:66
+msgid "Ara"
+msgstr "Ara wakichata"
+
+#: constellations.py:75
+msgid "Aries"
+msgstr "Aries chimpu"
+
+#: constellations.py:80
+msgid "Auriga"
+msgstr "Auriga wakichata"
+
+#: constellations.py:90
+msgid "Boötes"
+msgstr "Boyero wakichata"
+
+#: constellations.py:102
+msgid "Caelum"
+msgstr "Caelum wakichata"
+
+#: constellations.py:107
+msgid "Camelopardalis"
+msgstr "Camelopardalis wakichata"
+
+#: constellations.py:114
+msgid "Cancer"
+msgstr "Cáncer chimpu"
+
+#: constellations.py:121
+msgid "Canis Venatici"
+msgstr "Canis Venatici wakichata"
+
+#: constellations.py:126
+msgid "Canis Major"
+msgstr "Can Mayor wakichata"
+
+#: constellations.py:138
+msgid "Canis Minor"
+msgstr "Can Menor wakichata"
+
+#: constellations.py:141
+msgid "Capricornus"
+msgstr "Capricornio wakichata"
+
+#: constellations.py:154
+msgid "Carina"
+msgstr "Carina suti"
+
+#: constellations.py:167
+msgid "Cassiopeia"
+msgstr "Cassiopea wakichata"
+
+#: constellations.py:173
+msgid "Centaurus"
+msgstr "Centauro chimpu"
+
+#: constellations.py:187
+msgid "Cepheus"
+msgstr "Cefeo wakichata"
+
+#: constellations.py:195
+msgid "Cetus"
+msgstr "Cetus wakichata"
+
+#: constellations.py:212
+msgid "Chamaeleon"
+msgstr "Chamaeleon wakichata"
+
+#: constellations.py:218
+msgid "Circinus"
+msgstr "Circinus wakichata"
+
+#: constellations.py:222
+msgid "Columba"
+msgstr "Columba wakichata"
+
+#: constellations.py:229
+msgid "Coma Berenices"
+msgstr "Coma Berenices wakichata"
+
+#: constellations.py:233
+msgid "Corona Australis"
+msgstr "Corona Australis wakichata"
+
+#: constellations.py:242
+msgid "Corona Borealis"
+msgstr "Corona Borealis wakichata"
+
+#: constellations.py:250
+msgid "Corvus"
+msgstr "Corvus wakichata"
+
+#: constellations.py:257
+msgid "Crater"
+msgstr "Crater wakichata"
+
+#: constellations.py:267
+msgid "Crux"
+msgstr "Crux wakichata"
+
+#: constellations.py:271
+msgid "Cygnus"
+msgstr "Cisne wakichata"
+
+#: constellations.py:278
+msgid "Delphinus"
+msgstr "Delphinus wakichata"
+
+#: constellations.py:285
+msgid "Dorado"
+msgstr "Dorado wakichata"
+
+#: constellations.py:290
+msgid "Draco"
+msgstr "Draco wakichata"
+
+#: constellations.py:312
+msgid "Equuleus"
+msgstr "Equuleus wakichata"
+
+#: constellations.py:316
+msgid "Eridanus"
+msgstr "Eridanus wakichata"
+
+#: constellations.py:348
+msgid "Fornax"
+msgstr "Fornax wakichata"
+
+#: constellations.py:354
+msgid "Gemini"
+msgstr "Géminis chimpu"
+
+#: constellations.py:365
+msgid "Grus"
+msgstr "Grus wakichata"
+
+#: constellations.py:377
+msgid "Hercules"
+msgstr "Hércules wakichata"
+
+#: constellations.py:398
+msgid "Horologium"
+msgstr "Horologium wakichata"
+
+#: constellations.py:405
+msgid "Hydra"
+msgstr "Hidra wakichata"
+
+#: constellations.py:423
+msgid "Hydrus"
+msgstr "Hydrus wakichata"
+
+#: constellations.py:428
+msgid "Indus"
+msgstr "Indus wakichata"
+
+#: constellations.py:433
+msgid "Lacerta"
+msgstr "Lacerta wakichata"
+
+#: constellations.py:441
+msgid "Leo"
+msgstr "Leo chimpu"
+
+#: constellations.py:452
+msgid "Leo Minor"
+msgstr "Sullkïri Leo chimpu"
+
+#: constellations.py:456
+msgid "Lepus"
+msgstr "Lepus wakichata"
+
+#: constellations.py:466
+msgid "Libra"
+msgstr "Libra chimpu"
+
+#: constellations.py:474
+msgid "Lupus"
+msgstr "Lupus wakichata"
+
+#: constellations.py:488
+msgid "Lynx"
+msgstr "Lince wakichata"
+
+#: constellations.py:497
+msgid "Lyra"
+msgstr "Lira wakichata"
+
+#: constellations.py:505
+msgid "Mensa"
+msgstr "Mensa wakichata"
+
+#: constellations.py:510
+msgid "Microscopium"
+msgstr "Microscopium wakichata"
+
+#: constellations.py:515
+msgid "Monoceros"
+msgstr "Monoceros wakichata"
+
+#: constellations.py:521
+msgid "Musca"
+msgstr "Musca wakichata"
+
+#: constellations.py:528
+msgid "Norma"
+msgstr "Norma wakichata"
+
+#: constellations.py:534
+msgid "Octans"
+msgstr "Octans wakichata"
+
+#: constellations.py:539
+msgid "Ophiuchus"
+msgstr "Ophiuchus wakichata"
+
+#: constellations.py:552
+msgid "Orion"
+msgstr "Orión wakichata"
+
+#: constellations.py:572
+msgid "Pavo"
+msgstr "Pavo wakichata"
+
+#: constellations.py:581
+msgid "Pegasus"
+msgstr "Pegaso wakichata"
+
+#: constellations.py:597
+msgid "Perseus"
+msgstr "Perseo wakichata"
+
+#: constellations.py:615
+msgid "Phoenix"
+msgstr "Fénix wakichata"
+
+#: constellations.py:623
+msgid "Pictor"
+msgstr "Pictor wakichata"
+
+#: constellations.py:627
+msgid "Pisces"
+msgstr "Piscis chimpu"
+
+#: constellations.py:645
+msgid "Piscis Australis"
+msgstr "Piscis Australis wakichata"
+
+#: constellations.py:653
+msgid "Puppis"
+msgstr "Puppis wakichata"
+
+#: constellations.py:665
+msgid "Pyxis"
+msgstr "Pyxis wakichata"
+
+#: constellations.py:669
+msgid "Reticulum"
+msgstr "Retículo wakichata"
+
+#: constellations.py:676
+msgid "Sagitta"
+msgstr "Sagitta wakichata"
+
+#: constellations.py:681
+msgid "Sagittarius"
+msgstr "Sagitario chimpu"
+
+#: constellations.py:699
+msgid "Sculptor"
+msgstr "Sañuta luriri"
+
+#: constellations.py:704
+msgid "Scorpius"
+msgstr "Escorpio chimpu"
+
+#: constellations.py:720
+msgid "Scutum"
+msgstr "Escudo wakichata"
+
+#: constellations.py:724
+msgid "Serpens"
+msgstr "Jach'a asiru"
+
+#: constellations.py:742
+msgid "Sextans"
+msgstr "Sextante wakichata"
+
+#: constellations.py:748
+msgid "Taurus"
+msgstr "Tauro chimpu"
+
+#: constellations.py:761
+msgid "Telescopium"
+msgstr "Telescopium wakichata"
+
+#: constellations.py:765
+msgid "Triangulum"
+msgstr "Kimsa k'uchu"
+
+#: constellations.py:770
+msgid "Triangulum Australis"
+msgstr "Triángulo Australis wakichata"
+
+#: constellations.py:775
+msgid "Tucana"
+msgstr "Nasa k'allalla jamach'i"
+
+#: constellations.py:782
+msgid "Ursa Major"
+msgstr "Jila jukuriri"
+
+#: constellations.py:801
+msgid "Ursa Minor"
+msgstr "Sullka jukuriri"
+
+#: constellations.py:810
+msgid "Vela"
+msgstr "Ispilma"
+
+#: constellations.py:819
+msgid "Virgo"
+msgstr "Virgo chimpu"
+
+#: constellations.py:831
+msgid "Volans"
+msgstr "Volans wakichata"
+
+#: constellations.py:839
+msgid "Vulpecula"
+msgstr "Vulpécula wakichata"
+
+#: dso1.py:32
+msgid "Butterfly Cluster"
+msgstr "Pilpintu tama"
+
+#: dso1.py:33
+msgid "Ptolemy's Cluster"
+msgstr "Ptolomeo tama"
+
+#: dso1.py:34
+msgid "Lagoon Nebula"
+msgstr "Qutaña urpu"
+
+#: dso1.py:36
+msgid "Wild Duck Cluster"
+msgstr "Sallqa patu tama"
+
+#: dso1.py:38
+msgid "Hercules Cluster"
+msgstr "Hércules tama"
+
+#: dso1.py:40
+msgid "Omega Nebula"
+msgstr "Omega urpu"
+
+#: dso1.py:42
+msgid "Trifid Nebula"
+msgstr "Trífida urpu"
+
+#: dso1.py:49
+msgid "Andromeda Galaxy"
+msgstr "Andrómeda wakisiri qäna"
+
+#: dso1.py:50
+msgid "Triangulum Galaxy"
+msgstr "Kimsa k'uchu qäna"
+
+#: dso1.py:58
+msgid "Orion Nebula"
+msgstr "Orión urpu"
+
+#: dso1.py:59
+msgid "de Mairans Nebula"
+msgstr "Mairans urpu"
+
+#: dso1.py:60
+msgid "Beehive Cluster"
+msgstr "Colmena tama"
+
+#: dso1.py:61
+msgid "Pleiades"
+msgstr "Pacha jawira"
+
+#: dso1.py:66
+msgid "Whirlpool Galaxy"
+msgstr "Jacuzzi qäna"
+
+#: dso1.py:71
+msgid "Sunflower Galaxy"
+msgstr "Panqara qäna"
+
+#: dso1.py:74
+msgid "Bodes Galaxy"
+msgstr "Bodes qäna"
+
+#: dso1.py:75
+msgid "Southern Pinwheel Galaxy"
+msgstr "Molinete del Sur qäna"
+
+#: dso1.py:78
+msgid "Pinwheel Galaxy"
+msgstr "Molinete qäna"
+
+#: dso2.py:35
+msgid "Large Magellanic Cloud"
+msgstr "Magallanes jach'a qinaya"
+
+#: dso2.py:40
+msgid "47 Tucanae"
+msgstr "47 Tucanae wakichata"
+
+#: dso2.py:41
+msgid "Sculptor Galaxy"
+msgstr "Sculptor qäna"
+
+#: dso2.py:43
+msgid "Small Magellanic Cloud"
+msgstr "Magallanes jisk'a qinaya"
+
+#: dso2.py:46
+msgid "Double Cluster"
+msgstr "Parisa tama"
+
+#: dso2.py:48
+msgid "California Nebula"
+msgstr "California urpu"
+
+#: dso2.py:54
+msgid "Cone Nebula"
+msgstr "Cono urpu"
+
+#: dso2.py:56
+msgid "Rosette Nebula"
+msgstr "Roseta urpu"
+
+#: dso2.py:60
+msgid "Ghost of Jupiter"
+msgstr "Júpiter ura"
+
+#: dso2.py:61
+msgid "Eta Carina Nebula"
+msgstr "Eta Carina urpu"
+
+#: dso2.py:63
+msgid "Jewel Box"
+msgstr "alaja"
+
+#: dso2.py:66
+msgid "Centaurus A"
+msgstr "A Centauro wakichata"
+
+#: dso2.py:67
+msgid "Omega Centauri"
+msgstr "Omega Centauri wakichata"
+
+#: dso2.py:77
+msgid "Barnard's Galaxy"
+msgstr "Barnard qäna"
+
+#: dso2.py:78
+msgid "Crescent Nebula"
+msgstr "Crescent qäna"
+
+#: dso2.py:79
+msgid "Veil Nebula"
+msgstr "p'amp'aña qäna"
+
+#: dso2.py:80
+msgid "North America Nebula"
+msgstr "América del Norte urpu"
