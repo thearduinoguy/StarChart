@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-01 00:33-0500\n"
-"PO-Revision-Date: 2013-01-02 21:14+0200\n"
-"Last-Translator: Kamila <kamilafilipowska@yahoo.com>\n"
+"POT-Creation-Date: 2013-05-25 00:32-0400\n"
+"PO-Revision-Date: 2013-06-28 21:26+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -19,9 +19,12 @@ msgstr ""
 "X-Generator: Pootle 2.0.5\n"
 
 #. TRANS: "name" option from activity.info file
+msgid "StarChart"
+msgstr ""
+
 #. TRANS: "summary" option from activity.info file
 #. TRANS: "description" option from activity.info file
-msgid "StarChart"
+msgid "explore the cosmos"
 msgstr ""
 
 #: StarChart.py:227
@@ -174,7 +177,7 @@ msgstr "planeta"
 
 #: StarChart.py:996 StarChart.py:999
 msgid "Object is: "
-msgstr "Obiekt to:"
+msgstr "Obiekt to: "
 
 #: StarChart.py:1002
 msgid "star"
@@ -727,7 +730,7 @@ msgstr "Centaurus A"
 
 #: dso2.py:67
 msgid "Omega Centauri"
-msgstr "Omega Centauri "
+msgstr "Omega Centauri"
 
 #: dso2.py:77
 msgid "Barnard's Galaxy"
