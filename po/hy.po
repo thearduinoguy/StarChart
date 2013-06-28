@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-01 00:33-0500\n"
-"PO-Revision-Date: 2013-04-29 17:38+0200\n"
-"Last-Translator: anushnur <anush.mkrtchyan@ca1492.com>\n"
+"POT-Creation-Date: 2013-05-25 00:32-0400\n"
+"PO-Revision-Date: 2013-06-28 21:52+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
@@ -18,10 +18,13 @@ msgstr ""
 "X-Generator: Pootle 2.0.5\n"
 
 #. TRANS: "name" option from activity.info file
-#. TRANS: "summary" option from activity.info file
-#. TRANS: "description" option from activity.info file
 msgid "StarChart"
 msgstr "Աստղային Քարտեզ"
+
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid "explore the cosmos"
+msgstr ""
 
 #: StarChart.py:227
 msgid "Mercury"
@@ -178,7 +181,7 @@ msgstr "մոլորակ"
 
 #: StarChart.py:996 StarChart.py:999
 msgid "Object is: "
-msgstr "Մարմինը դա`"
+msgstr "Մարմինը դա` "
 
 #: StarChart.py:1002
 msgid "star"
@@ -186,7 +189,7 @@ msgstr "աստղ"
 
 #: StarChart.py:1003
 msgid "Object is "
-msgstr "Մարմինը դա`"
+msgstr "Մարմինը դա` "
 
 #: StarChart.py:1406 StarChart.py:3107
 msgid "Planets"
@@ -229,8 +232,9 @@ msgid "Input Error: The time was not understood."
 msgstr "Ներածման վրիպում. Ժամանակը անհասկանալի էր:"
 
 #: StarChart.py:1674
+#, fuzzy
 msgid "Input Error: The time zone offset was not understood."
-msgstr ""
+msgstr "Ներածման վրիպում. Ժամանակը անհասկանալի էր:"
 
 #: StarChart.py:2929
 msgid "Star Chart Activity"
@@ -263,7 +267,7 @@ msgstr "Անդրոմեդ"
 # Համաստեղություն է
 #: constellations.py:24
 msgid "Antlia"
-msgstr "Պոմպ "
+msgstr "Պոմպ"
 
 # նվաղ համաստեղություն է հարավային եչկնքում
 #: constellations.py:28
@@ -300,7 +304,7 @@ msgstr "Եզնարած"
 # Համաստեղություն
 #: constellations.py:102
 msgid "Caelum"
-msgstr "Դանակ "
+msgstr "Դանակ"
 
 # համաստեղություն
 #: constellations.py:107
@@ -312,10 +316,10 @@ msgstr "Ընձուղտ"
 msgid "Cancer"
 msgstr "Խեցգետին"
 
-# համաստեղություն 
+# համաստեղություն
 #: constellations.py:121
 msgid "Canis Venatici"
-msgstr "Որսկան Շներ "
+msgstr "Որսկան Շներ"
 
 #: constellations.py:126
 msgid "Canis Major"
@@ -667,7 +671,7 @@ msgstr "Փեթակ Բույլ"
 
 #: dso1.py:61
 msgid "Pleiades"
-msgstr "Բազումք "
+msgstr "Բազումք"
 
 #: dso1.py:66
 msgid "Whirlpool Galaxy"
@@ -735,7 +739,7 @@ msgstr ""
 
 #: dso2.py:66
 msgid "Centaurus A"
-msgstr " Կենտավրոս Ա"
+msgstr "Կենտավրոս Ա"
 
 #: dso2.py:67
 msgid "Omega Centauri"
