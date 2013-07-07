@@ -224,20 +224,29 @@ class ToggleButtonTool(ToolButton):
 #   pname         wbar0         E            a            I0           O0
 #   L               dL
 planets = [
+  # TRANS: http://en.wikipedia.org/wiki/Mercury_(planet)
   (_('Mercury'),    77.45779628, 0.20563593,  0.38709927,  7.00497902,  48.33076593, 252.25032350,   149472.67411175),
+  # TRANS: http://en.wikipedia.org/wiki/Venus
   (_('Venus'),    131.60246718, 0.00677672,  0.72333566,  3.39467605,  76.67984255, 181.97909950,    58517.81538729),
+  # TRANS: http://en.wikipedia.org/wiki/Earth
   (_('Earth'),    102.93768193, 0.01671123,  1.00000261, -0.00001531,   0.0,        100.46457166,    35999.37244981),
+  # TRANS: http://en.wikipedia.org/wiki/Mars
   (_('Mars'),     -23.94362959, 0.09339410,  1.52371034,  1.84969142,  49.55953891,  -4.55343205,    19140.30268499),
+  # TRANS: http://en.wikipedia.org/wiki/Jupiter
   (_('Jupiter'),   14.72847983, 0.04838624,  5.20288700,  1.30439695, 100.47390909,  34.39644051,     3034.74612775),
+  # TRANS: http://en.wikipedia.org/wiki/Saturn
   (_('Saturn'),    92.59887831, 0.05386179,  9.53667594,  2.48599187, 113.66242448,  49.95424423,     1222.49362201),
+  # TRANS: http://en.wikipedia.org/wiki/Uranus
   (_('Uranus'),   170.95427630, 0.04725744, 19.18916464,  0.77263783,  74.01692503, 313.23810451,      428.48202785),
   ]
+# TRANS: http://en.wikipedia.org/wiki/Sun
 sun = (_('Sun'),  282.93768193, 0.01671123,  1.00000261,  0.0,          0.0,        280.46457166,    35999.37244981)
 
 #       name       mean lon      lon of peri     lon of Node
 #       Inclination Eccentricity  radius (km)      Parallax   Offset of Epoch
 #                  L0            P0              N0
 #       I           e             a                phi0       tau
+# TRANS: http://en.wikipedia.org/wiki/Moon
 moon = (_('Moon'), 318.351648,   36.340410,      318.510107,      5.145396,   0.054900,     384401,          0.9507,    2447891.5)
 
 # obliquity of J2000 epoch is 23.43928 degrees -- we need this value
@@ -792,6 +801,7 @@ button4 = ToggleButtonTool(icon_off='constellations-off',
                            icon_on='constellations-on')
 button4.set_tooltip(_('Draw Constellations'))
 container2 = gtk.Table(columns=6, rows=1)
+# TRANS: http://en.wikipedia.org/wiki/Magnitude_(astronomy)
 label6 = gtk.Label(_('Mag:'))
 rb7 = gtk.RadioButton(None, _('1'))
 rb8 = gtk.RadioButton(rb7, _('2'))
@@ -802,15 +812,21 @@ rb12 = gtk.RadioButton(rb7, _('6'))
 # controls on menubar2 (_('where')):
 container3 = gtk.VBox()
 container4 = gtk.VBox()
+# TRANS: http://en.wikipedia.org/wiki/Longitude
 label1 = gtk.Label(_('Longitude:'))
 entry1 = gtk.Entry()
 entry1.set_width_chars(10)
+# TRANS: http://en.wikipedia.org/wiki/East
 rb1 = gtk.RadioButton(None, _('E'))
+# TRANS: http://en.wikipedia.org/wiki/West
 rb2 = gtk.RadioButton(rb1, _('W'))
+# TRANS: http://en.wikipedia.org/wiki/Latitude
 label2 = gtk.Label(_('Latitude:'))
 entry2 = gtk.Entry()
 entry2.set_width_chars(10)
+# TRANS: http://en.wikipedia.org/wiki/North
 rb3 = gtk.RadioButton(None, _('N'))
+# TRANS: http://en.wikipedia.org/wiki/South
 rb4 = gtk.RadioButton(rb3, _('S'))
 icon = Icon(icon_name='dialog-ok')
 button5 = gtk.Button()
@@ -991,6 +1007,7 @@ class PixelsToObjectMap():
       if (type == 'dso-messier') or (type == 'dso-ngc'):
         type = _('deep-sky object')
       elif (type == 'planet'):
+        # TRANS: http://en.wikipedia.org/wiki/Planet
         type = _('planet')
         if (name == _('Sun')):
           self.context.identifyobject.set_label(_('Object is: ') + name)
