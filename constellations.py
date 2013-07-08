@@ -255,7 +255,7 @@ data = {                                                     \
   (   13.166389,    17.529444,    13.197778,    27.878056),  \
   (   13.197778,    27.878056,    12.448889,    28.268333),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Corona Australis
+# TRANS: http://en.wikipedia.org/wiki/Corona_Australis
 'Cra' : [ _("Corona Australis"), [                           \
   (   18.978611,   -37.107500,    19.106944,   -37.063333),  \
   (   19.106944,   -37.063333,    19.157778,   -37.904444),  \
