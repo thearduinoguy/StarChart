@@ -224,7 +224,7 @@ class ToggleButtonTool(ToolButton):
 #   pname         wbar0         E            a            I0           O0
 #   L               dL
 planets = [
-  # TRANS: http://en.wikipedia.org/wiki/Mercury_(planet)
+  # TRANS: http://en.wikipedia.org/wiki/Mercury_(planet) 
   (_('Mercury'),    77.45779628, 0.20563593,  0.38709927,  7.00497902,  48.33076593, 252.25032350,   149472.67411175),
   # TRANS: http://en.wikipedia.org/wiki/Venus
   (_('Venus'),    131.60246718, 0.00677672,  0.72333566,  3.39467605,  76.67984255, 181.97909950,    58517.81538729),
@@ -801,7 +801,7 @@ button4 = ToggleButtonTool(icon_off='constellations-off',
                            icon_on='constellations-on')
 button4.set_tooltip(_('Draw Constellations'))
 container2 = gtk.Table(columns=6, rows=1)
-# TRANS: http://en.wikipedia.org/wiki/Magnitude_(astronomy)
+# TRANS: http://en.wikipedia.org/wiki/Magnitude_(astronomy) 
 label6 = gtk.Label(_('Mag:'))
 rb7 = gtk.RadioButton(None, _('1'))
 rb8 = gtk.RadioButton(rb7, _('2'))

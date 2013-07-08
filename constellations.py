@@ -11,7 +11,7 @@ from gettext import gettext as _
 #	Constellation line segments (J2000 coordinates)
 #      RA start     Dec Start       RA End        Dec End
 data = {                                                     \
-# TRANS: http://en.wikipedia.org/wiki/Andromeda_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Andromeda_(constellation) 
 'And' : [ _("Andromeda"), [                                  \
   (    2.065000,    42.329722,     1.162222,    35.620556),  \
   (    1.162222,    35.620556,     0.655556,    30.860833),  \
@@ -34,7 +34,7 @@ data = {                                                     \
   (   16.718056,   -77.517500,    16.557500,   -78.897222),  \
   (   16.440833,   -78.794444,    14.797778,   -79.044722),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Aquarius_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Aquarius_(constellation) 
 'Aqr' : [ _("Aquarius"), [                                   \
   (   20.794722,    -9.495833,    21.525278,    -5.571111),  \
   (   21.525278,    -5.571111,    22.055278,    -2.155278),  \
@@ -54,7 +54,7 @@ data = {                                                     \
   (   22.826667,   -13.592500,    22.876944,    -7.579722),  \
   (   23.157500,   -21.172500,    22.960833,   -29.622222),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Aquila_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Aquila_(constellation) 
 'Aql' : [ _("Aquila"), [                                     \
   (   18.993611,    15.068333,    19.090278,    13.863333),  \
   (   19.090278,    13.863333,    19.771111,    10.613333),  \
@@ -68,7 +68,7 @@ data = {                                                     \
   (   19.425000,     3.114722,    19.771111,    10.613333),  \
   (   19.104167,    -4.882500,    19.028056,    -5.738889),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Ara_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Ara_(constellation) 
 'Ara' : [ _("Ara"), [                                        \
   (   18.110556,   -50.091667,    17.530833,   -49.875833),  \
   (   17.530833,   -49.875833,    17.421667,   -55.530000),  \
@@ -78,13 +78,13 @@ data = {                                                     \
   (   16.976944,   -55.990278,    16.993056,   -53.160556),  \
   (   16.976944,   -55.990278,    16.829722,   -59.041389),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Aries_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Aries_(constellation) 
 'Ari' : [ _("Aries"), [                                      \
   (    3.193889,    19.726667,     2.119444,    23.462500),  \
   (    2.119444,    23.462500,     1.910556,    20.808056),  \
   (    1.910556,    20.808056,     1.892222,    19.293889),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Auriga_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Auriga_(constellation) 
 'Aur' : [ _("Auriga"), [                                     \
   (    5.438333,    28.607500,     5.995278,    37.212500),  \
   (    5.995278,    37.212500,     5.992222,    44.947500),  \
@@ -122,7 +122,7 @@ data = {                                                     \
   (    4.900833,    66.342778,     5.056944,    60.442222),  \
   (    5.056944,    60.442222,     4.954722,    53.752222),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Cancer_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Cancer_(constellation) 
 'Cnc' : [ _("Cancer"), [                                     \
   (    8.778333,    28.760000,     8.721389,    21.468611),  \
   (    8.721389,    21.468611,     8.744722,    18.154167),  \
@@ -167,7 +167,7 @@ data = {                                                     \
   (   21.444444,   -22.411389,    21.618056,   -19.465833),  \
   (   21.618056,   -19.465833,    21.783889,   -16.127222),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Carina_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Carina_(constellation) 
 'Car' : [ _("Carina"), [                                     \
   (    6.399167,   -52.695833,     7.946389,   -52.982222),  \
   (    7.946389,   -52.982222,     8.375278,   -59.509722),  \
@@ -181,7 +181,7 @@ data = {                                                     \
   (    9.220000,   -69.717222,     9.785000,   -65.071944),  \
   (    9.785000,   -65.071944,     9.284722,   -59.275278),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Cassiopeia_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Cassiopeia_(constellation) 
 'Cas' : [ _("Cassiopeia"), [                                 \
   (    1.906667,    63.670000,     1.430278,    60.235278),  \
   (    1.430278,    60.235278,     0.945278,    60.716667),  \
@@ -203,7 +203,7 @@ data = {                                                     \
   (   13.343333,   -36.712222,    12.691944,   -48.959722),  \
   (   14.591667,   -42.157778,    14.986111,   -42.104167),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Cepheus_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Cepheus_(constellation) 
 'Cep' : [ _("Cepheus"), [                                    \
   (   23.655833,    77.632500,    21.477778,    70.560833),  \
   (   21.477778,    70.560833,    21.309722,    62.585556),  \
@@ -237,12 +237,12 @@ data = {                                                     \
   (    8.308778,   -76.919722,    10.763000,   -80.540278),  \
   (   10.763000,   -80.540278,    12.305750,   -79.312222),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Circinus_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Circinus_(constellation) 
 'Cir' : [ _("Circinus"), [                                   \
   (   15.389722,   -59.320833,    14.708333,   -64.975278),  \
   (   14.708333,   -64.975278,    15.291944,   -58.801111),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Columba_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Columba_(constellation) 
 'Col' : [ _("Columba"), [                                    \
   (    5.985833,   -42.815278,     5.849444,   -35.768333),  \
   (    5.849444,   -35.768333,     5.958889,   -35.283333),  \
@@ -274,7 +274,7 @@ data = {                                                     \
   (   15.578056,    26.714722,    15.463889,    29.105833),  \
   (   15.463889,    29.105833,    15.548889,    31.359167),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Corvus_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Corvus_(constellation) 
 'Crv' : [ _("Corvus"), [                                     \
   (   12.140278,   -24.728889,    12.168889,   -22.619722),  \
   (   12.168889,   -22.619722,    12.573056,   -23.396667),  \
@@ -282,7 +282,7 @@ data = {                                                     \
   (   12.497778,   -16.515556,    12.263333,   -17.541944),  \
   (   12.263333,   -17.541944,    12.168889,   -22.619722),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Crater_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Crater_(constellation) 
 'Crt' : [ _("Crater"), [                                     \
   (   10.827222,   -16.193611,    10.996389,   -18.298889),  \
   (   10.996389,   -18.298889,    11.194444,   -22.825833),  \
@@ -298,7 +298,7 @@ data = {                                                     \
   (   12.795278,   -59.688611,    12.252500,   -58.748889),  \
   (   12.443333,   -63.098889,    12.519444,   -57.113056),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Cygnus_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Cygnus_(constellation) 
 'Cyg' : [ _("Cygnus"), [                                     \
   (   20.690556,    45.280278,    20.370556,    40.256667),  \
   (   20.370556,    40.256667,    20.770278,    33.970278),  \
@@ -320,7 +320,7 @@ data = {                                                     \
   (    5.560556,   -62.489722,     4.533333,   -55.045000),  \
   (    4.533333,   -55.045000,     4.267222,   -51.486667),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Draco_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Draco_(constellation) 
 'Dra' : [ _("Draco"), [                                      \
   (   11.523333,    69.331111,    12.558056,    69.788333),  \
   (   12.558056,    69.788333,    14.073056,    64.375833),  \
@@ -348,7 +348,7 @@ data = {                                                     \
   (   21.263611,     5.247778,    21.241389,    10.006944),  \
   (   21.241389,    10.006944,    21.172500,    10.131667),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Eridanus_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Eridanus_(constellation) 
 'Eri' : [ _("Eridanus"), [                                   \
   (    5.130833,    -5.086389,     4.758333,    -3.254722),  \
   (    4.758333,    -3.254722,     4.605278,    -3.352500),  \
@@ -388,7 +388,7 @@ data = {                                                     \
 # object to correspond to the constellation name.
   (    3.201194,   -28.986944,     2.818167,   -32.405833),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Gemini_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Gemini_(constellation) 
 'Gem' : [ _("Gemini"), [                                     \
   (    6.754722,    12.895556,     6.628611,    16.399167),  \
   (    6.628611,    16.399167,     7.068611,    20.570278),  \
@@ -400,7 +400,7 @@ data = {                                                     \
   (    6.382778,    22.513611,     6.248056,    22.506667),  \
   (    6.248056,    22.506667,     6.068611,    23.263333),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Grus_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Grus_(constellation) 
 'Gru' : [ _("Grus"), [                                       \
   (   21.898889,   -37.365000,    21.988333,   -38.395278),  \
   (   21.988333,   -38.395278,    22.101944,   -39.543333),  \
@@ -413,7 +413,7 @@ data = {                                                     \
   (   22.711111,   -46.884722,    22.809167,   -51.316944),  \
   (   22.809167,   -51.316944,    23.014722,   -52.754167),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Hercules_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Hercules_(constellation) 
 'Her' : [ _("Hercules"), [                                   \
   (   18.125833,    28.762500,    17.962778,    29.247778),  \
   (   17.962778,    29.247778,    17.774444,    27.720556),  \
@@ -443,7 +443,7 @@ data = {                                                     \
   (    2.677778,   -54.550000,     3.060278,   -59.737778),  \
   (    3.060278,   -59.737778,     2.980000,   -64.071389),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Hydra_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Hydra_(constellation) 
 'Hya' : [ _("Hydra"), [                                      \
   (   14.106111,   -26.682500,    13.315278,   -23.171667),  \
   (   13.315278,   -23.171667,    11.881944,   -33.908056),  \
@@ -468,7 +468,7 @@ data = {                                                     \
   (    3.787222,   -74.238889,     0.429167,   -77.254167),  \
   (    0.429167,   -77.254167,     1.979444,   -61.569722),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Indus_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Indus_(constellation) 
 'Ind' : [ _("Indus"), [                                      \
   (   20.626111,   -47.291389,    21.331111,   -53.449722),  \
   (   21.331111,   -53.449722,    20.913611,   -58.454167),  \
@@ -483,7 +483,7 @@ data = {                                                     \
   (   22.408611,    49.476389,    22.521667,    50.282500),  \
   (   22.521667,    50.282500,    22.392778,    52.229167),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Leo_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Leo_(constellation) 
 'Leo' : [ _("Leo"), [                                        \
   (    9.764167,    23.774167,     9.879444,    26.006944),  \
   (    9.879444,    26.006944,    10.278056,    23.417222),  \
@@ -500,7 +500,7 @@ data = {                                                     \
   (   10.888611,    34.215000,    10.464722,    36.707222),  \
   (   10.464722,    36.707222,    10.123889,    35.244722),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Lepus_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Lepus_(constellation) 
 'Lep' : [ _("Lepus"), [                                      \
   (    5.940000,   -14.167778,     5.782500,   -14.821944),  \
   (    5.782500,   -14.821944,     5.545556,   -17.822222),  \
@@ -511,7 +511,7 @@ data = {                                                     \
   (    5.470833,   -20.759444,     5.091111,   -22.371111),  \
   (    5.470833,   -20.759444,     5.545556,   -17.822222),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Libra_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Libra_(constellation) 
 'Lib' : [ _("Libra"), [                                      \
   (   15.644167,   -29.777778,    15.617222,   -28.135000),  \
   (   15.617222,   -28.135000,    15.067778,   -25.281944),  \
@@ -520,7 +520,7 @@ data = {                                                     \
   (   15.283333,    -9.383056,    15.592222,   -14.789444),  \
   (   15.592222,   -14.789444,    15.067778,   -25.281944),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Lupus_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Lupus_(constellation) 
 'Lup' : [ _("Lupus"), [                                      \
   (   14.698889,   -47.388333,    15.204722,   -52.099167),  \
   (   15.204722,   -52.099167,    15.308889,   -47.875000),  \
@@ -535,7 +535,7 @@ data = {                                                     \
   (   15.356111,   -40.647500,    14.975556,   -43.133889),  \
   (   14.975556,   -43.133889,    14.698889,   -47.388333),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Lynx_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Lynx_(constellation) 
 'Lyn' : [ _("Lynx"), [                                       \
   (    6.326944,    59.010833,     6.954722,    58.422500),  \
   (    6.954722,    58.422500,     7.445278,    49.211389),  \
@@ -554,7 +554,7 @@ data = {                                                     \
   (   18.982500,    32.689444,    18.834722,    33.362778),  \
   (   18.834722,    33.362778,    18.746111,    37.605000),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Mensa_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Mensa_(constellation) 
 'Men' : [ _("Mensa"), [                                      \
   (    5.045278,   -71.314444,     4.919722,   -74.936944),  \
   (    4.919722,   -74.936944,     5.531389,   -76.341111),  \
@@ -581,7 +581,7 @@ data = {                                                     \
   (   13.037778,   -71.548889,    12.541111,   -72.133056),  \
   (   12.541111,   -72.133056,    12.619722,   -69.135556),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Norma_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Norma_(constellation) 
 'Nor' : [ _("Norma"), [                                      \
   (   16.053611,   -49.229722,    16.108056,   -45.173333),  \
   (   16.108056,   -45.173333,    16.453056,   -47.554722),  \
@@ -608,7 +608,7 @@ data = {                                                     \
   (   17.798333,     2.707222,    18.010833,     2.931667),  \
   (   18.010833,     2.931667,    18.090833,     2.499444),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Orion_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Orion_(constellation) 
 'Ori' : [ _("Orion"), [                                      \
   (    6.065278,    20.138333,     6.198889,    14.208889),  \
   (    6.198889,    14.208889,     6.039722,     9.647500),  \
@@ -629,7 +629,7 @@ data = {                                                     \
   (    5.242222,    -8.201667,     5.533333,    -0.299167),  \
   (    5.533333,    -0.299167,     5.418889,     6.349722),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Pavo_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Pavo_(constellation) 
 'Pav' : [ _("Pavo"), [                                       \
   (   21.440833,   -65.366111,    20.749444,   -66.203056),  \
   (   20.749444,   -66.203056,    20.427500,   -56.735000),  \
@@ -639,7 +639,7 @@ data = {                                                     \
   (   18.717222,   -71.428056,    20.010000,   -72.910556),  \
   (   20.010000,   -72.910556,    20.749444,   -66.203056),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Pegasus_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Pegasus_(constellation) 
 'Peg' : [ _("Pegasus"), [                                    \
   (    0.139722,    29.090556,     0.220556,    15.183611),  \
   (    0.220556,    15.183611,    23.079444,    15.205278),  \
@@ -656,7 +656,7 @@ data = {                                                     \
   (   22.775556,    23.565556,    22.116944,    25.345000),  \
   (   22.116944,    25.345000,    21.744167,    25.645000),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Perseus_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Perseus_(constellation) 
 'Per' : [ _("Perseus"), [                                    \
   (    3.738611,    32.288333,     3.902222,    31.883611),  \
   (    3.902222,    31.883611,     3.982778,    35.791111),  \
@@ -675,7 +675,7 @@ data = {                                                     \
   (    3.158333,    44.857222,     3.136111,    40.955556),  \
   (    3.136111,    40.955556,     3.086389,    38.840278),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Phoenix_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Phoenix_(constellation) 
 'Phe' : [ _("Phoenix"), [                                    \
   (    1.472778,   -43.318333,     1.520833,   -49.072778),  \
   (    1.520833,   -49.072778,     1.101389,   -46.718611),  \
@@ -689,7 +689,7 @@ data = {                                                     \
   (    5.788056,   -51.066389,     5.830556,   -56.166667),  \
   (    5.830556,   -56.166667,     6.803056,   -61.941389),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Pisces_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Pisces_(constellation) 
 'Psc' : [ _("Pisces"), [                                     \
   (    1.194444,    30.089722,     1.324444,    27.264167),  \
   (    1.324444,    27.264167,     1.229167,    24.583611),  \
@@ -749,7 +749,7 @@ data = {                                                     \
   (   19.789722,    18.534167,    19.668333,    18.013889),  \
   (   19.789722,    18.534167,    19.684167,    17.476111),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Sagittarius_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Sagittarius_(constellation) 
 'Sgr' : [ _("Sagittarius"), [                                \
   (   19.377222,   -44.458889,    19.398056,   -40.616111),  \
   (   19.398056,   -40.616111,    19.043611,   -29.880278),  \
@@ -768,7 +768,7 @@ data = {                                                     \
   (   18.402778,   -34.384722,    18.096944,   -30.424167),  \
   (   18.096944,   -30.424167,    18.350000,   -29.828056),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Sculptor_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Sculptor_(constellation) 
 'Scl' : [ _("Sculptor"), [                                   \
   (    0.976667,   -29.357500,    23.815556,   -28.130278),  \
   (   23.815556,   -28.130278,    23.313611,   -32.531944),  \
@@ -822,7 +822,7 @@ data = {                                                     \
   (   10.505000,    -0.636944,    10.132222,    -0.371667),  \
   (   10.132222,    -0.371667,     9.875000,    -8.105000),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Taurus_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Taurus_(constellation) 
 'Tau' : [ _("Taurus"), [                                     \
   (    5.438333,    28.607500,     4.704167,    22.956944),  \
   (    4.704167,    22.956944,     4.476944,    19.180278),  \
@@ -891,7 +891,7 @@ data = {                                                     \
   (   15.345556,    71.834167,    14.845000,    74.155556),  \
   (   14.845000,    74.155556,    15.734444,    77.794444),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Vela_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Vela_(constellation) 
 'Vel' : [ _("Vela"), [                                       \
   (   10.779444,   -49.420000,     9.947778,   -54.567778),  \
   (    9.947778,   -54.567778,     9.368611,   -55.010833),  \
@@ -901,7 +901,7 @@ data = {                                                     \
   (    9.133333,   -43.432500,     9.511667,   -40.466667),  \
   (    9.133333,   -43.432500,     9.368611,   -55.010833),  \
 ]],                                                          \
-# TRANS: http://en.wikipedia.org/wiki/Virgo_(constellation)
+# TRANS: http://en.wikipedia.org/wiki/Virgo_(constellation) 
 'Vir' : [ _("Virgo"), [                                      \
   (   13.578333,    -0.595833,    14.027500,     1.544444),  \
   (   14.027500,     1.544444,    14.770833,     1.892778),  \

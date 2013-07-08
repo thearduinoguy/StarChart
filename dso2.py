@@ -70,7 +70,7 @@ data = [                                                  \
   # TRANS: http://en.wikipedia.org/wiki/Carina_Nebula
   ('NGC3372',       'Car',       10.729999,     -59.866666,    1.00,     120.000000,   120.000000,    0.0, 'DfN', _('Eta Carina Nebula')),  \
   ('NGC4372',       'Mus',       12.429999,     -72.666666,    7.80,      18.600000,    18.600000,    0.0, 'GCl', ''),  \
-  # TRANS: http://en.wikipedia.org/wiki/Jewel_Box_(star_cluster)
+  # TRANS: http://en.wikipedia.org/wiki/Jewel_Box_(star_cluster) 
   ('NGC4755',       'Cru',       12.893333,     -60.333333,    4.20,      10.000000,    10.000000,    0.0, 'OCl', _('Jewel Box')),  \
   ('NGC4833',       'Mus',       12.993333,     -70.883333,    7.40,      13.500000,    13.500000,    0.0, 'GCl', ''),  \
   ('NGC4945',       'Cen',       13.090000,     -49.466666,    9.00,      20.000000,     3.800000,    0.0, 'Gal', ''),  \
