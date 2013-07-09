@@ -67,7 +67,7 @@ data = [                                                  \
   # TRANS: http://en.wikipedia.org/wiki/Orion_Nebula
   ('M042',        'Ori',        5.590000,      -5.450000,     5.00,      85.000000,    60.000000,    0.0, 'DfN', _('Orion Nebula')),  \
   # TRANS: http://en.wikipedia.org/wiki/De_Mairan's_Nebula
-  ('M043',        'Ori',        5.593333,      -5.266667,     7.00,      20.000000,    15.000000,    0.0, 'DfN', _('de Mairan's Nebula')),  \
+  ('M043',        'Ori',        5.593333,      -5.266667,     7.00,      20.000000,    15.000000,    0.0, 'DfN', _("de Mairan's Nebula")),  \
   # TRANS: http://en.wikipedia.org/wiki/Beehive_Cluster
   ('M044',        'Cnc',        8.668333,      19.983333,     4.00,      95.000000,    95.000000,    0.0, 'OCl', _('Beehive Cluster')),  \
   # TRANS: http://en.wikipedia.org/wiki/Pleiades
