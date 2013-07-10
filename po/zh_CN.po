@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-25 00:32-0400\n"
-"PO-Revision-Date: 2013-06-02 18:27+0200\n"
+"POT-Creation-Date: 2013-07-10 00:32-0400\n"
+"PO-Revision-Date: 2013-07-10 15:57+0200\n"
 "Last-Translator: lite <litekok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -26,722 +26,865 @@ msgstr "星图"
 msgid "explore the cosmos"
 msgstr "探索宇宙"
 
-#: StarChart.py:227
+#. TRANS: http://en.wikipedia.org/wiki/Mercury_(planet)
+#: StarChart.py:228
 msgid "Mercury"
 msgstr "水星"
 
-#: StarChart.py:228
+#. TRANS: http://en.wikipedia.org/wiki/Venus
+#: StarChart.py:230
 msgid "Venus"
 msgstr "金星"
 
-#: StarChart.py:229
+#. TRANS: http://en.wikipedia.org/wiki/Earth
+#: StarChart.py:232
 msgid "Earth"
 msgstr "地球"
 
-#: StarChart.py:230
+#. TRANS: http://en.wikipedia.org/wiki/Mars
+#: StarChart.py:234
 msgid "Mars"
 msgstr "火星"
 
-#: StarChart.py:231
+#. TRANS: http://en.wikipedia.org/wiki/Jupiter
+#: StarChart.py:236
 msgid "Jupiter"
 msgstr "木星"
 
-#: StarChart.py:232
+#. TRANS: http://en.wikipedia.org/wiki/Saturn
+#: StarChart.py:238
 msgid "Saturn"
 msgstr "土星"
 
-#: StarChart.py:233
+#. TRANS: http://en.wikipedia.org/wiki/Uranus
+#: StarChart.py:240
 msgid "Uranus"
 msgstr "天王星"
 
-#: StarChart.py:235 StarChart.py:995 StarChart.py:1651
+#. TRANS: http://en.wikipedia.org/wiki/Sun
+#: StarChart.py:243 StarChart.py:1012 StarChart.py:1668
 msgid "Sun"
 msgstr "太阳"
 
-#: StarChart.py:241 StarChart.py:998 StarChart.py:1649
+#. TRANS: http://en.wikipedia.org/wiki/Moon
+#: StarChart.py:250 StarChart.py:1015 StarChart.py:1666
 msgid "Moon"
 msgstr "月球"
 
-#: StarChart.py:786
+#: StarChart.py:795
 msgid "Night Vision"
 msgstr "夜视系统"
 
-#: StarChart.py:788
+#: StarChart.py:797
 msgid "Invert Display"
 msgstr "反色显示"
 
-#: StarChart.py:790
+#: StarChart.py:799
 msgid "Flip L/R"
 msgstr "翻转L/R"
 
-#: StarChart.py:793
+#: StarChart.py:802
 msgid "Draw Constellations"
 msgstr "绘制星座"
 
-#: StarChart.py:795
+#. TRANS: http://en.wikipedia.org/wiki/Magnitude_(astronomy)
+#: StarChart.py:805
 msgid "Mag:"
 msgstr "放大："
 
-#: StarChart.py:796
+#: StarChart.py:806
 msgid "1"
 msgstr "1"
 
-#: StarChart.py:797
+#: StarChart.py:807
 msgid "2"
 msgstr "2"
 
-#: StarChart.py:798
+#: StarChart.py:808
 msgid "3"
 msgstr "3"
 
-#: StarChart.py:799
+#: StarChart.py:809
 msgid "4"
 msgstr "4"
 
-#: StarChart.py:800
+#: StarChart.py:810
 msgid "5"
 msgstr "5"
 
-#: StarChart.py:801
+#: StarChart.py:811
 msgid "6"
 msgstr "6"
 
-#: StarChart.py:805
+#. TRANS: http://en.wikipedia.org/wiki/Longitude
+#: StarChart.py:816
 msgid "Longitude:"
 msgstr "经度："
 
-#: StarChart.py:808 StarChart.py:1755 StarChart.py:1764
+#. TRANS: http://en.wikipedia.org/wiki/East
+#: StarChart.py:820 StarChart.py:1772 StarChart.py:1781
 msgid "E"
 msgstr "东"
 
-#: StarChart.py:809 StarChart.py:1757 StarChart.py:1762
+#. TRANS: http://en.wikipedia.org/wiki/West
+#: StarChart.py:822 StarChart.py:1774 StarChart.py:1779
 msgid "W"
 msgstr "西"
 
-#: StarChart.py:810
+#. TRANS: http://en.wikipedia.org/wiki/Latitude
+#: StarChart.py:824
 msgid "Latitude:"
 msgstr "纬度："
 
-#: StarChart.py:813 StarChart.py:1746
+#. TRANS: http://en.wikipedia.org/wiki/North
+#: StarChart.py:828 StarChart.py:1763
 msgid "N"
 msgstr "北"
 
-#: StarChart.py:814 StarChart.py:1750
+#. TRANS: http://en.wikipedia.org/wiki/South
+#: StarChart.py:830 StarChart.py:1767
 msgid "S"
 msgstr "南"
 
-#: StarChart.py:819 StarChart.py:837
+#: StarChart.py:835 StarChart.py:853
 msgid "Ok"
 msgstr "确认"
 
-#: StarChart.py:822
+#: StarChart.py:838
 msgid "Make home"
 msgstr "设为首页"
 
-#: StarChart.py:825
+#: StarChart.py:841
 msgid "Now"
 msgstr "现在"
 
-#: StarChart.py:826
+#: StarChart.py:842
 msgid "Specify"
 msgstr "指定"
 
-#: StarChart.py:827
+#: StarChart.py:843
 msgid "Time:"
 msgstr "时间："
 
-#: StarChart.py:830
+#: StarChart.py:846
 msgid "Offset:"
 msgstr "偏移："
 
-#: StarChart.py:840
+#: StarChart.py:856
 msgid "Object type:"
 msgstr "对象类型："
 
-#: StarChart.py:851
+#: StarChart.py:867
 msgid "See http://wiki.laptop.org/go/StarChart for help."
 msgstr "请通过 http://wiki.laptop.org/go/StarChart 获取帮助。"
 
-#: StarChart.py:925
+#: StarChart.py:941
 msgid "There is no object here."
 msgstr "这里没有物体。"
 
-#: StarChart.py:992
+#: StarChart.py:1008
 msgid "deep-sky object"
 msgstr "深空天体"
 
-#: StarChart.py:994
+#. TRANS: http://en.wikipedia.org/wiki/Planet
+#: StarChart.py:1011
 msgid "planet"
 msgstr "行星"
 
-#: StarChart.py:996 StarChart.py:999
+#: StarChart.py:1013 StarChart.py:1016
 msgid "Object is: "
 msgstr "天体是："
 
-#: StarChart.py:1002
+#: StarChart.py:1019
 msgid "star"
 msgstr "星星"
 
-#: StarChart.py:1003
+#: StarChart.py:1020
 msgid "Object is "
 msgstr "天体是"
 
-#: StarChart.py:1406 StarChart.py:3107
+#: StarChart.py:1423 StarChart.py:3124
 msgid "Planets"
 msgstr "行星"
 
-#: StarChart.py:1417 StarChart.py:3108
+#: StarChart.py:1434 StarChart.py:3125
 msgid "Stars by Constellation"
 msgstr "星座的星星"
 
-#: StarChart.py:1431 StarChart.py:3109
+#: StarChart.py:1448 StarChart.py:3126
 msgid "Brightest Stars"
 msgstr "最亮的星星"
 
-#: StarChart.py:1452 StarChart.py:3110
+#: StarChart.py:1469 StarChart.py:3127
 msgid "Deep-sky Objects"
 msgstr "深空天体"
 
-#: StarChart.py:1617
+#: StarChart.py:1634
 msgid "This object is always below the horizon at your location."
 msgstr "该天体始终在你所在位置的地平线以下。"
 
-#: StarChart.py:1620
+#: StarChart.py:1637
 msgid "This object is currently not in the field of view."
 msgstr "该天体当前不在视野以内。"
 
-#: StarChart.py:1622
+#: StarChart.py:1639
 msgid "This object is currently below your horizon."
 msgstr "该天体当前在你的水平线以下。"
 
-#: StarChart.py:1662
+#: StarChart.py:1679
 msgid "Input Error: The longitude was not understood."
 msgstr "输入错误：不明白的经度。"
 
-#: StarChart.py:1666
+#: StarChart.py:1683
 msgid "Input Error: The latitude was not understood."
 msgstr "输入错误：不明白的纬度。"
 
-#: StarChart.py:1670
+#: StarChart.py:1687
 msgid "Input Error: The time was not understood."
 msgstr "输入错误：不明白的时间。"
 
-#: StarChart.py:1674
+#: StarChart.py:1691
 msgid "Input Error: The time zone offset was not understood."
 msgstr "输入错误：不明白的时区偏移。"
 
-#: StarChart.py:2929
+#: StarChart.py:2946
 msgid "Star Chart Activity"
 msgstr "星空图活动"
 
-#: StarChart.py:3147
+#: StarChart.py:3164
 msgid "What"
 msgstr "什么"
 
-#: StarChart.py:3148
+#: StarChart.py:3165
 msgid "Where"
 msgstr "哪里"
 
-#: StarChart.py:3149
+#: StarChart.py:3166
 msgid "When"
 msgstr "何时"
 
-#: StarChart.py:3150
+#: StarChart.py:3167
 msgid "Locate"
 msgstr "位置"
 
-#: StarChart.py:3151
+#: StarChart.py:3168
 msgid "About"
 msgstr "关于"
 
-#: constellations.py:14
+#. TRANS: http://en.wikipedia.org/wiki/Andromeda_(constellation)
+#: constellations.py:15
 msgid "Andromeda"
 msgstr "仙女座"
 
-#: constellations.py:24
+#. TRANS: http://en.wikipedia.org/wiki/Antlia
+#: constellations.py:26
 msgid "Antlia"
 msgstr "唧筒座"
 
-#: constellations.py:28
+#. TRANS: http://en.wikipedia.org/wiki/Apus
+#: constellations.py:31
 msgid "Apus"
 msgstr "天燕座"
 
-#: constellations.py:34
+#. TRANS: http://en.wikipedia.org/wiki/Aquarius_(constellation)
+#: constellations.py:38
 msgid "Aquarius"
 msgstr "水瓶座"
 
-#: constellations.py:53
+#. TRANS: http://en.wikipedia.org/wiki/Aquila_(constellation)
+#: constellations.py:58
 msgid "Aquila"
 msgstr "天鹰座"
 
-#: constellations.py:66
+#. TRANS: http://en.wikipedia.org/wiki/Ara_(constellation)
+#: constellations.py:72
 msgid "Ara"
 msgstr "天坛座"
 
-#: constellations.py:75
+#. TRANS: http://en.wikipedia.org/wiki/Aries_(constellation)
+#: constellations.py:82
 msgid "Aries"
 msgstr "白羊座"
 
-#: constellations.py:80
+#. TRANS: http://en.wikipedia.org/wiki/Auriga_(constellation)
+#: constellations.py:88
 msgid "Auriga"
 msgstr "御夫座"
 
-#: constellations.py:90
+#. TRANS: http://en.wikipedia.org/wiki/Boötes
+#: constellations.py:99
 msgid "Boötes"
 msgstr "牧夫座"
 
-#: constellations.py:102
+#. TRANS: http://en.wikipedia.org/wiki/Caelum
+#: constellations.py:112
 msgid "Caelum"
 msgstr "雕具座"
 
-#: constellations.py:107
+#. TRANS: http://en.wikipedia.org/wiki/Camelopardalis
+#: constellations.py:118
 msgid "Camelopardalis"
 msgstr "鹿豹座"
 
-#: constellations.py:114
+#. TRANS: http://en.wikipedia.org/wiki/Cancer_(constellation)
+#: constellations.py:126
 msgid "Cancer"
 msgstr "巨蟹座"
 
-#: constellations.py:121
-msgid "Canis Venatici"
+#. TRANS: http://en.wikipedia.org/wiki/Canes_Venatici
+#: constellations.py:134
+msgid "Canes Venatici"
 msgstr "猎犬座"
 
-#: constellations.py:126
+#. TRANS: http://en.wikipedia.org/wiki/Canis_Major
+#: constellations.py:140
 msgid "Canis Major"
 msgstr "大犬座"
 
-#: constellations.py:138
+#. TRANS: http://en.wikipedia.org/wiki/Canis_Minor
+#: constellations.py:153
 msgid "Canis Minor"
 msgstr "小犬座"
 
-#: constellations.py:141
+#. TRANS: http://en.wikipedia.org/wiki/Capricornus
+#: constellations.py:157
 msgid "Capricornus"
 msgstr "摩羯座"
 
-#: constellations.py:154
+#. TRANS: http://en.wikipedia.org/wiki/Carina_(constellation)
+#: constellations.py:171
 msgid "Carina"
 msgstr "船底座"
 
-#: constellations.py:167
+#. TRANS: http://en.wikipedia.org/wiki/Cassiopeia_(constellation)
+#: constellations.py:185
 msgid "Cassiopeia"
 msgstr "仙后座"
 
-#: constellations.py:173
+#. TRANS: http://en.wikipedia.org/wiki/Centaurus
+#: constellations.py:192
 msgid "Centaurus"
 msgstr "半人马座"
 
-#: constellations.py:187
+#. TRANS: http://en.wikipedia.org/wiki/Cepheus_(constellation)
+#: constellations.py:207
 msgid "Cepheus"
 msgstr "仙王座"
 
-#: constellations.py:195
+#. TRANS: http://en.wikipedia.org/wiki/Cetus
+#: constellations.py:216
 msgid "Cetus"
 msgstr "鲸鱼座"
 
-#: constellations.py:212
+#. TRANS: http://en.wikipedia.org/wiki/Chamaeleon
+#: constellations.py:234
 msgid "Chamaeleon"
 msgstr "蝘蜓座"
 
-#: constellations.py:218
+#. TRANS: http://en.wikipedia.org/wiki/Circinus_(constellation)
+#: constellations.py:241
 msgid "Circinus"
 msgstr "圆规座"
 
-#: constellations.py:222
+#. TRANS: http://en.wikipedia.org/wiki/Columba_(constellation)
+#: constellations.py:246
 msgid "Columba"
 msgstr "天鸽座"
 
-#: constellations.py:229
+#. TRANS: http://en.wikipedia.org/wiki/Coma_Berenices
+#: constellations.py:254
 msgid "Coma Berenices"
 msgstr "后发座"
 
-#: constellations.py:233
+#. TRANS: http://en.wikipedia.org/wiki/Corona_Australis
+#: constellations.py:259
 msgid "Corona Australis"
 msgstr "南冕座"
 
-#: constellations.py:242
+#. TRANS: http://en.wikipedia.org/wiki/Corona_Borealis
+#: constellations.py:269
 msgid "Corona Borealis"
 msgstr "北冕座"
 
-#: constellations.py:250
+#. TRANS: http://en.wikipedia.org/wiki/Corvus_(constellation)
+#: constellations.py:278
 msgid "Corvus"
 msgstr "乌鸦座"
 
-#: constellations.py:257
+#. TRANS: http://en.wikipedia.org/wiki/Crater_(constellation)
+#: constellations.py:286
 msgid "Crater"
 msgstr "巨爵座"
 
-#: constellations.py:267
+#. TRANS: http://en.wikipedia.org/wiki/Crux
+#: constellations.py:297
 msgid "Crux"
 msgstr "南十字座"
 
-#: constellations.py:271
+#. TRANS: http://en.wikipedia.org/wiki/Cygnus_(constellation)
+#: constellations.py:302
 msgid "Cygnus"
 msgstr "天鹅座"
 
-#: constellations.py:278
+#. TRANS: http://en.wikipedia.org/wiki/Delphinus
+#: constellations.py:310
 msgid "Delphinus"
 msgstr "海豚座"
 
-#: constellations.py:285
+#. TRANS: http://en.wikipedia.org/wiki/Dorado
+#: constellations.py:318
 msgid "Dorado"
 msgstr "剑鱼座"
 
-#: constellations.py:290
+#. TRANS: http://en.wikipedia.org/wiki/Draco_(constellation)
+#: constellations.py:324
 msgid "Draco"
 msgstr "天龙座"
 
-#: constellations.py:312
+#. TRANS: http://en.wikipedia.org/wiki/Equuleus
+#: constellations.py:347
 msgid "Equuleus"
 msgstr "小马座"
 
-#: constellations.py:316
+#. TRANS: http://en.wikipedia.org/wiki/Eridanus_(constellation)
+#: constellations.py:352
 msgid "Eridanus"
 msgstr "波江座"
 
-#: constellations.py:348
+#. TRANS: http://en.wikipedia.org/wiki/Fornax
+#: constellations.py:385
 msgid "Fornax"
 msgstr "天炉座"
 
-#: constellations.py:354
+#. TRANS: http://en.wikipedia.org/wiki/Gemini_(constellation)
+#: constellations.py:392
 msgid "Gemini"
 msgstr "双子座"
 
-#: constellations.py:365
+#. TRANS: http://en.wikipedia.org/wiki/Grus_(constellation)
+#: constellations.py:404
 msgid "Grus"
 msgstr "天鹤座"
 
-#: constellations.py:377
+#. TRANS: http://en.wikipedia.org/wiki/Hercules_(constellation)
+#: constellations.py:417
 msgid "Hercules"
 msgstr "武仙座"
 
-#: constellations.py:398
+#. TRANS: http://en.wikipedia.org/wiki/Horologium
+#: constellations.py:439
 msgid "Horologium"
 msgstr "时钟座"
 
-#: constellations.py:405
+#. TRANS: http://en.wikipedia.org/wiki/Hydra_(constellation)
+#: constellations.py:447
 msgid "Hydra"
 msgstr "长蛇座"
 
-#: constellations.py:423
+#. TRANS: http://en.wikipedia.org/wiki/Hydrus
+#: constellations.py:466
 msgid "Hydrus"
 msgstr "水蛇座"
 
-#: constellations.py:428
+#. TRANS: http://en.wikipedia.org/wiki/Indus_(constellation)
+#: constellations.py:472
 msgid "Indus"
 msgstr "印第安座"
 
-#: constellations.py:433
+#. TRANS: http://en.wikipedia.org/wiki/Lacerta
+#: constellations.py:478
 msgid "Lacerta"
 msgstr "蝎虎座"
 
-#: constellations.py:441
+#. TRANS: http://en.wikipedia.org/wiki/Leo_(constellation)
+#: constellations.py:487
 msgid "Leo"
 msgstr "狮子座"
 
-#: constellations.py:452
+#. TRANS: http://en.wikipedia.org/wiki/Leo_Minor
+#: constellations.py:499
 msgid "Leo Minor"
 msgstr "小狮座"
 
-#: constellations.py:456
+#. TRANS: http://en.wikipedia.org/wiki/Lepus_(constellation)
+#: constellations.py:504
 msgid "Lepus"
 msgstr "天兔座"
 
-#: constellations.py:466
+#. TRANS: http://en.wikipedia.org/wiki/Libra_(constellation)
+#: constellations.py:515
 msgid "Libra"
 msgstr "天秤座"
 
-#: constellations.py:474
+#. TRANS: http://en.wikipedia.org/wiki/Lupus_(constellation)
+#: constellations.py:524
 msgid "Lupus"
 msgstr "豺狼座"
 
-#: constellations.py:488
+#. TRANS: http://en.wikipedia.org/wiki/Lynx_(constellation)
+#: constellations.py:539
 msgid "Lynx"
 msgstr "天猫座"
 
-#: constellations.py:497
+#. TRANS: http://en.wikipedia.org/wiki/Lyra
+#: constellations.py:549
 msgid "Lyra"
 msgstr "天琴座"
 
-#: constellations.py:505
+#. TRANS: http://en.wikipedia.org/wiki/Mensa_(constellation)
+#: constellations.py:558
 msgid "Mensa"
 msgstr "山案座"
 
-#: constellations.py:510
+#. TRANS: http://en.wikipedia.org/wiki/Microscopium
+#: constellations.py:564
 msgid "Microscopium"
 msgstr "显微镜座"
 
-#: constellations.py:515
+#. TRANS: http://en.wikipedia.org/wiki/Monoceros
+#: constellations.py:570
 msgid "Monoceros"
 msgstr "麒麟座"
 
-#: constellations.py:521
+#. TRANS: http://en.wikipedia.org/wiki/Musca
+#: constellations.py:577
 msgid "Musca"
 msgstr "苍蝇座"
 
-#: constellations.py:528
+#. TRANS: http://en.wikipedia.org/wiki/Norma_(constellation)
+#: constellations.py:585
 msgid "Norma"
 msgstr "矩尺座"
 
-#: constellations.py:534
+#. TRANS: http://en.wikipedia.org/wiki/Octans
+#: constellations.py:592
 msgid "Octans"
 msgstr "南极座"
 
-#: constellations.py:539
+#. TRANS: http://en.wikipedia.org/wiki/Ophiuchus
+#: constellations.py:598
 msgid "Ophiuchus"
 msgstr "蛇夫座"
 
-#: constellations.py:552
+#. TRANS: http://en.wikipedia.org/wiki/Orion_(constellation)
+#: constellations.py:612
 msgid "Orion"
 msgstr "猎户座"
 
-#: constellations.py:572
+#. TRANS: http://en.wikipedia.org/wiki/Pavo_(constellation)
+#: constellations.py:633
 msgid "Pavo"
 msgstr "孔雀座"
 
-#: constellations.py:581
+#. TRANS: http://en.wikipedia.org/wiki/Pegasus_(constellation)
+#: constellations.py:643
 msgid "Pegasus"
 msgstr "飞马座"
 
-#: constellations.py:597
+#. TRANS: http://en.wikipedia.org/wiki/Perseus_(constellation)
+#: constellations.py:660
 msgid "Perseus"
 msgstr "英仙座"
 
-#: constellations.py:615
+#. TRANS: http://en.wikipedia.org/wiki/Phoenix_(constellation)
+#: constellations.py:679
 msgid "Phoenix"
 msgstr "凤凰座"
 
-#: constellations.py:623
+#. TRANS: http://en.wikipedia.org/wiki/Pictor
+#: constellations.py:688
 msgid "Pictor"
 msgstr "绘架座"
 
-#: constellations.py:627
+#. TRANS: http://en.wikipedia.org/wiki/Pisces_(constellation)
+#: constellations.py:693
 msgid "Pisces"
 msgstr "双鱼座"
 
-#: constellations.py:645
+#. TRANS: http://en.wikipedia.org/wiki/Piscis_Australis
+#: constellations.py:712
 msgid "Piscis Australis"
 msgstr "南鱼座"
 
-#: constellations.py:653
+#. TRANS: http://en.wikipedia.org/wiki/Puppis
+#: constellations.py:721
 msgid "Puppis"
 msgstr "船尾座"
 
-#: constellations.py:665
+#. TRANS: http://en.wikipedia.org/wiki/Pyxis
+#: constellations.py:734
 msgid "Pyxis"
 msgstr "罗盘座"
 
-#: constellations.py:669
+#. TRANS: http://en.wikipedia.org/wiki/Reticulum
+#: constellations.py:739
 msgid "Reticulum"
 msgstr "网罟座"
 
-#: constellations.py:676
+#. TRANS: http://en.wikipedia.org/wiki/Sagitta
+#: constellations.py:747
 msgid "Sagitta"
 msgstr "天箭座"
 
-#: constellations.py:681
+#. TRANS: http://en.wikipedia.org/wiki/Sagittarius_(constellation)
+#: constellations.py:753
 msgid "Sagittarius"
 msgstr "人马座"
 
-#: constellations.py:699
+#. TRANS: http://en.wikipedia.org/wiki/Sculptor_(constellation)
+#: constellations.py:772
 msgid "Sculptor"
 msgstr "玉夫座"
 
-#: constellations.py:704
+#. TRANS: http://en.wikipedia.org/wiki/Scorpius
+#: constellations.py:778
 msgid "Scorpius"
 msgstr "天蝎座"
 
-#: constellations.py:720
+#. TRANS: http://en.wikipedia.org/wiki/Scutum
+#: constellations.py:795
 msgid "Scutum"
 msgstr "盾牌座"
 
-#: constellations.py:724
+#. TRANS: http://en.wikipedia.org/wiki/Serpens
+#: constellations.py:800
 msgid "Serpens"
 msgstr "巨蛇座"
 
-#: constellations.py:742
+#. TRANS: http://en.wikipedia.org/wiki/Sextans
+#: constellations.py:819
 msgid "Sextans"
 msgstr "六分仪座"
 
-#: constellations.py:748
+#. TRANS: http://en.wikipedia.org/wiki/Taurus_(constellation)
+#: constellations.py:826
 msgid "Taurus"
 msgstr "金牛座"
 
-#: constellations.py:761
+#. TRANS: http://en.wikipedia.org/wiki/Telescopium
+#: constellations.py:840
 msgid "Telescopium"
 msgstr "望远镜座"
 
-#: constellations.py:765
+#. TRANS: http://en.wikipedia.org/wiki/Triangulum
+#: constellations.py:845
 msgid "Triangulum"
 msgstr "三角座"
 
-#: constellations.py:770
+#. TRANS: http://en.wikipedia.org/wiki/Triangulum_Australis
+#: constellations.py:851
 msgid "Triangulum Australis"
 msgstr "南三角座"
 
-#: constellations.py:775
+#. TRANS: http://en.wikipedia.org/wiki/Tucana
+#: constellations.py:857
 msgid "Tucana"
 msgstr "杜鹃座"
 
-#: constellations.py:782
+#. TRANS: http://en.wikipedia.org/wiki/Ursa_Major
+#: constellations.py:865
 msgid "Ursa Major"
 msgstr "大熊座"
 
-#: constellations.py:801
+#. TRANS: http://en.wikipedia.org/wiki/Ursa_Minor
+#: constellations.py:885
 msgid "Ursa Minor"
 msgstr "小熊座"
 
-#: constellations.py:810
+#. TRANS: http://en.wikipedia.org/wiki/Vela_(constellation)
+#: constellations.py:895
 msgid "Vela"
 msgstr "船帆座"
 
-#: constellations.py:819
+#. TRANS: http://en.wikipedia.org/wiki/Virgo_(constellation)
+#: constellations.py:905
 msgid "Virgo"
 msgstr "处女座"
 
-#: constellations.py:831
+#. TRANS: http://en.wikipedia.org/wiki/Volans
+#: constellations.py:918
 msgid "Volans"
 msgstr "飞鱼座"
 
-#: constellations.py:839
+#. TRANS: http://en.wikipedia.org/wiki/Vulpecula
+#: constellations.py:927
 msgid "Vulpecula"
 msgstr "狐狸座"
 
-#: dso1.py:32
+#. TRANS: http://en.wikipedia.org/wiki/Butterfly_Cluster
+#: dso1.py:33
 msgid "Butterfly Cluster"
 msgstr "蝴蝶星团"
 
-#: dso1.py:33
+#. TRANS: http://en.wikipedia.org/wiki/Ptolemy's_Cluster
+#: dso1.py:35
 msgid "Ptolemy's Cluster"
 msgstr "托勒密星团"
 
-#: dso1.py:34
+#. TRANS: http://en.wikipedia.org/wiki/Lagoon_Nebula
+#: dso1.py:37
 msgid "Lagoon Nebula"
 msgstr "礁湖星云"
 
-#: dso1.py:36
+#. TRANS: http://en.wikipedia.org/wiki/Wild_Duck_Cluster
+#: dso1.py:40
 msgid "Wild Duck Cluster"
 msgstr "野鸭星团"
 
-#: dso1.py:38
+#. TRANS: http://en.wikipedia.org/wiki/Hercules_Cluster
+#: dso1.py:43
 msgid "Hercules Cluster"
 msgstr "武仙星团"
 
-#: dso1.py:40
+#. TRANS: http://en.wikipedia.org/wiki/Omega_Nebula
+#: dso1.py:46
 msgid "Omega Nebula"
 msgstr "亚米茄星云"
 
-#: dso1.py:42
+#. TRANS: http://en.wikipedia.org/wiki/Trifid_Nebula
+#: dso1.py:49
 msgid "Trifid Nebula"
 msgstr "三裂星云"
 
-#: dso1.py:49
+#. TRANS: http://en.wikipedia.org/wiki/Andromeda_Galaxy
+#: dso1.py:57
 msgid "Andromeda Galaxy"
 msgstr "仙女座星系"
 
-#: dso1.py:50
+#. TRANS: http://en.wikipedia.org/wiki/Triangulum_Galaxy
+#: dso1.py:59
 msgid "Triangulum Galaxy"
 msgstr "三角座星系"
 
-#: dso1.py:58
+#. TRANS: http://en.wikipedia.org/wiki/Orion_Nebula
+#: dso1.py:68
 msgid "Orion Nebula"
 msgstr "猎户座星云"
 
-#: dso1.py:59
-msgid "de Mairans Nebula"
-msgstr "de Mairans Nebula"
+#. TRANS: http://en.wikipedia.org/wiki/De_Mairan's_Nebula
+#: dso1.py:70
+msgid "de Mairan's Nebula"
+msgstr "De Mairans 星云"
 
-#: dso1.py:60
+#. TRANS: http://en.wikipedia.org/wiki/Beehive_Cluster
+#: dso1.py:72
 msgid "Beehive Cluster"
 msgstr "蜂巢星团"
 
-#: dso1.py:61
+#. TRANS: http://en.wikipedia.org/wiki/Pleiades
+#: dso1.py:74
 msgid "Pleiades"
 msgstr "昴宿星团"
 
-#: dso1.py:66
+#. TRANS: http://en.wikipedia.org/wiki/Whirlpool_Galaxy
+#: dso1.py:80
 msgid "Whirlpool Galaxy"
 msgstr "涡旋星系"
 
-#: dso1.py:71
+#. TRANS: http://en.wikipedia.org/wiki/Sunflower_Galaxy
+#: dso1.py:86
 msgid "Sunflower Galaxy"
-msgstr "向日葵星系"
+msgstr "葵花星系"
 
-#: dso1.py:74
+#. TRANS: http://en.wikipedia.org/wiki/Bodes_Galaxy
+#: dso1.py:90
 msgid "Bodes Galaxy"
 msgstr "波德星系"
 
-#: dso1.py:75
+#. TRANS: http://en.wikipedia.org/wiki/Southern_Pinwheel_Galaxy
+#: dso1.py:92
 msgid "Southern Pinwheel Galaxy"
 msgstr "南风车星系"
 
-#: dso1.py:78
+#. TRANS: http://en.wikipedia.org/wiki/Pinwheel_Galaxy
+#: dso1.py:96
 msgid "Pinwheel Galaxy"
 msgstr "风车星系"
 
-#: dso2.py:35
+#. TRANS: http://en.wikipedia.org/wiki/Large_Magellanic_Cloud
+#: dso2.py:36
 msgid "Large Magellanic Cloud"
 msgstr "大麦哲伦星系"
 
-#: dso2.py:40
+#. TRANS: http://en.wikipedia.org/wiki/47_Tucanae
+#: dso2.py:42
 msgid "47 Tucanae"
 msgstr "杜鹃座47"
 
-#: dso2.py:41
+#. TRANS: http://en.wikipedia.org/wiki/Sculptor_Galaxy
+#: dso2.py:44
 msgid "Sculptor Galaxy"
 msgstr "玉夫星系"
 
-#: dso2.py:43
+#. TRANS: http://en.wikipedia.org/wiki/Small_Magellanic_Cloud
+#: dso2.py:47
 msgid "Small Magellanic Cloud"
 msgstr "小麦哲伦星系"
 
-#: dso2.py:46
+#. TRANS: http://en.wikipedia.org/wiki/Double_Cluster
+#: dso2.py:51
 msgid "Double Cluster"
 msgstr "双重星团"
 
-#: dso2.py:48
+#. TRANS: http://en.wikipedia.org/wiki/California_Nebula
+#: dso2.py:54
 msgid "California Nebula"
 msgstr "加州星云"
 
-#: dso2.py:54
+#. TRANS: http://en.wikipedia.org/wiki/Cone_Nebula
+#: dso2.py:61
 msgid "Cone Nebula"
 msgstr "锥体星云"
 
-#: dso2.py:56
+#. TRANS: http://en.wikipedia.org/wiki/Rosette_Nebula
+#: dso2.py:64
 msgid "Rosette Nebula"
 msgstr "玫瑰星云"
 
-#: dso2.py:60
+#. TRANS: http://en.wikipedia.org/wiki/Ghost_of_Jupiter
+#: dso2.py:69
 msgid "Ghost of Jupiter"
 msgstr "木魂星云"
 
-#: dso2.py:61
+#. TRANS: http://en.wikipedia.org/wiki/Carina_Nebula
+#: dso2.py:71
 msgid "Eta Carina Nebula"
 msgstr "船底星云"
 
-#: dso2.py:63
+#. TRANS: http://en.wikipedia.org/wiki/Jewel_Box_(star_cluster)
+#: dso2.py:74
 msgid "Jewel Box"
 msgstr "珠宝盒星团"
 
-#: dso2.py:66
+#. TRANS: http://en.wikipedia.org/wiki/Centaurus_A
+#: dso2.py:78
 msgid "Centaurus A"
 msgstr "半人马座A"
 
-#: dso2.py:67
+#. TRANS: http://en.wikipedia.org/wiki/Omega_Centauri
+#: dso2.py:80
 msgid "Omega Centauri"
 msgstr "半人马座ω星团"
 
-#: dso2.py:77
+#. TRANS: http://en.wikipedia.org/wiki/Barnard's_Galaxy
+#: dso2.py:91
 msgid "Barnard's Galaxy"
 msgstr "巴纳德星系"
 
-#: dso2.py:78
+#. TRANS: http://en.wikipedia.org/wiki/Crescent_Nebula
+#: dso2.py:93
 msgid "Crescent Nebula"
 msgstr "新月星云"
 
-#: dso2.py:79
+#. TRANS: http://en.wikipedia.org/wiki/Veil_Nebula
+#: dso2.py:95
 msgid "Veil Nebula"
 msgstr "面纱星云"
 
-#: dso2.py:80
+#. TRANS: http://en.wikipedia.org/wiki/North_America_Nebula
+#: dso2.py:97
 msgid "North America Nebula"
 msgstr "北美星云"
+
+#~ msgid "de Mairan"
+#~ msgstr "De Mairan星云"
