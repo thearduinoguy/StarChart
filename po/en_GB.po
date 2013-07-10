@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-09 00:32-0400\n"
-"PO-Revision-Date: 2013-07-09 18:38+0200\n"
+"POT-Creation-Date: 2013-07-10 00:32-0400\n"
+"PO-Revision-Date: 2013-07-10 08:51+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_GB\n"
@@ -761,6 +761,12 @@ msgstr "Triangulum Galaxy"
 msgid "Orion Nebula"
 msgstr "Orion Nebula"
 
+#. TRANS: http://en.wikipedia.org/wiki/De_Mairan's_Nebula
+#: dso1.py:70
+msgid "de Mairan's Nebula"
+msgstr "de Mairan's Nebula"
+
+#. TRANS: http://en.wikipedia.org/wiki/Beehive_Cluster
 #: dso1.py:72
 msgid "Beehive Cluster"
 msgstr "Beehive Cluster"
@@ -794,11 +800,6 @@ msgstr "Southern Pinwheel Galaxy"
 #: dso1.py:96
 msgid "Pinwheel Galaxy"
 msgstr "Pinwheel Galaxy"
-
-#. TRANS: http://en.wikipedia.org/wiki/De_Mairan's_Nebula
-#: dso1.py:70
-msgid "de Mairan"
-msgstr "de Mairan's Nebula"
 
 #. TRANS: http://en.wikipedia.org/wiki/Large_Magellanic_Cloud
 #: dso2.py:36
@@ -885,5 +886,5 @@ msgstr "Veil Nebula"
 msgid "North America Nebula"
 msgstr "North America Nebula"
 
-#~ msgid "de Mairans Nebula"
-#~ msgstr "de Mairans Nebula"
+#~ msgid "de Mairan"
+#~ msgstr "de Mairan's Nebula"
