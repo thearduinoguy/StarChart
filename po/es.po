@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-09 00:32-0400\n"
-"PO-Revision-Date: 2013-07-09 10:30+0200\n"
+"POT-Creation-Date: 2013-07-10 00:32-0400\n"
+"PO-Revision-Date: 2013-07-25 04:17+0200\n"
 "Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -762,6 +762,12 @@ msgstr "Galaxia del Triángulo"
 msgid "Orion Nebula"
 msgstr "Nebulosa de Orión"
 
+#. TRANS: http://en.wikipedia.org/wiki/De_Mairan's_Nebula
+#: dso1.py:70
+msgid "de Mairan's Nebula"
+msgstr "Nebulosa de De Mairan"
+
+#. TRANS: http://en.wikipedia.org/wiki/Beehive_Cluster
 #: dso1.py:72
 msgid "Beehive Cluster"
 msgstr "Grupo de la Colmena"
@@ -774,7 +780,7 @@ msgstr "Pléyades"
 #. TRANS: http://en.wikipedia.org/wiki/Whirlpool_Galaxy
 #: dso1.py:80
 msgid "Whirlpool Galaxy"
-msgstr "Galaxia del Jacuzzi"
+msgstr "Galaxia Remolino"
 
 #. TRANS: http://en.wikipedia.org/wiki/Sunflower_Galaxy
 #: dso1.py:86
@@ -795,11 +801,6 @@ msgstr "Galaxia del Molinete del Sur"
 #: dso1.py:96
 msgid "Pinwheel Galaxy"
 msgstr "Galaxia del Molinete"
-
-#. TRANS: http://en.wikipedia.org/wiki/De_Mairan's_Nebula
-#: dso1.py:70
-msgid "de Mairan"
-msgstr "de Mairan"
 
 #. TRANS: http://en.wikipedia.org/wiki/Large_Magellanic_Cloud
 #: dso2.py:36
@@ -886,8 +887,8 @@ msgstr "Nebulosa del Velo"
 msgid "North America Nebula"
 msgstr "Nebulosa de América del Norte"
 
-#~ msgid "de Mairans Nebula"
-#~ msgstr "Nebulosa de Mairans"
+#~ msgid "de Mairan"
+#~ msgstr "de Mairan"
 
 #~ msgid "Version 2.0 (build 115) of 2010.04.21.1530 UT"
 #~ msgstr "Version 2.0 (build 115) de 2010.04.21.1530 UT"
